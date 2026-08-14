@@ -1,0 +1,69 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Monster (Christmas)",
+  "healthbar_colors": [200, 0, 0],
+  "assetPath": "shared:characters/monster",
+  "healthIcon": {
+    "id": "monster"
+  },
+  "renderType": "animateatlas",
+  "offsets": [0, 1],
+  "cameraOffsets": [0, 12],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Idle"
+    },
+    {
+      "name": "idle-hold",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Idle Hold",
+      "looped": true
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Left"
+    },
+    {
+      "name": "singLEFT-hold",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Left Hold",
+      "looped": true
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Down"
+    },
+    {
+      "name": "singDOWN-hold",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Down Hold",
+      "looped": true
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Up"
+    },
+    {
+      "name": "singUP-hold",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Up Hold",
+      "looped": true
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Right"
+    },
+    {
+      "name": "singRIGHT-hold",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Right Hold",
+      "looped": true
+    }
+  ]
+}

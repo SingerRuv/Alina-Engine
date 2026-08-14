@@ -1,0 +1,51 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Spooky Kids",
+  "healthbar_colors": [255, 0, 0],
+  "assetPath": "characters/SpookyKids",
+  "startingAnimation": "danceRight",
+  "animations": [
+    {
+      "name": "danceLeft",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "spooky dance idle0",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "name": "danceRight",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "spooky dance idle0",
+      "frameIndices": [8, 9, 10, 11, 12, 13, 14, 15]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "note sing left",
+      "offsets": [130, -15]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "spooky DOWN note",
+      "offsets": [-50, -140]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "spooky UP NOTE",
+      "offsets": [-20, 26]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "spooky sing right",
+      "offsets": [-130, -15]
+    },
+    {
+      "name": "cheer",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Spookiez YEAH cheer",
+      "offsets": [60, 30]
+    }
+  ]
+}

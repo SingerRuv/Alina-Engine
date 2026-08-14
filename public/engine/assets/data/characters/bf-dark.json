@@ -1,0 +1,98 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Boyfriend (Dark)",
+  "healthbar_colors": [120, 120, 120],
+  "renderType": "multianimateatlas",
+  "assetPath": "shared:characters/bf-dark",
+  "flipX": true,
+  "offsets": [16, 3],
+  "cameraOffsets": [-16, 36],
+  "death": {
+    "cameraOffsets": [-73, 42]
+  },
+  "healthIcon": {
+    "id": "bf"
+  },
+  "atlasSettings": {
+    "useRenderTexture": true
+  },
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Right"
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Right Miss"
+    },
+    {
+      "name": "hey",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Hey"
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "firstDeath",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Death Intro",
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathLoop",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathConfirm",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Death Confirm",
+      "offsets": [22, 15]
+    },
+    {
+      "name": "scared",
+  "healthbar_colors": [120, 120, 120],
+      "prefix": "Scared"
+    }
+  ]
+}

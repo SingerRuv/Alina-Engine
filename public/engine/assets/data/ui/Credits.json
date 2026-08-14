@@ -1,0 +1,21 @@
+{
+    "credits": [
+        {
+            "title": "Alina Team",
+            "sections": [
+                {
+                    "title": "Coders",
+                    "users": [
+                        {
+                            "name": "Ryu MaGucci",
+                            "description": "Main Programmer",
+                            "icon": "",
+                            "link": "",
+                            "bgColor": "#2C003E"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

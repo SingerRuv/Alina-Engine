@@ -1,0 +1,133 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Boyfriend (Car)",
+  "healthbar_colors": [161, 161, 161],
+  "assetPath": "shared:characters/bf-car",
+  "renderType": "multianimateatlas",
+  "healthIcon": {
+    "id": "bf"
+  },
+  "flipX": true,
+  "offsets": [17, 3],
+  "cameraOffsets": [-17, 36],
+  "death": {
+    "cameraOffsets": [-62, 42]
+  },
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Idle"
+    },
+    {
+      "name": "idle-hold",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Idle",
+      "frameIndices": [10, 11, 12, 13],
+      "looped": true
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Left"
+    },
+    {
+      "name": "singLEFT-hold",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Left",
+      "frameIndices": [10, 11, 12, 13],
+      "looped": true
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Down"
+    },
+    {
+      "name": "singDOWN-hold",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Down",
+      "frameIndices": [10, 11, 12, 13],
+      "looped": true
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Up"
+    },
+    {
+      "name": "singUP-hold",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Up",
+      "frameIndices": [10, 11, 12, 13],
+      "looped": true
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Right"
+    },
+    {
+      "name": "singRIGHT-hold",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Right",
+      "frameIndices": [10, 11, 12, 13],
+      "looped": true
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Right Miss"
+    },
+    {
+      "name": "hey",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Hey"
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "firstDeath",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Death Intro",
+      "offsets": [18, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathLoop",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [18, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathConfirm",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "Death Confirm",
+      "offsets": [18, 15]
+    },
+    {
+      "assetPath": "shared:characters/bfFakeOut",
+      "name": "fakeoutDeath",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "fake out death BF",
+      "animType": "symbol",
+      "offsets": [-3, -65]
+    }
+  ]
+}

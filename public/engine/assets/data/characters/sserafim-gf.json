@@ -1,0 +1,138 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Girlfriend (SSERAFIM)",
+  "healthbar_colors": [255, 180, 220],
+  "assetPath": "shared:characters/sserafim/sserafim-gf",
+  "renderType": "animateatlas",
+  "healthIcon": {
+    "id": "gf"
+  },
+  "flipX": false,
+  "offsets": [0, 0],
+  "cameraOffsets": [0, 0],
+  "atlasSettings": {
+    "cacheOnLoad": true
+  },
+  "animations": [
+    {
+      "name": "danceLeft",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "danceLeft",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "danceRight",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "danceRight",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "danceLeft-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "danceLeft",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "danceRight-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "danceRight",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "left 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "down 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "up 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "right 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "left miss 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "down miss 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "up miss 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "right miss 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "left 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "down 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "up 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "right 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "left miss 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "down miss 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "up miss 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss-beautiful",
+  "healthbar_colors": [255, 180, 220],
+      "prefix": "right miss 2",
+      "offsets": [0, 0]
+    }
+  ]
+}

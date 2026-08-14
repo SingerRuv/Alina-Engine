@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="atlas.png">
+  <SubTexture name="Idle0000" x="0" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0001" x="788" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0002" x="1576" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0003" x="2364" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0004" x="3152" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0005" x="3940" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0006" x="4728" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0007" x="5516" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0008" x="6304" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0009" x="7092" y="0" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0010" x="0" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0011" x="788" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0012" x="1576" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0013" x="2364" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0014" x="3152" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0015" x="3940" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0016" x="4728" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0017" x="5516" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0018" x="6304" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0019" x="7092" y="656" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0020" x="0" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0021" x="788" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0022" x="1576" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0023" x="2364" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0024" x="3152" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0025" x="3940" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0026" x="4728" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0027" x="5516" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0028" x="6304" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Idle0029" x="7092" y="1312" width="788" height="656" frameX="0" frameY="0" frameWidth="788" frameHeight="656"/>
+  <SubTexture name="Duck0000" x="0" y="1968" width="719" height="595" frameX="0" frameY="0" frameWidth="719" frameHeight="595"/>
+  <SubTexture name="Duck0001" x="719" y="1968" width="719" height="595" frameX="0" frameY="0" frameWidth="719" frameHeight="595"/>
+  <SubTexture name="Duck0002" x="1438" y="1968" width="719" height="595" frameX="0" frameY="0" frameWidth="719" frameHeight="595"/>
+  <SubTexture name="Duck0003" x="2157" y="1968" width="719" height="595" frameX="0" frameY="0" frameWidth="719" frameHeight="595"/>
+</TextureAtlas>

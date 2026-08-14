@@ -1,0 +1,232 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Pico (Playable)",
+  "healthbar_colors": [255, 0, 0],
+  "assetPath": "shared:characters/pico/basic-animations",
+  "healthIcon": {
+    "id": "pico",
+    "flipX": false
+  },
+  "death": {
+    "cameraOffsets": [10, -40],
+    "cameraZoom": 1.0
+  },
+  "flipX": true,
+  "renderType": "multianimateatlas",
+  "offsets": [19, 1],
+  "cameraOffsets": [-19, 32],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Idle"
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Right"
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Up"
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Left"
+    },
+    {
+      "renderType": "sparrow",
+      "assetPath": "characters/Pico_Censored",
+      "name": "singRIGHT-censor",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "pico swear right",
+      "offsets": [-169, -64]
+    },
+    {
+      "renderType": "sparrow",
+      "assetPath": "characters/Pico_Censored",
+      "name": "singDOWN-censor",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "pico swear down",
+      "offsets": [-23, -149]
+    },
+    {
+      "renderType": "sparrow",
+      "assetPath": "characters/Pico_Censored",
+      "name": "singUP-censor",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "pico swear up",
+      "offsets": [-103, -38]
+    },
+    {
+      "renderType": "sparrow",
+      "assetPath": "characters/Pico_Censored",
+      "name": "singLEFT-censor",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "pico swear left",
+      "offsets": [-28, -75]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "singLEFTmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Left Miss",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "singDOWNmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Down Miss",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "singUPmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Up Miss",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Right Miss",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "shootMISS",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Hit",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/death",
+      "name": "firstDeath",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Death Intro",
+      "offsets": [100, 195]
+    },
+    {
+      "assetPath": "shared:characters/pico/death",
+      "name": "deathLoop",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [100, 195]
+    },
+    {
+      "assetPath": "shared:characters/pico/death",
+      "name": "deathConfirm",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Death Confirm",
+      "offsets": [100, 195]
+    },
+    {
+      "assetPath": "shared:characters/pico/explosion-death",
+      "name": "firstDeath-explosion",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "intro",
+      "offsets": [335, 990]
+    },
+    {
+      "assetPath": "shared:characters/pico/explosion-death",
+      "name": "deathLoop-explosion",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Loop Start",
+      "looped": true,
+      "offsets": [335, 990]
+    },
+    {
+      "assetPath": "shared:characters/pico/explosion-death",
+      "name": "deathConfirm-explosion",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Confirm",
+      "offsets": [335, 990]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "hey",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Hey",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "cheer",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Cheer",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "cock",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Gun Reload",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "shoot",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Shoot",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "intro1",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Pissed Off",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "intro2",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Shoot and Return",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "burpShit",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "*BURP* ... Shit",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "burpSmile",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Burp Smile",
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "burpSmileLong",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Burp Smile",
+      "frameIndices": [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        20, 21, 22, 23, 24, 25, 25, 26, 27, 28, 29, 30, 31, 31, 31, 31, 31, 31,
+        31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31,
+        31, 31, 31, 31, 31, 31
+      ],
+      "offsets": [138, 168]
+    },
+    {
+      "assetPath": "shared:characters/pico/playable-animations",
+      "name": "shit",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Burp Censor",
+      "offsets": [138, 168]
+    }
+  ]
+}

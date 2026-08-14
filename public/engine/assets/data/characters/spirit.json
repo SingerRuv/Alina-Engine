@@ -1,0 +1,49 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Spirit",
+  "healthbar_colors": [180, 0, 0],
+  "assetPath": "characters/spirit",
+  "singTime": 8.0,
+  "renderType": "packer",
+  "isPixel": true,
+  "scale": 6,
+  "offsets": [31, 40],
+  "cameraOffsets": [-31, -40],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [180, 0, 0],
+      "prefix": "idle spirit_",
+      "frameIndices": [],
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [180, 0, 0],
+      "prefix": "left_",
+      "frameIndices": [],
+      "offsets": [2, -2]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [180, 0, 0],
+      "prefix": "spirit down_",
+      "frameIndices": [],
+      "offsets": [65, 64]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [180, 0, 0],
+      "prefix": "up_",
+      "frameIndices": [],
+      "offsets": [0, 9]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [180, 0, 0],
+      "prefix": "right_",
+      "frameIndices": [],
+      "offsets": [-3, 1]
+    }
+  ]
+}

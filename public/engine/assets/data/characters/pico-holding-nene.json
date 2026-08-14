@@ -1,0 +1,109 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Pico (Holding Nene)",
+  "healthbar_colors": [255, 0, 0],
+  "assetPath": "shared:characters/pico-holding-nene",
+  "healthIcon": {
+    "id": "pico"
+  },
+  "offsets": [52, 16],
+  "cameraOffsets": [-32, 24],
+  "death": {
+    "cameraOffsets": [-100, 25]
+  },
+  "flipX": true,
+  "renderType": "multianimateatlas",
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "idle"
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "right"
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "down"
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "up"
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "left"
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "right miss"
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "down miss"
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "up miss"
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "left miss"
+    },
+    {
+      "name": "knifeToss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "nene knife"
+    },
+    {
+      "name": "laughEnd",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "laugh start"
+    },
+    {
+      "name": "laughEnd-loop",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "laugh loop",
+      "looped": true
+    },
+    {
+      "assetPath": "shared:characters/pico-holding-nene/picoAndNene-DEAD",
+      "name": "firstDeath",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "intro",
+      "offsets": [543, 0]
+    },
+    {
+      "assetPath": "shared:characters/pico-holding-nene/picoAndNene-DEAD",
+      "name": "deathLoop",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "loop",
+      "looped": true,
+      "offsets": [543, 0]
+    },
+    {
+      "assetPath": "shared:characters/pico-holding-nene/picoAndNene-DEAD",
+      "name": "deathConfirm",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "confirm",
+      "offsets": [543, 0]
+    },
+    {
+      "assetPath": "shared:characters/pico-holding-nene/picoAndNene-DEAD",
+      "name": "deathConfirm-loop",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "confirm loop",
+      "looped": true,
+      "offsets": [543, 0]
+    }
+  ]
+}

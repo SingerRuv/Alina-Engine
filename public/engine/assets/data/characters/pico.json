@@ -1,0 +1,37 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Pico",
+  "healthbar_colors": [255, 0, 0],
+  "assetPath": "shared:characters/pico/basic-animations",
+  "renderType": "animateatlas",
+  "flipX": true,
+  "offsets": [-23, 1],
+  "cameraOffsets": [23, 28],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Idle"
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Up"
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Right"
+    }
+  ]
+}

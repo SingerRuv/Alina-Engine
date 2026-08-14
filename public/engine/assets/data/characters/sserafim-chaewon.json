@@ -1,0 +1,69 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Kim Chaewon",
+  "healthbar_colors": [80, 150, 255],
+  "assetPath": "shared:characters/sserafim/chaewon",
+  "renderType": "animateatlas",
+  "healthIcon": {
+    "id": "bf"
+  },
+  "flipX": false,
+  "offsets": [0, 330],
+  "cameraOffsets": [0, 330],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "left",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "down",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "up",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "right",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "left miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "down miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "up miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [80, 150, 255],
+      "prefix": "right miss",
+      "offsets": [0, 0]
+    }
+  ]
+}

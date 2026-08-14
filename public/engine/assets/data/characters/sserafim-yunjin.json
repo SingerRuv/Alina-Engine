@@ -1,0 +1,88 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Huh Yunjin",
+  "healthbar_colors": [255, 220, 80],
+  "assetPath": "shared:characters/sserafim/yunjin",
+  "renderType": "animateatlas",
+  "healthIcon": {
+    "id": "bf"
+  },
+  "flipX": false,
+  "offsets": [2, 347],
+  "cameraOffsets": [2, 347],
+  "animations": [
+    {
+      "name": "doorclosed",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "doorclosed",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "kick1",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "kick1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "kick2",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "kick2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "left",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "down",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "up",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "right",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "left miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "down miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "up miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [255, 220, 80],
+      "prefix": "right miss",
+      "offsets": [0, 0]
+    }
+  ],
+  "startingAnimation": "doorclosed"
+}

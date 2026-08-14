@@ -1,0 +1,4480 @@
+{
+  "images": [
+    {
+      "key": "spritemap1",
+      "png": "characters\\abot\\abotSystem\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\abot\\dark\\abotSystem\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\abot\\systemEyes\\spritemap1.png"
+    },
+    {
+      "key": "stereoBG",
+      "png": "characters\\abot\\stereoBG.png"
+    },
+    {
+      "key": "aBotPixelBack",
+      "png": "characters\\abotPixel\\aBotPixelBack.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\bf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\bf-car\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\bf-dark\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\bf-death\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\bfFakeOut\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\dad\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\darnell\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\darnellBlazin\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\gf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\gf-christmas\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\gf-dark\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\gfCar\\spritemap1.png"
+    },
+    {
+      "key": "icon-bf-pixel",
+      "png": "characters\\icons\\icon-bf-pixel.png"
+    },
+    {
+      "key": "icon-bf",
+      "png": "characters\\icons\\icon-bf.png"
+    },
+    {
+      "key": "icon-chaewon",
+      "png": "characters\\icons\\icon-chaewon.png"
+    },
+    {
+      "key": "icon-dad",
+      "png": "characters\\icons\\icon-dad.png"
+    },
+    {
+      "key": "icon-darnell",
+      "png": "characters\\icons\\icon-darnell.png"
+    },
+    {
+      "key": "icon-eunchae",
+      "png": "characters\\icons\\icon-eunchae.png"
+    },
+    {
+      "key": "icon-face",
+      "png": "characters\\icons\\icon-face.png"
+    },
+    {
+      "key": "icon-gf",
+      "png": "characters\\icons\\icon-gf.png"
+    },
+    {
+      "key": "icon-kazuha",
+      "png": "characters\\icons\\icon-kazuha.png"
+    },
+    {
+      "key": "icon-mom",
+      "png": "characters\\icons\\icon-mom.png"
+    },
+    {
+      "key": "icon-monster",
+      "png": "characters\\icons\\icon-monster.png"
+    },
+    {
+      "key": "icon-parents",
+      "png": "characters\\icons\\icon-parents.png"
+    },
+    {
+      "key": "icon-pico-pixel",
+      "png": "characters\\icons\\icon-pico-pixel.png"
+    },
+    {
+      "key": "icon-pico",
+      "png": "characters\\icons\\icon-pico.png"
+    },
+    {
+      "key": "icon-sakura",
+      "png": "characters\\icons\\icon-sakura.png"
+    },
+    {
+      "key": "icon-senpai-angry",
+      "png": "characters\\icons\\icon-senpai-angry.png"
+    },
+    {
+      "key": "icon-senpai",
+      "png": "characters\\icons\\icon-senpai.png"
+    },
+    {
+      "key": "icon-spirit",
+      "png": "characters\\icons\\icon-spirit.png"
+    },
+    {
+      "key": "icon-spooky",
+      "png": "characters\\icons\\icon-spooky.png"
+    },
+    {
+      "key": "icon-tankman-bloody",
+      "png": "characters\\icons\\icon-tankman-bloody.png"
+    },
+    {
+      "key": "icon-tankman",
+      "png": "characters\\icons\\icon-tankman.png"
+    },
+    {
+      "key": "icon-yunjin",
+      "png": "characters\\icons\\icon-yunjin.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\momCar\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\monster\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\nene\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\nene-christmas\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\nene-dark\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\otis\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\parents-christmas\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico\\basic-animations\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico\\death\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico\\explosion-death\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico\\playable-animations\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico-christmas\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico-dark\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico-holding-nene\\picoAndNene-DEAD\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico-holding-nene\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\pico-speaker\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\picoBlazin\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\sserafim\\chaewon\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\sserafim\\eunchae\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\sserafim\\kazuha\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\sserafim\\sakura\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\sserafim\\sserafim-gf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\sserafim\\yunjin\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\tankman\\basic\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\tankman\\bloody\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "characters\\tankman\\extra-animations\\spritemap1.png"
+    },
+    {
+      "key": "spirit",
+      "png": "characters\\xml\\spirit.png"
+    },
+    {
+      "key": "spirit",
+      "png": "characters\\spirit.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\barThing\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\bfChill\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\charSelectSpeakers\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\charSelectStage\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\crowd\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\gfChill\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\lock\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\lockedChill\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\neneChill\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "charSelect\\picoChill\\spritemap1.png"
+    },
+    {
+      "key": "bfChill",
+      "png": "charSelect\\bfChill.png"
+    },
+    {
+      "key": "boyfriendNametag",
+      "png": "charSelect\\boyfriendNametag.png"
+    },
+    {
+      "key": "charLight",
+      "png": "charSelect\\charLight.png"
+    },
+    {
+      "key": "charSelectBG",
+      "png": "charSelect\\charSelectBG.png"
+    },
+    {
+      "key": "charSelector",
+      "png": "charSelect\\charSelector.png"
+    },
+    {
+      "key": "charSelectTemp",
+      "png": "charSelect\\charSelectTemp.png"
+    },
+    {
+      "key": "chooseDipshit",
+      "png": "charSelect\\chooseDipshit.png"
+    },
+    {
+      "key": "curtains",
+      "png": "charSelect\\curtains.png"
+    },
+    {
+      "key": "foregroundBlur",
+      "png": "charSelect\\foregroundBlur.png"
+    },
+    {
+      "key": "lockedNametag",
+      "png": "charSelect\\lockedNametag.png"
+    },
+    {
+      "key": "neneChill",
+      "png": "charSelect\\neneChill.png"
+    },
+    {
+      "key": "picoChill",
+      "png": "charSelect\\picoChill.png"
+    },
+    {
+      "key": "picoNametag",
+      "png": "charSelect\\picoNametag.png"
+    },
+    {
+      "key": "placement",
+      "png": "charSelect\\placement.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "freeplay\\albumRoll\\freeplayAlbum\\spritemap1.png"
+    },
+    {
+      "key": "expansion1",
+      "png": "freeplay\\albumRoll\\expansion1.png"
+    },
+    {
+      "key": "expansion2",
+      "png": "freeplay\\albumRoll\\expansion2.png"
+    },
+    {
+      "key": "spaghetti",
+      "png": "freeplay\\albumRoll\\spaghetti.png"
+    },
+    {
+      "key": "volume1",
+      "png": "freeplay\\albumRoll\\volume1.png"
+    },
+    {
+      "key": "volume2",
+      "png": "freeplay\\albumRoll\\volume2.png"
+    },
+    {
+      "key": "volume3",
+      "png": "freeplay\\albumRoll\\volume3.png"
+    },
+    {
+      "key": "volume4",
+      "png": "freeplay\\albumRoll\\volume4.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "freeplay\\backing-text-yeah\\spritemap1.png"
+    },
+    {
+      "key": "darkback",
+      "png": "freeplay\\backingCards\\newCharacter\\darkback.png"
+    },
+    {
+      "key": "multiplyBar",
+      "png": "freeplay\\backingCards\\newCharacter\\multiplyBar.png"
+    },
+    {
+      "key": "orange gradient",
+      "png": "freeplay\\backingCards\\newCharacter\\orange gradient.png"
+    },
+    {
+      "key": "red gradient",
+      "png": "freeplay\\backingCards\\newCharacter\\red gradient.png"
+    },
+    {
+      "key": "red",
+      "png": "freeplay\\backingCards\\newCharacter\\red.png"
+    },
+    {
+      "key": "yellow bg piece",
+      "png": "freeplay\\backingCards\\newCharacter\\yellow bg piece.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "freeplay\\backingCards\\pico\\pico-confirm\\spritemap1.png"
+    },
+    {
+      "key": "blueBar",
+      "png": "freeplay\\backingCards\\pico\\blueBar.png"
+    },
+    {
+      "key": "glow",
+      "png": "freeplay\\backingCards\\pico\\glow.png"
+    },
+    {
+      "key": "lowerLoop",
+      "png": "freeplay\\backingCards\\pico\\lowerLoop.png"
+    },
+    {
+      "key": "middleLoop",
+      "png": "freeplay\\backingCards\\pico\\middleLoop.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "freeplay\\freeplay-boyfriend\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "freeplay\\freeplay-pico\\spritemap1.png"
+    },
+    {
+      "key": "bpmtext",
+      "png": "freeplay\\freeplayCapsule\\bpmtext.png"
+    },
+    {
+      "key": "difficultytext",
+      "png": "freeplay\\freeplayCapsule\\difficultytext.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "freeplay\\freeplayStars\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "freeplay\\sortedLetters\\spritemap1.png"
+    },
+    {
+      "key": "beatdark",
+      "png": "freeplay\\beatdark.png"
+    },
+    {
+      "key": "beatglow",
+      "png": "freeplay\\beatglow.png"
+    },
+    {
+      "key": "cardGlow",
+      "png": "freeplay\\cardGlow.png"
+    },
+    {
+      "key": "clearBox",
+      "png": "freeplay\\clearBox.png"
+    },
+    {
+      "key": "confirmGlow",
+      "png": "freeplay\\confirmGlow.png"
+    },
+    {
+      "key": "confirmGlow2",
+      "png": "freeplay\\confirmGlow2.png"
+    },
+    {
+      "key": "freeplayBGweek1-bf",
+      "png": "freeplay\\freeplayBGweek1-bf.png"
+    },
+    {
+      "key": "freeplayBGweek1-pico",
+      "png": "freeplay\\freeplayBGweek1-pico.png"
+    },
+    {
+      "key": "freeplayeasy",
+      "png": "freeplay\\freeplayeasy.png"
+    },
+    {
+      "key": "freeplayerect",
+      "png": "freeplay\\freeplayerect.png"
+    },
+    {
+      "key": "freeplayhard",
+      "png": "freeplay\\freeplayhard.png"
+    },
+    {
+      "key": "freeplaynormal",
+      "png": "freeplay\\freeplaynormal.png"
+    },
+    {
+      "key": "glowingText",
+      "png": "freeplay\\glowingText.png"
+    },
+    {
+      "key": "miniArrow",
+      "png": "freeplay\\miniArrow.png"
+    },
+    {
+      "key": "pinkBack",
+      "png": "freeplay\\pinkBack.png"
+    },
+    {
+      "key": "rankVignette",
+      "png": "freeplay\\rankVignette.png"
+    },
+    {
+      "key": "ref",
+      "png": "freeplay\\ref.png"
+    },
+    {
+      "key": "seperator",
+      "png": "freeplay\\seperator.png"
+    },
+    {
+      "key": "transitionGradient",
+      "png": "freeplay\\transitionGradient.png"
+    },
+    {
+      "key": "icon-bf-old",
+      "png": "icons\\icon-bf-old.png"
+    },
+    {
+      "key": "icon-bf-pixel",
+      "png": "icons\\icon-bf-pixel.png"
+    },
+    {
+      "key": "icon-bf",
+      "png": "icons\\icon-bf.png"
+    },
+    {
+      "key": "icon-chaewon",
+      "png": "icons\\icon-chaewon.png"
+    },
+    {
+      "key": "icon-dad",
+      "png": "icons\\icon-dad.png"
+    },
+    {
+      "key": "icon-darnell",
+      "png": "icons\\icon-darnell.png"
+    },
+    {
+      "key": "icon-eunchae",
+      "png": "icons\\icon-eunchae.png"
+    },
+    {
+      "key": "icon-face",
+      "png": "icons\\icon-face.png"
+    },
+    {
+      "key": "icon-gf",
+      "png": "icons\\icon-gf.png"
+    },
+    {
+      "key": "icon-kazuha",
+      "png": "icons\\icon-kazuha.png"
+    },
+    {
+      "key": "icon-mom",
+      "png": "icons\\icon-mom.png"
+    },
+    {
+      "key": "icon-monster",
+      "png": "icons\\icon-monster.png"
+    },
+    {
+      "key": "icon-parents",
+      "png": "icons\\icon-parents.png"
+    },
+    {
+      "key": "icon-pico-pixel",
+      "png": "icons\\icon-pico-pixel.png"
+    },
+    {
+      "key": "icon-pico",
+      "png": "icons\\icon-pico.png"
+    },
+    {
+      "key": "icon-sakura",
+      "png": "icons\\icon-sakura.png"
+    },
+    {
+      "key": "icon-senpai-angry",
+      "png": "icons\\icon-senpai-angry.png"
+    },
+    {
+      "key": "icon-senpai",
+      "png": "icons\\icon-senpai.png"
+    },
+    {
+      "key": "icon-spirit",
+      "png": "icons\\icon-spirit.png"
+    },
+    {
+      "key": "icon-spooky",
+      "png": "icons\\icon-spooky.png"
+    },
+    {
+      "key": "icon-tankman-bloody",
+      "png": "icons\\icon-tankman-bloody.png"
+    },
+    {
+      "key": "icon-tankman",
+      "png": "icons\\icon-tankman.png"
+    },
+    {
+      "key": "icon-yunjin",
+      "png": "icons\\icon-yunjin.png"
+    },
+    {
+      "key": "funkay",
+      "png": "menu\\bg\\funkay.png"
+    },
+    {
+      "key": "menuBG",
+      "png": "menu\\bg\\menuBG.png"
+    },
+    {
+      "key": "menuBGBlue",
+      "png": "menu\\bg\\menuBGBlue.png"
+    },
+    {
+      "key": "menuBGMagenta",
+      "png": "menu\\bg\\menuBGMagenta.png"
+    },
+    {
+      "key": "menuDesat",
+      "png": "menu\\bg\\menuDesat.png"
+    },
+    {
+      "key": "BritexIcon",
+      "png": "menu\\credits\\BritexIcon.png"
+    },
+    {
+      "key": "MarkIcon",
+      "png": "menu\\credits\\MarkIcon.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "menu\\intro\\title-screen-text\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "menu\\intro\\title-screen-text-mobile\\spritemap1.png"
+    },
+    {
+      "key": "newgrounds_logo",
+      "png": "menu\\intro\\newgrounds_logo.png"
+    },
+    {
+      "key": "upgradeshine_big",
+      "png": "menu\\mainmenu\\upgradeshine_big.png"
+    },
+    {
+      "key": "upgradeshine_small",
+      "png": "menu\\mainmenu\\upgradeshine_small.png"
+    },
+    {
+      "key": "under-construction",
+      "png": "menu\\options\\under-construction.png"
+    },
+    {
+      "key": "easy",
+      "png": "menu\\storymenu\\difficulties\\easy.png"
+    },
+    {
+      "key": "erect",
+      "png": "menu\\storymenu\\difficulties\\erect.png"
+    },
+    {
+      "key": "hard",
+      "png": "menu\\storymenu\\difficulties\\hard.png"
+    },
+    {
+      "key": "normal",
+      "png": "menu\\storymenu\\difficulties\\normal.png"
+    },
+    {
+      "key": "sserafim",
+      "png": "menu\\storymenu\\titles\\sserafim.png"
+    },
+    {
+      "key": "tutorial",
+      "png": "menu\\storymenu\\titles\\tutorial.png"
+    },
+    {
+      "key": "week1",
+      "png": "menu\\storymenu\\titles\\week1.png"
+    },
+    {
+      "key": "week2",
+      "png": "menu\\storymenu\\titles\\week2.png"
+    },
+    {
+      "key": "week3",
+      "png": "menu\\storymenu\\titles\\week3.png"
+    },
+    {
+      "key": "week4",
+      "png": "menu\\storymenu\\titles\\week4.png"
+    },
+    {
+      "key": "week5",
+      "png": "menu\\storymenu\\titles\\week5.png"
+    },
+    {
+      "key": "week6",
+      "png": "menu\\storymenu\\titles\\week6.png"
+    },
+    {
+      "key": "week7",
+      "png": "menu\\storymenu\\titles\\week7.png"
+    },
+    {
+      "key": "weekend1",
+      "png": "menu\\storymenu\\titles\\weekend1.png"
+    },
+    {
+      "key": "lock",
+      "png": "menu\\storymenu\\ui\\lock.png"
+    },
+    {
+      "key": "christmas",
+      "png": "menu\\storymode\\backgrounds\\christmas.png"
+    },
+    {
+      "key": "halloween",
+      "png": "menu\\storymode\\backgrounds\\halloween.png"
+    },
+    {
+      "key": "lesserafim",
+      "png": "menu\\storymode\\backgrounds\\lesserafim.png"
+    },
+    {
+      "key": "limo",
+      "png": "menu\\storymode\\backgrounds\\limo.png"
+    },
+    {
+      "key": "philly",
+      "png": "menu\\storymode\\backgrounds\\philly.png"
+    },
+    {
+      "key": "phillystreets",
+      "png": "menu\\storymode\\backgrounds\\phillystreets.png"
+    },
+    {
+      "key": "school",
+      "png": "menu\\storymode\\backgrounds\\school.png"
+    },
+    {
+      "key": "stage",
+      "png": "menu\\storymode\\backgrounds\\stage.png"
+    },
+    {
+      "key": "tank",
+      "png": "menu\\storymode\\backgrounds\\tank.png"
+    },
+    {
+      "key": "easy",
+      "png": "menu\\storymode\\difficults\\easy.png"
+    },
+    {
+      "key": "erect",
+      "png": "menu\\storymode\\difficults\\erect.png"
+    },
+    {
+      "key": "hard",
+      "png": "menu\\storymode\\difficults\\hard.png"
+    },
+    {
+      "key": "normal",
+      "png": "menu\\storymode\\difficults\\normal.png"
+    },
+    {
+      "key": "lesserafim",
+      "png": "menu\\storymode\\titles\\lesserafim.png"
+    },
+    {
+      "key": "tutorial",
+      "png": "menu\\storymode\\titles\\tutorial.png"
+    },
+    {
+      "key": "week1",
+      "png": "menu\\storymode\\titles\\week1.png"
+    },
+    {
+      "key": "week2",
+      "png": "menu\\storymode\\titles\\week2.png"
+    },
+    {
+      "key": "week3",
+      "png": "menu\\storymode\\titles\\week3.png"
+    },
+    {
+      "key": "week4",
+      "png": "menu\\storymode\\titles\\week4.png"
+    },
+    {
+      "key": "week5",
+      "png": "menu\\storymode\\titles\\week5.png"
+    },
+    {
+      "key": "week6",
+      "png": "menu\\storymode\\titles\\week6.png"
+    },
+    {
+      "key": "week7",
+      "png": "menu\\storymode\\titles\\week7.png"
+    },
+    {
+      "key": "weekend1",
+      "png": "menu\\storymode\\titles\\weekend1.png"
+    },
+    {
+      "key": "lock",
+      "png": "menu\\storymode\\lock.png"
+    },
+    {
+      "key": "Tracks",
+      "png": "menu\\storymode\\Tracks.png"
+    },
+    {
+      "key": "pauseBG",
+      "png": "pauseAlt\\pauseBG.png"
+    },
+    {
+      "key": "clearPercentText",
+      "png": "resultScreen\\clearPercent\\clearPercentText.png"
+    },
+    {
+      "key": "clearPercentTextSmall",
+      "png": "resultScreen\\clearPercent\\clearPercentTextSmall.png"
+    },
+    {
+      "key": "numbers small0001",
+      "png": "resultScreen\\clearPercent\\numbers small0001.png"
+    },
+    {
+      "key": "numbers small0002",
+      "png": "resultScreen\\clearPercent\\numbers small0002.png"
+    },
+    {
+      "key": "numbers small0003",
+      "png": "resultScreen\\clearPercent\\numbers small0003.png"
+    },
+    {
+      "key": "numbers small0004",
+      "png": "resultScreen\\clearPercent\\numbers small0004.png"
+    },
+    {
+      "key": "numbers small0005",
+      "png": "resultScreen\\clearPercent\\numbers small0005.png"
+    },
+    {
+      "key": "numbers small0006",
+      "png": "resultScreen\\clearPercent\\numbers small0006.png"
+    },
+    {
+      "key": "numbers small0007",
+      "png": "resultScreen\\clearPercent\\numbers small0007.png"
+    },
+    {
+      "key": "numbers small0008",
+      "png": "resultScreen\\clearPercent\\numbers small0008.png"
+    },
+    {
+      "key": "numbers small0009",
+      "png": "resultScreen\\clearPercent\\numbers small0009.png"
+    },
+    {
+      "key": "numbers small0010",
+      "png": "resultScreen\\clearPercent\\numbers small0010.png"
+    },
+    {
+      "key": "rankScrollEXCELLENT",
+      "png": "resultScreen\\rankText\\rankScrollEXCELLENT.png"
+    },
+    {
+      "key": "rankScrollGOOD",
+      "png": "resultScreen\\rankText\\rankScrollGOOD.png"
+    },
+    {
+      "key": "rankScrollGREAT",
+      "png": "resultScreen\\rankText\\rankScrollGREAT.png"
+    },
+    {
+      "key": "rankScrollLOSS",
+      "png": "resultScreen\\rankText\\rankScrollLOSS.png"
+    },
+    {
+      "key": "rankScrollPERFECT",
+      "png": "resultScreen\\rankText\\rankScrollPERFECT.png"
+    },
+    {
+      "key": "rankTextEXCELLENT",
+      "png": "resultScreen\\rankText\\rankTextEXCELLENT.png"
+    },
+    {
+      "key": "rankTextGOOD",
+      "png": "resultScreen\\rankText\\rankTextGOOD.png"
+    },
+    {
+      "key": "rankTextGREAT",
+      "png": "resultScreen\\rankText\\rankTextGREAT.png"
+    },
+    {
+      "key": "rankTextLOSS",
+      "png": "resultScreen\\rankText\\rankTextLOSS.png"
+    },
+    {
+      "key": "rankTextPERFECT",
+      "png": "resultScreen\\rankText\\rankTextPERFECT.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsEXCELLENT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsGOOD\\bf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsGREAT\\bf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsGREAT\\gf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsPERFECT\\bed\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsPERFECT\\hearts\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsPERFECT\\tickleFight\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-bf\\resultsSHIT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-pico\\resultsGOOD\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-pico\\resultsGREAT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-pico\\resultsPERFECT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "resultScreen\\results-pico\\resultsSHIT\\spritemap1.png"
+    },
+    {
+      "key": "diff_easy",
+      "png": "resultScreen\\diff_easy.png"
+    },
+    {
+      "key": "diff_erect",
+      "png": "resultScreen\\diff_erect.png"
+    },
+    {
+      "key": "diff_hard",
+      "png": "resultScreen\\diff_hard.png"
+    },
+    {
+      "key": "diff_nightmare",
+      "png": "resultScreen\\diff_nightmare.png"
+    },
+    {
+      "key": "diff_normal",
+      "png": "resultScreen\\diff_normal.png"
+    },
+    {
+      "key": "tardlingSpritesheet",
+      "png": "resultScreen\\tardlingSpritesheet.png"
+    },
+    {
+      "key": "topBarBlack",
+      "png": "resultScreen\\topBarBlack.png"
+    },
+    {
+      "key": "healthBar",
+      "png": "skins\\Funkin\\bars\\healthBar.png"
+    },
+    {
+      "key": "go",
+      "png": "skins\\Funkin\\count\\img\\go.png"
+    },
+    {
+      "key": "ready",
+      "png": "skins\\Funkin\\count\\img\\ready.png"
+    },
+    {
+      "key": "set",
+      "png": "skins\\Funkin\\count\\img\\set.png"
+    },
+    {
+      "key": "bad",
+      "png": "skins\\Funkin\\popUp\\judgment\\bad.png"
+    },
+    {
+      "key": "combo",
+      "png": "skins\\Funkin\\popUp\\judgment\\combo.png"
+    },
+    {
+      "key": "good",
+      "png": "skins\\Funkin\\popUp\\judgment\\good.png"
+    },
+    {
+      "key": "shit",
+      "png": "skins\\Funkin\\popUp\\judgment\\shit.png"
+    },
+    {
+      "key": "sick",
+      "png": "skins\\Funkin\\popUp\\judgment\\sick.png"
+    },
+    {
+      "key": "num0",
+      "png": "skins\\Funkin\\popUp\\num\\num0.png"
+    },
+    {
+      "key": "num1",
+      "png": "skins\\Funkin\\popUp\\num\\num1.png"
+    },
+    {
+      "key": "num2",
+      "png": "skins\\Funkin\\popUp\\num\\num2.png"
+    },
+    {
+      "key": "num3",
+      "png": "skins\\Funkin\\popUp\\num\\num3.png"
+    },
+    {
+      "key": "num4",
+      "png": "skins\\Funkin\\popUp\\num\\num4.png"
+    },
+    {
+      "key": "num5",
+      "png": "skins\\Funkin\\popUp\\num\\num5.png"
+    },
+    {
+      "key": "num6",
+      "png": "skins\\Funkin\\popUp\\num\\num6.png"
+    },
+    {
+      "key": "num7",
+      "png": "skins\\Funkin\\popUp\\num\\num7.png"
+    },
+    {
+      "key": "num8",
+      "png": "skins\\Funkin\\popUp\\num\\num8.png"
+    },
+    {
+      "key": "num9",
+      "png": "skins\\Funkin\\popUp\\num\\num9.png"
+    },
+    {
+      "key": "bars_1",
+      "png": "soundtray\\bars_1.png"
+    },
+    {
+      "key": "bars_10",
+      "png": "soundtray\\bars_10.png"
+    },
+    {
+      "key": "bars_2",
+      "png": "soundtray\\bars_2.png"
+    },
+    {
+      "key": "bars_3",
+      "png": "soundtray\\bars_3.png"
+    },
+    {
+      "key": "bars_4",
+      "png": "soundtray\\bars_4.png"
+    },
+    {
+      "key": "bars_5",
+      "png": "soundtray\\bars_5.png"
+    },
+    {
+      "key": "bars_6",
+      "png": "soundtray\\bars_6.png"
+    },
+    {
+      "key": "bars_7",
+      "png": "soundtray\\bars_7.png"
+    },
+    {
+      "key": "bars_8",
+      "png": "soundtray\\bars_8.png"
+    },
+    {
+      "key": "bars_9",
+      "png": "soundtray\\bars_9.png"
+    },
+    {
+      "key": "volumebox",
+      "png": "soundtray\\volumebox.png"
+    },
+    {
+      "key": "cursorGrab",
+      "png": "stageBuild\\cursorGrab.png"
+    },
+    {
+      "key": "cursorGrabbing",
+      "png": "stageBuild\\cursorGrabbing.png"
+    },
+    {
+      "key": "cursorSelect",
+      "png": "stageBuild\\cursorSelect.png"
+    },
+    {
+      "key": "stageTempImg",
+      "png": "stageBuild\\stageTempImg.png"
+    },
+    {
+      "key": "toolbarBF",
+      "png": "stageBuild\\toolbarBF.png"
+    },
+    {
+      "key": "bg",
+      "png": "stages\\backstage\\bg.png"
+    },
+    {
+      "key": "brightLightSmall",
+      "png": "stages\\backstage\\brightLightSmall.png"
+    },
+    {
+      "key": "lightAbove",
+      "png": "stages\\backstage\\lightAbove.png"
+    },
+    {
+      "key": "lightgreen",
+      "png": "stages\\backstage\\lightgreen.png"
+    },
+    {
+      "key": "lightred",
+      "png": "stages\\backstage\\lightred.png"
+    },
+    {
+      "key": "lights",
+      "png": "stages\\backstage\\lights.png"
+    },
+    {
+      "key": "orangeLight 1",
+      "png": "stages\\backstage\\orangeLight 1.png"
+    },
+    {
+      "key": "orangeLight",
+      "png": "stages\\backstage\\orangeLight.png"
+    },
+    {
+      "key": "server",
+      "png": "stages\\backstage\\server.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\christmas\\erect\\bottomBop\\spritemap1.png"
+    },
+    {
+      "key": "bgEscalator",
+      "png": "stages\\christmas\\erect\\bgEscalator.png"
+    },
+    {
+      "key": "bgWalls",
+      "png": "stages\\christmas\\erect\\bgWalls.png"
+    },
+    {
+      "key": "christmasTree",
+      "png": "stages\\christmas\\erect\\christmasTree.png"
+    },
+    {
+      "key": "white",
+      "png": "stages\\christmas\\erect\\white.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\christmas\\parents_shoot_assets\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\christmas\\santa_speaks_assets\\spritemap1.png"
+    },
+    {
+      "key": "bgEscalator",
+      "png": "stages\\christmas\\bgEscalator.png"
+    },
+    {
+      "key": "bgWalls",
+      "png": "stages\\christmas\\bgWalls.png"
+    },
+    {
+      "key": "christmasTree",
+      "png": "stages\\christmas\\christmasTree.png"
+    },
+    {
+      "key": "christmasWall",
+      "png": "stages\\christmas\\christmasWall.png"
+    },
+    {
+      "key": "evilBG",
+      "png": "stages\\christmas\\evilBG.png"
+    },
+    {
+      "key": "evilSnow",
+      "png": "stages\\christmas\\evilSnow.png"
+    },
+    {
+      "key": "evilTree",
+      "png": "stages\\christmas\\evilTree.png"
+    },
+    {
+      "key": "fgSnow",
+      "png": "stages\\christmas\\fgSnow.png"
+    },
+    {
+      "key": "bg",
+      "png": "stages\\erect\\bg.png"
+    },
+    {
+      "key": "brightLightSmall",
+      "png": "stages\\erect\\brightLightSmall.png"
+    },
+    {
+      "key": "lightAbove",
+      "png": "stages\\erect\\lightAbove.png"
+    },
+    {
+      "key": "lightgreen",
+      "png": "stages\\erect\\lightgreen.png"
+    },
+    {
+      "key": "lightred",
+      "png": "stages\\erect\\lightred.png"
+    },
+    {
+      "key": "lights",
+      "png": "stages\\erect\\lights.png"
+    },
+    {
+      "key": "orangeLight",
+      "png": "stages\\erect\\orangeLight.png"
+    },
+    {
+      "key": "server",
+      "png": "stages\\erect\\server.png"
+    },
+    {
+      "key": "bgDark",
+      "png": "stages\\halloween\\erect\\bgDark.png"
+    },
+    {
+      "key": "bgLight",
+      "png": "stages\\halloween\\erect\\bgLight.png"
+    },
+    {
+      "key": "stairsDark",
+      "png": "stages\\halloween\\erect\\stairsDark.png"
+    },
+    {
+      "key": "stairsLight",
+      "png": "stages\\halloween\\erect\\stairsLight.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\halloween\\halloween_bg\\spritemap1.png"
+    },
+    {
+      "key": "limoSunset",
+      "png": "stages\\limo\\erect\\limoSunset.png"
+    },
+    {
+      "key": "mistBack",
+      "png": "stages\\limo\\erect\\mistBack.png"
+    },
+    {
+      "key": "mistFront",
+      "png": "stages\\limo\\erect\\mistFront.png"
+    },
+    {
+      "key": "mistMid",
+      "png": "stages\\limo\\erect\\mistMid.png"
+    },
+    {
+      "key": "fastCarLol",
+      "png": "stages\\limo\\fastCarLol.png"
+    },
+    {
+      "key": "limoOverlay",
+      "png": "stages\\limo\\limoOverlay.png"
+    },
+    {
+      "key": "limoSunset",
+      "png": "stages\\limo\\limoSunset.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\philly\\erect\\bloodPool\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\philly\\erect\\pico_doppleganger\\spritemap1.png"
+    },
+    {
+      "key": "behindTrain",
+      "png": "stages\\philly\\erect\\behindTrain.png"
+    },
+    {
+      "key": "city",
+      "png": "stages\\philly\\erect\\city.png"
+    },
+    {
+      "key": "sky",
+      "png": "stages\\philly\\erect\\sky.png"
+    },
+    {
+      "key": "street",
+      "png": "stages\\philly\\erect\\street.png"
+    },
+    {
+      "key": "behindTrain",
+      "png": "stages\\philly\\behindTrain.png"
+    },
+    {
+      "key": "city",
+      "png": "stages\\philly\\city.png"
+    },
+    {
+      "key": "sky",
+      "png": "stages\\philly\\sky.png"
+    },
+    {
+      "key": "street",
+      "png": "stages\\philly\\street.png"
+    },
+    {
+      "key": "train",
+      "png": "stages\\philly\\train.png"
+    },
+    {
+      "key": "win",
+      "png": "stages\\philly\\win.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\sserafim\\cutscene\\bfGetUp\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\sserafim\\cutscene\\cutsceneMain\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\sserafim\\cutscene\\gfGetUp\\spritemap1.png"
+    },
+    {
+      "key": "burger-cutscene",
+      "png": "stages\\sserafim\\cutscene\\burger-cutscene.png"
+    },
+    {
+      "key": "counter-stretch",
+      "png": "stages\\sserafim\\cutscene\\counter-stretch.png"
+    },
+    {
+      "key": "floor-cutscene",
+      "png": "stages\\sserafim\\cutscene\\floor-cutscene.png"
+    },
+    {
+      "key": "dustBack",
+      "png": "stages\\sserafim\\dust\\dustBack.png"
+    },
+    {
+      "key": "dustFront",
+      "png": "stages\\sserafim\\dust\\dustFront.png"
+    },
+    {
+      "key": "dustMid",
+      "png": "stages\\sserafim\\dust\\dustMid.png"
+    },
+    {
+      "key": "end1",
+      "png": "stages\\sserafim\\end\\end1.png"
+    },
+    {
+      "key": "end2",
+      "png": "stages\\sserafim\\end\\end2.png"
+    },
+    {
+      "key": "back-light-color",
+      "png": "stages\\sserafim\\lights\\back-light-color.png"
+    },
+    {
+      "key": "back-light-white",
+      "png": "stages\\sserafim\\lights\\back-light-white.png"
+    },
+    {
+      "key": "truck-light1",
+      "png": "stages\\sserafim\\lights\\truck-light1.png"
+    },
+    {
+      "key": "truck-light2",
+      "png": "stages\\sserafim\\lights\\truck-light2.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\sserafim\\sserafim-lipsync\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\sserafim\\sserafim-lipsync-yunjin\\spritemap1.png"
+    },
+    {
+      "key": "back-stools",
+      "png": "stages\\sserafim\\back-stools.png"
+    },
+    {
+      "key": "back-tables",
+      "png": "stages\\sserafim\\back-tables.png"
+    },
+    {
+      "key": "bg",
+      "png": "stages\\sserafim\\bg.png"
+    },
+    {
+      "key": "floor",
+      "png": "stages\\sserafim\\floor.png"
+    },
+    {
+      "key": "front-stool",
+      "png": "stages\\sserafim\\front-stool.png"
+    },
+    {
+      "key": "truck-door",
+      "png": "stages\\sserafim\\truck-door.png"
+    },
+    {
+      "key": "truck-stuff",
+      "png": "stages\\sserafim\\truck-stuff.png"
+    },
+    {
+      "key": "stageback",
+      "png": "stages\\stage\\stageback.png"
+    },
+    {
+      "key": "stagecurtains",
+      "png": "stages\\stage\\stagecurtains.png"
+    },
+    {
+      "key": "stagefront",
+      "png": "stages\\stage\\stagefront.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\tankman\\erect\\cutscene\\tankmanEnding\\spritemap1.png"
+    },
+    {
+      "key": "gfTankmen_mask",
+      "png": "stages\\tankman\\erect\\masks\\gfTankmen_mask.png"
+    },
+    {
+      "key": "neneTankmen_mask",
+      "png": "stages\\tankman\\erect\\masks\\neneTankmen_mask.png"
+    },
+    {
+      "key": "tankmanCaptainBloody_mask",
+      "png": "stages\\tankman\\erect\\masks\\tankmanCaptainBloody_mask.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\tankman\\erect\\rando\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\tankman\\erect\\sniper\\spritemap1.png"
+    },
+    {
+      "key": "bg",
+      "png": "stages\\tankman\\erect\\bg.png"
+    },
+    {
+      "key": "bricksGround",
+      "png": "stages\\tankman\\erect\\bricksGround.png"
+    },
+    {
+      "key": "bricksGround",
+      "png": "stages\\tankman\\bricksGround.png"
+    },
+    {
+      "key": "cityruins2",
+      "png": "stages\\tankman\\cityruins2.png"
+    },
+    {
+      "key": "mountains2",
+      "png": "stages\\tankman\\mountains2.png"
+    },
+    {
+      "key": "tankBuildings",
+      "png": "stages\\tankman\\tankBuildings.png"
+    },
+    {
+      "key": "tankClouds",
+      "png": "stages\\tankman\\tankClouds.png"
+    },
+    {
+      "key": "tankGround",
+      "png": "stages\\tankman\\tankGround.png"
+    },
+    {
+      "key": "tankMountains",
+      "png": "stages\\tankman\\tankMountains.png"
+    },
+    {
+      "key": "tankRuins",
+      "png": "stages\\tankman\\tankRuins.png"
+    },
+    {
+      "key": "tankSky",
+      "png": "stages\\tankman\\tankSky.png"
+    },
+    {
+      "key": "backSpike",
+      "png": "stages\\weeb\\erect\\evil\\backSpike.png"
+    },
+    {
+      "key": "weebBackSpikes",
+      "png": "stages\\weeb\\erect\\evil\\weebBackSpikes.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\erect\\evil\\weebSchool.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\erect\\evil\\weebStreet.png"
+    },
+    {
+      "key": "aBotPixelSpeaker_mask",
+      "png": "stages\\weeb\\erect\\masks\\aBotPixelSpeaker_mask.png"
+    },
+    {
+      "key": "bfPixel_mask",
+      "png": "stages\\weeb\\erect\\masks\\bfPixel_mask.png"
+    },
+    {
+      "key": "gfPixel_mask",
+      "png": "stages\\weeb\\erect\\masks\\gfPixel_mask.png"
+    },
+    {
+      "key": "nenePixel_mask",
+      "png": "stages\\weeb\\erect\\masks\\nenePixel_mask.png"
+    },
+    {
+      "key": "picoPixel_mask",
+      "png": "stages\\weeb\\erect\\masks\\picoPixel_mask.png"
+    },
+    {
+      "key": "senpai_mask",
+      "png": "stages\\weeb\\erect\\masks\\senpai_mask.png"
+    },
+    {
+      "key": "weebBackTrees",
+      "png": "stages\\weeb\\erect\\weebBackTrees.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\erect\\weebSchool.png"
+    },
+    {
+      "key": "weebSky",
+      "png": "stages\\weeb\\erect\\weebSky.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\erect\\weebStreet.png"
+    },
+    {
+      "key": "weebTrees",
+      "png": "stages\\weeb\\erect\\weebTrees.png"
+    },
+    {
+      "key": "weebTreesBack",
+      "png": "stages\\weeb\\erect\\weebTreesBack.png"
+    },
+    {
+      "key": "weebBackTrees",
+      "png": "stages\\weeb\\evil\\weebBackTrees.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\evil\\weebSchool.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\evil\\weebStreet.png"
+    },
+    {
+      "key": "weebTrees",
+      "png": "stages\\weeb\\evil\\weebTrees.png"
+    },
+    {
+      "key": "arrowEndsNew",
+      "png": "stages\\weeb\\pixelUI\\arrowEndsNew.png"
+    },
+    {
+      "key": "hand_textbox",
+      "png": "stages\\weeb\\pixelUI\\hand_textbox.png"
+    },
+    {
+      "key": "backSpike",
+      "png": "stages\\weeb\\weeb\\erect\\evil\\backSpike.png"
+    },
+    {
+      "key": "weebBackSpikes",
+      "png": "stages\\weeb\\weeb\\erect\\evil\\weebBackSpikes.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\weeb\\erect\\evil\\weebSchool.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\weeb\\erect\\evil\\weebStreet.png"
+    },
+    {
+      "key": "aBotPixelSpeaker_mask",
+      "png": "stages\\weeb\\weeb\\erect\\masks\\aBotPixelSpeaker_mask.png"
+    },
+    {
+      "key": "bfPixel_mask",
+      "png": "stages\\weeb\\weeb\\erect\\masks\\bfPixel_mask.png"
+    },
+    {
+      "key": "gfPixel_mask",
+      "png": "stages\\weeb\\weeb\\erect\\masks\\gfPixel_mask.png"
+    },
+    {
+      "key": "nenePixel_mask",
+      "png": "stages\\weeb\\weeb\\erect\\masks\\nenePixel_mask.png"
+    },
+    {
+      "key": "picoPixel_mask",
+      "png": "stages\\weeb\\weeb\\erect\\masks\\picoPixel_mask.png"
+    },
+    {
+      "key": "senpai_mask",
+      "png": "stages\\weeb\\weeb\\erect\\masks\\senpai_mask.png"
+    },
+    {
+      "key": "weebBackTrees",
+      "png": "stages\\weeb\\weeb\\erect\\weebBackTrees.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\weeb\\erect\\weebSchool.png"
+    },
+    {
+      "key": "weebSky",
+      "png": "stages\\weeb\\weeb\\erect\\weebSky.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\weeb\\erect\\weebStreet.png"
+    },
+    {
+      "key": "weebTrees",
+      "png": "stages\\weeb\\weeb\\erect\\weebTrees.png"
+    },
+    {
+      "key": "weebTreesBack",
+      "png": "stages\\weeb\\weeb\\erect\\weebTreesBack.png"
+    },
+    {
+      "key": "weebBackTrees",
+      "png": "stages\\weeb\\weeb\\evil\\weebBackTrees.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\weeb\\evil\\weebSchool.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\weeb\\evil\\weebStreet.png"
+    },
+    {
+      "key": "weebTrees",
+      "png": "stages\\weeb\\weeb\\evil\\weebTrees.png"
+    },
+    {
+      "key": "arrowEndsNew",
+      "png": "stages\\weeb\\weeb\\pixelUI\\arrowEndsNew.png"
+    },
+    {
+      "key": "hand_textbox",
+      "png": "stages\\weeb\\weeb\\pixelUI\\hand_textbox.png"
+    },
+    {
+      "key": "weebBackTrees",
+      "png": "stages\\weeb\\weeb\\weebBackTrees.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\weeb\\weebSchool.png"
+    },
+    {
+      "key": "weebSky",
+      "png": "stages\\weeb\\weeb\\weebSky.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\weeb\\weebStreet.png"
+    },
+    {
+      "key": "weebTrees",
+      "png": "stages\\weeb\\weeb\\weebTrees.png"
+    },
+    {
+      "key": "weebTreesBack",
+      "png": "stages\\weeb\\weeb\\weebTreesBack.png"
+    },
+    {
+      "key": "weebBackTrees",
+      "png": "stages\\weeb\\weebBackTrees.png"
+    },
+    {
+      "key": "weebSchool",
+      "png": "stages\\weeb\\weebSchool.png"
+    },
+    {
+      "key": "weebSky",
+      "png": "stages\\weeb\\weebSky.png"
+    },
+    {
+      "key": "weebStreet",
+      "png": "stages\\weeb\\weebStreet.png"
+    },
+    {
+      "key": "weebTrees",
+      "png": "stages\\weeb\\weebTrees.png"
+    },
+    {
+      "key": "weebTreesBack",
+      "png": "stages\\weeb\\weebTreesBack.png"
+    },
+    {
+      "key": "skyBlur",
+      "png": "stages\\weekend1\\phillyBlazin\\skyBlur.png"
+    },
+    {
+      "key": "streetBlur",
+      "png": "stages\\weekend1\\phillyBlazin\\streetBlur.png"
+    },
+    {
+      "key": "greyGradient",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\greyGradient.png"
+    },
+    {
+      "key": "mistBack",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\mistBack.png"
+    },
+    {
+      "key": "mistFront",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\mistFront.png"
+    },
+    {
+      "key": "mistMid",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\mistMid.png"
+    },
+    {
+      "key": "phillyConstruction",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyConstruction.png"
+    },
+    {
+      "key": "phillyForeground",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyForeground.png"
+    },
+    {
+      "key": "phillyForegroundCity",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyForegroundCity.png"
+    },
+    {
+      "key": "phillyHighway",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyHighway.png"
+    },
+    {
+      "key": "phillyHighwayLights",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyHighwayLights.png"
+    },
+    {
+      "key": "phillySkybox",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillySkybox.png"
+    },
+    {
+      "key": "phillySkyline",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillySkyline.png"
+    },
+    {
+      "key": "phillyTraffic_lightmap",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyTraffic_lightmap.png"
+    },
+    {
+      "key": "phillyConstruction",
+      "png": "stages\\weekend1\\phillyStreets\\phillyConstruction.png"
+    },
+    {
+      "key": "phillyForeground",
+      "png": "stages\\weekend1\\phillyStreets\\phillyForeground.png"
+    },
+    {
+      "key": "phillyForegroundCity",
+      "png": "stages\\weekend1\\phillyStreets\\phillyForegroundCity.png"
+    },
+    {
+      "key": "phillyHighway",
+      "png": "stages\\weekend1\\phillyStreets\\phillyHighway.png"
+    },
+    {
+      "key": "phillyHighwayLights",
+      "png": "stages\\weekend1\\phillyStreets\\phillyHighwayLights.png"
+    },
+    {
+      "key": "phillyHighwayLights_lightmap",
+      "png": "stages\\weekend1\\phillyStreets\\phillyHighwayLights_lightmap.png"
+    },
+    {
+      "key": "phillySkybox",
+      "png": "stages\\weekend1\\phillyStreets\\phillySkybox.png"
+    },
+    {
+      "key": "phillySkyline",
+      "png": "stages\\weekend1\\phillyStreets\\phillySkyline.png"
+    },
+    {
+      "key": "phillySmog",
+      "png": "stages\\weekend1\\phillyStreets\\phillySmog.png"
+    },
+    {
+      "key": "phillyTraffic_lightmap",
+      "png": "stages\\weekend1\\phillyStreets\\phillyTraffic_lightmap.png"
+    },
+    {
+      "key": "puddle",
+      "png": "stages\\weekend1\\phillyStreets\\puddle.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "stages\\weekend1\\spraycanAtlas\\spritemap1.png"
+    },
+    {
+      "key": "bgConcept",
+      "png": "stages\\weekend1\\bgConcept.png"
+    },
+    {
+      "key": "SpraycanPile",
+      "png": "stages\\weekend1\\SpraycanPile.png"
+    },
+    {
+      "key": "easy",
+      "png": "storymenu\\difficulties\\easy.png"
+    },
+    {
+      "key": "erect",
+      "png": "storymenu\\difficulties\\erect.png"
+    },
+    {
+      "key": "hard",
+      "png": "storymenu\\difficulties\\hard.png"
+    },
+    {
+      "key": "normal",
+      "png": "storymenu\\difficulties\\normal.png"
+    },
+    {
+      "key": "sserafim",
+      "png": "storymenu\\titles\\sserafim.png"
+    },
+    {
+      "key": "tutorial",
+      "png": "storymenu\\titles\\tutorial.png"
+    },
+    {
+      "key": "week1",
+      "png": "storymenu\\titles\\week1.png"
+    },
+    {
+      "key": "week2",
+      "png": "storymenu\\titles\\week2.png"
+    },
+    {
+      "key": "week3",
+      "png": "storymenu\\titles\\week3.png"
+    },
+    {
+      "key": "week4",
+      "png": "storymenu\\titles\\week4.png"
+    },
+    {
+      "key": "week5",
+      "png": "storymenu\\titles\\week5.png"
+    },
+    {
+      "key": "week6",
+      "png": "storymenu\\titles\\week6.png"
+    },
+    {
+      "key": "week7",
+      "png": "storymenu\\titles\\week7.png"
+    },
+    {
+      "key": "weekend1",
+      "png": "storymenu\\titles\\weekend1.png"
+    },
+    {
+      "key": "lock",
+      "png": "storymenu\\ui\\lock.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "title-screen-text\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "title-screen-text-mobile\\spritemap1.png"
+    },
+    {
+      "key": "bfSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-1\\bfSticker1.png"
+    },
+    {
+      "key": "bfSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-1\\bfSticker2.png"
+    },
+    {
+      "key": "bfSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-1\\bfSticker3.png"
+    },
+    {
+      "key": "dadSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-1\\dadSticker1.png"
+    },
+    {
+      "key": "dadSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-1\\dadSticker2.png"
+    },
+    {
+      "key": "dadSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-1\\dadSticker3.png"
+    },
+    {
+      "key": "gfSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-1\\gfSticker1.png"
+    },
+    {
+      "key": "gfSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-1\\gfSticker2.png"
+    },
+    {
+      "key": "gfSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-1\\gfSticker3.png"
+    },
+    {
+      "key": "momSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-1\\momSticker1.png"
+    },
+    {
+      "key": "momSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-1\\momSticker2.png"
+    },
+    {
+      "key": "momSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-1\\momSticker3.png"
+    },
+    {
+      "key": "monsterSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-1\\monsterSticker1.png"
+    },
+    {
+      "key": "monsterSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-1\\monsterSticker2.png"
+    },
+    {
+      "key": "monsterSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-1\\monsterSticker3.png"
+    },
+    {
+      "key": "picoSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-1\\picoSticker1.png"
+    },
+    {
+      "key": "picoSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-1\\picoSticker2.png"
+    },
+    {
+      "key": "picoSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-1\\picoSticker3.png"
+    },
+    {
+      "key": "alucardSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\alucardSticker1.png"
+    },
+    {
+      "key": "alucardSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\alucardSticker2.png"
+    },
+    {
+      "key": "cassandraSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\cassandraSticker1.png"
+    },
+    {
+      "key": "cassandraSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\cassandraSticker2.png"
+    },
+    {
+      "key": "cassandraSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-2\\cassandraSticker3.png"
+    },
+    {
+      "key": "cyclopsSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\cyclopsSticker1.png"
+    },
+    {
+      "key": "cyclopsSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\cyclopsSticker2.png"
+    },
+    {
+      "key": "dadSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\dadSticker1.png"
+    },
+    {
+      "key": "dadSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\dadSticker2.png"
+    },
+    {
+      "key": "dadSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-2\\dadSticker3.png"
+    },
+    {
+      "key": "darnellSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\darnellSticker1.png"
+    },
+    {
+      "key": "darnellSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\darnellSticker2.png"
+    },
+    {
+      "key": "darnellSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-2\\darnellSticker3.png"
+    },
+    {
+      "key": "miscSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\miscSticker1.png"
+    },
+    {
+      "key": "miscSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\miscSticker2.png"
+    },
+    {
+      "key": "miscSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-2\\miscSticker3.png"
+    },
+    {
+      "key": "miscSticker4",
+      "png": "transition\\transitionSwag\\stickers-set-2\\miscSticker4.png"
+    },
+    {
+      "key": "miscSticker5",
+      "png": "transition\\transitionSwag\\stickers-set-2\\miscSticker5.png"
+    },
+    {
+      "key": "neneSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\neneSticker1.png"
+    },
+    {
+      "key": "neneSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\neneSticker2.png"
+    },
+    {
+      "key": "neneSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-2\\neneSticker3.png"
+    },
+    {
+      "key": "picoSticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\picoSticker1.png"
+    },
+    {
+      "key": "picoSticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\picoSticker2.png"
+    },
+    {
+      "key": "picoSticker3",
+      "png": "transition\\transitionSwag\\stickers-set-2\\picoSticker3.png"
+    },
+    {
+      "key": "someDeadGuySticker1",
+      "png": "transition\\transitionSwag\\stickers-set-2\\someDeadGuySticker1.png"
+    },
+    {
+      "key": "someDeadGuySticker2",
+      "png": "transition\\transitionSwag\\stickers-set-2\\someDeadGuySticker2.png"
+    },
+    {
+      "key": "bfSticker1",
+      "png": "transitionSwag\\stickers-set-1\\bfSticker1.png"
+    },
+    {
+      "key": "bfSticker2",
+      "png": "transitionSwag\\stickers-set-1\\bfSticker2.png"
+    },
+    {
+      "key": "bfSticker3",
+      "png": "transitionSwag\\stickers-set-1\\bfSticker3.png"
+    },
+    {
+      "key": "dadSticker1",
+      "png": "transitionSwag\\stickers-set-1\\dadSticker1.png"
+    },
+    {
+      "key": "dadSticker2",
+      "png": "transitionSwag\\stickers-set-1\\dadSticker2.png"
+    },
+    {
+      "key": "dadSticker3",
+      "png": "transitionSwag\\stickers-set-1\\dadSticker3.png"
+    },
+    {
+      "key": "gfSticker1",
+      "png": "transitionSwag\\stickers-set-1\\gfSticker1.png"
+    },
+    {
+      "key": "gfSticker2",
+      "png": "transitionSwag\\stickers-set-1\\gfSticker2.png"
+    },
+    {
+      "key": "gfSticker3",
+      "png": "transitionSwag\\stickers-set-1\\gfSticker3.png"
+    },
+    {
+      "key": "momSticker1",
+      "png": "transitionSwag\\stickers-set-1\\momSticker1.png"
+    },
+    {
+      "key": "momSticker2",
+      "png": "transitionSwag\\stickers-set-1\\momSticker2.png"
+    },
+    {
+      "key": "momSticker3",
+      "png": "transitionSwag\\stickers-set-1\\momSticker3.png"
+    },
+    {
+      "key": "monsterSticker1",
+      "png": "transitionSwag\\stickers-set-1\\monsterSticker1.png"
+    },
+    {
+      "key": "monsterSticker2",
+      "png": "transitionSwag\\stickers-set-1\\monsterSticker2.png"
+    },
+    {
+      "key": "monsterSticker3",
+      "png": "transitionSwag\\stickers-set-1\\monsterSticker3.png"
+    },
+    {
+      "key": "picoSticker1",
+      "png": "transitionSwag\\stickers-set-1\\picoSticker1.png"
+    },
+    {
+      "key": "picoSticker2",
+      "png": "transitionSwag\\stickers-set-1\\picoSticker2.png"
+    },
+    {
+      "key": "picoSticker3",
+      "png": "transitionSwag\\stickers-set-1\\picoSticker3.png"
+    },
+    {
+      "key": "alucardSticker1",
+      "png": "transitionSwag\\stickers-set-2\\alucardSticker1.png"
+    },
+    {
+      "key": "alucardSticker2",
+      "png": "transitionSwag\\stickers-set-2\\alucardSticker2.png"
+    },
+    {
+      "key": "cassandraSticker1",
+      "png": "transitionSwag\\stickers-set-2\\cassandraSticker1.png"
+    },
+    {
+      "key": "cassandraSticker2",
+      "png": "transitionSwag\\stickers-set-2\\cassandraSticker2.png"
+    },
+    {
+      "key": "cassandraSticker3",
+      "png": "transitionSwag\\stickers-set-2\\cassandraSticker3.png"
+    },
+    {
+      "key": "cyclopsSticker1",
+      "png": "transitionSwag\\stickers-set-2\\cyclopsSticker1.png"
+    },
+    {
+      "key": "cyclopsSticker2",
+      "png": "transitionSwag\\stickers-set-2\\cyclopsSticker2.png"
+    },
+    {
+      "key": "dadSticker1",
+      "png": "transitionSwag\\stickers-set-2\\dadSticker1.png"
+    },
+    {
+      "key": "dadSticker2",
+      "png": "transitionSwag\\stickers-set-2\\dadSticker2.png"
+    },
+    {
+      "key": "dadSticker3",
+      "png": "transitionSwag\\stickers-set-2\\dadSticker3.png"
+    },
+    {
+      "key": "darnellSticker1",
+      "png": "transitionSwag\\stickers-set-2\\darnellSticker1.png"
+    },
+    {
+      "key": "darnellSticker2",
+      "png": "transitionSwag\\stickers-set-2\\darnellSticker2.png"
+    },
+    {
+      "key": "darnellSticker3",
+      "png": "transitionSwag\\stickers-set-2\\darnellSticker3.png"
+    },
+    {
+      "key": "miscSticker1",
+      "png": "transitionSwag\\stickers-set-2\\miscSticker1.png"
+    },
+    {
+      "key": "miscSticker2",
+      "png": "transitionSwag\\stickers-set-2\\miscSticker2.png"
+    },
+    {
+      "key": "miscSticker3",
+      "png": "transitionSwag\\stickers-set-2\\miscSticker3.png"
+    },
+    {
+      "key": "miscSticker4",
+      "png": "transitionSwag\\stickers-set-2\\miscSticker4.png"
+    },
+    {
+      "key": "miscSticker5",
+      "png": "transitionSwag\\stickers-set-2\\miscSticker5.png"
+    },
+    {
+      "key": "neneSticker1",
+      "png": "transitionSwag\\stickers-set-2\\neneSticker1.png"
+    },
+    {
+      "key": "neneSticker2",
+      "png": "transitionSwag\\stickers-set-2\\neneSticker2.png"
+    },
+    {
+      "key": "neneSticker3",
+      "png": "transitionSwag\\stickers-set-2\\neneSticker3.png"
+    },
+    {
+      "key": "picoSticker1",
+      "png": "transitionSwag\\stickers-set-2\\picoSticker1.png"
+    },
+    {
+      "key": "picoSticker2",
+      "png": "transitionSwag\\stickers-set-2\\picoSticker2.png"
+    },
+    {
+      "key": "picoSticker3",
+      "png": "transitionSwag\\stickers-set-2\\picoSticker3.png"
+    },
+    {
+      "key": "someDeadGuySticker1",
+      "png": "transitionSwag\\stickers-set-2\\someDeadGuySticker1.png"
+    },
+    {
+      "key": "someDeadGuySticker2",
+      "png": "transitionSwag\\stickers-set-2\\someDeadGuySticker2.png"
+    },
+    {
+      "key": "close",
+      "png": "ui\\chart-editor\\close.png"
+    },
+    {
+      "key": "maximize",
+      "png": "ui\\chart-editor\\maximize.png"
+    },
+    {
+      "key": "minimize",
+      "png": "ui\\chart-editor\\minimize.png"
+    },
+    {
+      "key": "playbar-head",
+      "png": "ui\\chart-editor\\playbar-head.png"
+    },
+    {
+      "key": "go",
+      "png": "ui\\countdown\\funkin\\go.png"
+    },
+    {
+      "key": "ready",
+      "png": "ui\\countdown\\funkin\\ready.png"
+    },
+    {
+      "key": "set",
+      "png": "ui\\countdown\\funkin\\set.png"
+    },
+    {
+      "key": "go",
+      "png": "ui\\countdown\\pixel\\go.png"
+    },
+    {
+      "key": "ready",
+      "png": "ui\\countdown\\pixel\\ready.png"
+    },
+    {
+      "key": "set",
+      "png": "ui\\countdown\\pixel\\set.png"
+    },
+    {
+      "key": "uh-oh",
+      "png": "ui\\crash\\uh-oh.png"
+    },
+    {
+      "key": "cursor-cell",
+      "png": "ui\\cursor\\cursor-cell.png"
+    },
+    {
+      "key": "cursor-cross",
+      "png": "ui\\cursor\\cursor-cross.png"
+    },
+    {
+      "key": "cursor-crosshair",
+      "png": "ui\\cursor\\cursor-crosshair.png"
+    },
+    {
+      "key": "cursor-default",
+      "png": "ui\\cursor\\cursor-default.png"
+    },
+    {
+      "key": "cursor-eraser",
+      "png": "ui\\cursor\\cursor-eraser.png"
+    },
+    {
+      "key": "cursor-grabbing",
+      "png": "ui\\cursor\\cursor-grabbing.png"
+    },
+    {
+      "key": "cursor-hourglass",
+      "png": "ui\\cursor\\cursor-hourglass.png"
+    },
+    {
+      "key": "cursor-pointer",
+      "png": "ui\\cursor\\cursor-pointer.png"
+    },
+    {
+      "key": "cursor-scroll",
+      "png": "ui\\cursor\\cursor-scroll.png"
+    },
+    {
+      "key": "cursor-text-vertical",
+      "png": "ui\\cursor\\cursor-text-vertical.png"
+    },
+    {
+      "key": "cursor-text",
+      "png": "ui\\cursor\\cursor-text.png"
+    },
+    {
+      "key": "cursor-zoom-in",
+      "png": "ui\\cursor\\cursor-zoom-in.png"
+    },
+    {
+      "key": "cursor-zoom-out",
+      "png": "ui\\cursor\\cursor-zoom-out.png"
+    },
+    {
+      "key": "kevin",
+      "png": "ui\\cursor\\kevin.png"
+    },
+    {
+      "key": "michael",
+      "png": "ui\\cursor\\michael.png"
+    },
+    {
+      "key": "boxOfNoodles",
+      "png": "ui\\loading\\christmas\\boxOfNoodles.png"
+    },
+    {
+      "key": "funkin",
+      "png": "ui\\loading\\christmas\\funkin.png"
+    },
+    {
+      "key": "longNoodle",
+      "png": "ui\\loading\\christmas\\longNoodle.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\medal\\spritemap1.png"
+    },
+    {
+      "key": "achallengerappears",
+      "png": "ui\\medals\\achallengerappears.png"
+    },
+    {
+      "key": "avisualnovelty",
+      "png": "ui\\medals\\avisualnovelty.png"
+    },
+    {
+      "key": "destressing",
+      "png": "ui\\medals\\destressing.png"
+    },
+    {
+      "key": "gettingfreaky",
+      "png": "ui\\medals\\gettingfreaky.png"
+    },
+    {
+      "key": "harderthanhard",
+      "png": "ui\\medals\\harderthanhard.png"
+    },
+    {
+      "key": "i3johnnyutah",
+      "png": "ui\\medals\\i3johnnyutah.png"
+    },
+    {
+      "key": "isaidfunkin",
+      "png": "ui\\medals\\isaidfunkin.png"
+    },
+    {
+      "key": "itisthespookymonth",
+      "png": "ui\\medals\\itisthespookymonth.png"
+    },
+    {
+      "key": "l",
+      "png": "ui\\medals\\l.png"
+    },
+    {
+      "key": "lockedachievement",
+      "png": "ui\\medals\\lockedachievement.png"
+    },
+    {
+      "key": "mommymustmurder",
+      "png": "ui\\medals\\mommymustmurder.png"
+    },
+    {
+      "key": "morelikedaddyqueerest",
+      "png": "ui\\medals\\morelikedaddyqueerest.png"
+    },
+    {
+      "key": "nice",
+      "png": "ui\\medals\\nice.png"
+    },
+    {
+      "key": "picofunny",
+      "png": "ui\\medals\\picofunny.png"
+    },
+    {
+      "key": "stayfunky",
+      "png": "ui\\medals\\stayfunky.png"
+    },
+    {
+      "key": "thatshowyoudoit",
+      "png": "ui\\medals\\thatshowyoudoit.png"
+    },
+    {
+      "key": "therapgod",
+      "png": "ui\\medals\\therapgod.png"
+    },
+    {
+      "key": "yoreallythinkso",
+      "png": "ui\\medals\\yoreallythinkso.png"
+    },
+    {
+      "key": "youshoulddrinkmorewater",
+      "png": "ui\\medals\\youshoulddrinkmorewater.png"
+    },
+    {
+      "key": "yuletidejoy",
+      "png": "ui\\medals\\yuletidejoy.png"
+    },
+    {
+      "key": "pauseBG",
+      "png": "ui\\pause\\pauseBG.png"
+    },
+    {
+      "key": "bad",
+      "png": "ui\\popup\\funkin\\bad.png"
+    },
+    {
+      "key": "combo",
+      "png": "ui\\popup\\funkin\\combo.png"
+    },
+    {
+      "key": "good",
+      "png": "ui\\popup\\funkin\\good.png"
+    },
+    {
+      "key": "num0",
+      "png": "ui\\popup\\funkin\\num0.png"
+    },
+    {
+      "key": "num1",
+      "png": "ui\\popup\\funkin\\num1.png"
+    },
+    {
+      "key": "num2",
+      "png": "ui\\popup\\funkin\\num2.png"
+    },
+    {
+      "key": "num3",
+      "png": "ui\\popup\\funkin\\num3.png"
+    },
+    {
+      "key": "num4",
+      "png": "ui\\popup\\funkin\\num4.png"
+    },
+    {
+      "key": "num5",
+      "png": "ui\\popup\\funkin\\num5.png"
+    },
+    {
+      "key": "num6",
+      "png": "ui\\popup\\funkin\\num6.png"
+    },
+    {
+      "key": "num7",
+      "png": "ui\\popup\\funkin\\num7.png"
+    },
+    {
+      "key": "num8",
+      "png": "ui\\popup\\funkin\\num8.png"
+    },
+    {
+      "key": "num9",
+      "png": "ui\\popup\\funkin\\num9.png"
+    },
+    {
+      "key": "shit",
+      "png": "ui\\popup\\funkin\\shit.png"
+    },
+    {
+      "key": "sick",
+      "png": "ui\\popup\\funkin\\sick.png"
+    },
+    {
+      "key": "bad",
+      "png": "ui\\popup\\pixel\\bad.png"
+    },
+    {
+      "key": "combo",
+      "png": "ui\\popup\\pixel\\combo.png"
+    },
+    {
+      "key": "good",
+      "png": "ui\\popup\\pixel\\good.png"
+    },
+    {
+      "key": "num0",
+      "png": "ui\\popup\\pixel\\num0.png"
+    },
+    {
+      "key": "num1",
+      "png": "ui\\popup\\pixel\\num1.png"
+    },
+    {
+      "key": "num2",
+      "png": "ui\\popup\\pixel\\num2.png"
+    },
+    {
+      "key": "num3",
+      "png": "ui\\popup\\pixel\\num3.png"
+    },
+    {
+      "key": "num4",
+      "png": "ui\\popup\\pixel\\num4.png"
+    },
+    {
+      "key": "num5",
+      "png": "ui\\popup\\pixel\\num5.png"
+    },
+    {
+      "key": "num6",
+      "png": "ui\\popup\\pixel\\num6.png"
+    },
+    {
+      "key": "num7",
+      "png": "ui\\popup\\pixel\\num7.png"
+    },
+    {
+      "key": "num8",
+      "png": "ui\\popup\\pixel\\num8.png"
+    },
+    {
+      "key": "num9",
+      "png": "ui\\popup\\pixel\\num9.png"
+    },
+    {
+      "key": "shit",
+      "png": "ui\\popup\\pixel\\shit.png"
+    },
+    {
+      "key": "sick",
+      "png": "ui\\popup\\pixel\\sick.png"
+    },
+    {
+      "key": "clearPercentText",
+      "png": "ui\\results\\resultScreen\\clearPercent\\clearPercentText.png"
+    },
+    {
+      "key": "clearPercentTextSmall",
+      "png": "ui\\results\\resultScreen\\clearPercent\\clearPercentTextSmall.png"
+    },
+    {
+      "key": "numbers small0001",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0001.png"
+    },
+    {
+      "key": "numbers small0002",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0002.png"
+    },
+    {
+      "key": "numbers small0003",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0003.png"
+    },
+    {
+      "key": "numbers small0004",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0004.png"
+    },
+    {
+      "key": "numbers small0005",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0005.png"
+    },
+    {
+      "key": "numbers small0006",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0006.png"
+    },
+    {
+      "key": "numbers small0007",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0007.png"
+    },
+    {
+      "key": "numbers small0008",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0008.png"
+    },
+    {
+      "key": "numbers small0009",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0009.png"
+    },
+    {
+      "key": "numbers small0010",
+      "png": "ui\\results\\resultScreen\\clearPercent\\numbers small0010.png"
+    },
+    {
+      "key": "rankScrollEXCELLENT",
+      "png": "ui\\results\\resultScreen\\rankText\\rankScrollEXCELLENT.png"
+    },
+    {
+      "key": "rankScrollGOOD",
+      "png": "ui\\results\\resultScreen\\rankText\\rankScrollGOOD.png"
+    },
+    {
+      "key": "rankScrollGREAT",
+      "png": "ui\\results\\resultScreen\\rankText\\rankScrollGREAT.png"
+    },
+    {
+      "key": "rankScrollLOSS",
+      "png": "ui\\results\\resultScreen\\rankText\\rankScrollLOSS.png"
+    },
+    {
+      "key": "rankScrollPERFECT",
+      "png": "ui\\results\\resultScreen\\rankText\\rankScrollPERFECT.png"
+    },
+    {
+      "key": "rankTextEXCELLENT",
+      "png": "ui\\results\\resultScreen\\rankText\\rankTextEXCELLENT.png"
+    },
+    {
+      "key": "rankTextGOOD",
+      "png": "ui\\results\\resultScreen\\rankText\\rankTextGOOD.png"
+    },
+    {
+      "key": "rankTextGREAT",
+      "png": "ui\\results\\resultScreen\\rankText\\rankTextGREAT.png"
+    },
+    {
+      "key": "rankTextLOSS",
+      "png": "ui\\results\\resultScreen\\rankText\\rankTextLOSS.png"
+    },
+    {
+      "key": "rankTextPERFECT",
+      "png": "ui\\results\\resultScreen\\rankText\\rankTextPERFECT.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsEXCELLENT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsGOOD\\bf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsGREAT\\bf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsGREAT\\gf\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsPERFECT\\bed\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsPERFECT\\hearts\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsPERFECT\\tickleFight\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsSHIT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-pico\\resultsGOOD\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-pico\\resultsGREAT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-pico\\resultsPERFECT\\spritemap1.png"
+    },
+    {
+      "key": "spritemap1",
+      "png": "ui\\results\\resultScreen\\results-pico\\resultsSHIT\\spritemap1.png"
+    },
+    {
+      "key": "diff_easy",
+      "png": "ui\\results\\resultScreen\\diff_easy.png"
+    },
+    {
+      "key": "diff_erect",
+      "png": "ui\\results\\resultScreen\\diff_erect.png"
+    },
+    {
+      "key": "diff_hard",
+      "png": "ui\\results\\resultScreen\\diff_hard.png"
+    },
+    {
+      "key": "diff_nightmare",
+      "png": "ui\\results\\resultScreen\\diff_nightmare.png"
+    },
+    {
+      "key": "diff_normal",
+      "png": "ui\\results\\resultScreen\\diff_normal.png"
+    },
+    {
+      "key": "tardlingSpritesheet",
+      "png": "ui\\results\\resultScreen\\tardlingSpritesheet.png"
+    },
+    {
+      "key": "topBarBlack",
+      "png": "ui\\results\\resultScreen\\topBarBlack.png"
+    },
+    {
+      "key": "bars_1",
+      "png": "ui\\soundtray\\bars_1.png"
+    },
+    {
+      "key": "bars_10",
+      "png": "ui\\soundtray\\bars_10.png"
+    },
+    {
+      "key": "bars_2",
+      "png": "ui\\soundtray\\bars_2.png"
+    },
+    {
+      "key": "bars_3",
+      "png": "ui\\soundtray\\bars_3.png"
+    },
+    {
+      "key": "bars_4",
+      "png": "ui\\soundtray\\bars_4.png"
+    },
+    {
+      "key": "bars_5",
+      "png": "ui\\soundtray\\bars_5.png"
+    },
+    {
+      "key": "bars_6",
+      "png": "ui\\soundtray\\bars_6.png"
+    },
+    {
+      "key": "bars_7",
+      "png": "ui\\soundtray\\bars_7.png"
+    },
+    {
+      "key": "bars_8",
+      "png": "ui\\soundtray\\bars_8.png"
+    },
+    {
+      "key": "bars_9",
+      "png": "ui\\soundtray\\bars_9.png"
+    },
+    {
+      "key": "volumebox",
+      "png": "ui\\soundtray\\volumebox.png"
+    },
+    {
+      "key": "alphabet",
+      "png": "ui\\alphabet.png"
+    },
+    {
+      "key": "healthBar",
+      "png": "ui\\healthBar.png"
+    },
+    {
+      "key": "pauseCircle",
+      "png": "ui\\pauseCircle.png"
+    },
+    {
+      "key": "daddy T",
+      "png": "daddy T.png"
+    },
+    {
+      "key": "funkay",
+      "png": "funkay.png"
+    },
+    {
+      "key": "healthBar",
+      "png": "healthBar.png"
+    },
+    {
+      "key": "latencyArrow",
+      "png": "latencyArrow.png"
+    },
+    {
+      "key": "latencyReceptor",
+      "png": "latencyReceptor.png"
+    },
+    {
+      "key": "menuBG",
+      "png": "menuBG.png"
+    },
+    {
+      "key": "menuBGMagenta",
+      "png": "menuBGMagenta.png"
+    },
+    {
+      "key": "menuDesat",
+      "png": "menuDesat.png"
+    },
+    {
+      "key": "newgrounds_logo",
+      "png": "newgrounds_logo.png"
+    },
+    {
+      "key": "newgrounds_logo_animated",
+      "png": "newgrounds_logo_animated.png"
+    },
+    {
+      "key": "newgrounds_logo_classic",
+      "png": "newgrounds_logo_classic.png"
+    },
+    {
+      "key": "NOTE_hold_assets",
+      "png": "NOTE_hold_assets.png"
+    },
+    {
+      "key": "pauseCircle",
+      "png": "pauseCircle.png"
+    },
+    {
+      "key": "stageback",
+      "png": "stageback.png"
+    },
+    {
+      "key": "stagecurtains",
+      "png": "stagecurtains.png"
+    },
+    {
+      "key": "stagefront",
+      "png": "stagefront.png"
+    },
+    {
+      "key": "stage_light",
+      "png": "stage_light.png"
+    }
+  ],
+  "atlases": [
+    {
+      "key": "alphabet",
+      "png": "alphabet.png",
+      "xml": "alphabet.xml"
+    },
+    {
+      "key": "backButton",
+      "png": "backButton.png",
+      "xml": "backButton.xml"
+    },
+    {
+      "key": "backspace",
+      "png": "backspace.png",
+      "xml": "backspace.xml"
+    },
+    {
+      "key": "aBotViz",
+      "png": "characters\\abot\\aBotViz.png",
+      "xml": "characters\\abot\\aBotViz.xml"
+    },
+    {
+      "key": "abotHead",
+      "png": "characters\\abotPixel\\abotHead.png",
+      "xml": "characters\\abotPixel\\abotHead.xml"
+    },
+    {
+      "key": "aBotPixel",
+      "png": "characters\\abotPixel\\aBotPixel.png",
+      "xml": "characters\\abotPixel\\aBotPixel.xml"
+    },
+    {
+      "key": "aBotPixelBody",
+      "png": "characters\\abotPixel\\aBotPixelBody.png",
+      "xml": "characters\\abotPixel\\aBotPixelBody.xml"
+    },
+    {
+      "key": "aBotPixelSpeaker",
+      "png": "characters\\abotPixel\\aBotPixelSpeaker.png",
+      "xml": "characters\\abotPixel\\aBotPixelSpeaker.xml"
+    },
+    {
+      "key": "aBotVizPixel",
+      "png": "characters\\abotPixel\\aBotVizPixel.png",
+      "xml": "characters\\abotPixel\\aBotVizPixel.xml"
+    },
+    {
+      "key": "bfAndGF",
+      "png": "characters\\bfAndGF.png",
+      "xml": "characters\\bfAndGF.xml"
+    },
+    {
+      "key": "bfChristmas",
+      "png": "characters\\bfChristmas.png",
+      "xml": "characters\\bfChristmas.xml"
+    },
+    {
+      "key": "bfChristmas_Censored",
+      "png": "characters\\bfChristmas_Censored.png",
+      "xml": "characters\\bfChristmas_Censored.xml"
+    },
+    {
+      "key": "bfHoldingGF-DEAD",
+      "png": "characters\\bfHoldingGF-DEAD.png",
+      "xml": "characters\\bfHoldingGF-DEAD.xml"
+    },
+    {
+      "key": "bfPixel",
+      "png": "characters\\bfPixel.png",
+      "xml": "characters\\bfPixel.xml"
+    },
+    {
+      "key": "bfPixelsDEAD",
+      "png": "characters\\bfPixelsDEAD.png",
+      "xml": "characters\\bfPixelsDEAD.xml"
+    },
+    {
+      "key": "BOYFRIEND",
+      "png": "characters\\BOYFRIEND.png",
+      "xml": "characters\\BOYFRIEND.xml"
+    },
+    {
+      "key": "gfPixel",
+      "png": "characters\\gfPixel.png",
+      "xml": "characters\\gfPixel.xml"
+    },
+    {
+      "key": "gfTankmen",
+      "png": "characters\\gfTankmen.png",
+      "xml": "characters\\gfTankmen.xml"
+    },
+    {
+      "key": "neneChristmasKnife",
+      "png": "characters\\neneChristmasKnife.png",
+      "xml": "characters\\neneChristmasKnife.xml"
+    },
+    {
+      "key": "NeneKnifeToss",
+      "png": "characters\\NeneKnifeToss.png",
+      "xml": "characters\\NeneKnifeToss.xml"
+    },
+    {
+      "key": "nenePixel",
+      "png": "characters\\nenePixel\\nenePixel.png",
+      "xml": "characters\\nenePixel\\nenePixel.xml"
+    },
+    {
+      "key": "nenePixelKnifeToss",
+      "png": "characters\\nenePixel\\nenePixelKnifeToss.png",
+      "xml": "characters\\nenePixel\\nenePixelKnifeToss.xml"
+    },
+    {
+      "key": "Nene_comboHeart",
+      "png": "characters\\Nene_comboHeart.png",
+      "xml": "characters\\Nene_comboHeart.xml"
+    },
+    {
+      "key": "otis_flashes",
+      "png": "characters\\otis\\muzzle-flashes\\otis_flashes.png",
+      "xml": "characters\\otis\\muzzle-flashes\\otis_flashes.xml"
+    },
+    {
+      "key": "picoPixel",
+      "png": "characters\\picoPixel\\picoPixel.png",
+      "xml": "characters\\picoPixel\\picoPixel.xml"
+    },
+    {
+      "key": "Pico_Censored",
+      "png": "characters\\Pico_Censored.png",
+      "xml": "characters\\Pico_Censored.xml"
+    },
+    {
+      "key": "senpai",
+      "png": "characters\\senpai.png",
+      "xml": "characters\\senpai.xml"
+    },
+    {
+      "key": "bf_dancing",
+      "png": "characters\\special\\bf_dancing.png",
+      "xml": "characters\\special\\bf_dancing.xml"
+    },
+    {
+      "key": "bf_transform",
+      "png": "characters\\special\\bf_transform.png",
+      "xml": "characters\\special\\bf_transform.xml"
+    },
+    {
+      "key": "SpookyKids",
+      "png": "characters\\SpookyKids.png",
+      "xml": "characters\\SpookyKids.xml"
+    },
+    {
+      "key": "spooky_dark",
+      "png": "characters\\spooky_dark.png",
+      "xml": "characters\\spooky_dark.xml"
+    },
+    {
+      "key": "bfAndGF",
+      "png": "characters\\xml\\bfAndGF.png",
+      "xml": "characters\\xml\\bfAndGF.xml"
+    },
+    {
+      "key": "bfChristmas",
+      "png": "characters\\xml\\bfChristmas.png",
+      "xml": "characters\\xml\\bfChristmas.xml"
+    },
+    {
+      "key": "bfChristmas_Censored",
+      "png": "characters\\xml\\bfChristmas_Censored.png",
+      "xml": "characters\\xml\\bfChristmas_Censored.xml"
+    },
+    {
+      "key": "bfHoldingGF-DEAD",
+      "png": "characters\\xml\\bfHoldingGF-DEAD.png",
+      "xml": "characters\\xml\\bfHoldingGF-DEAD.xml"
+    },
+    {
+      "key": "bfPixel",
+      "png": "characters\\xml\\bfPixel.png",
+      "xml": "characters\\xml\\bfPixel.xml"
+    },
+    {
+      "key": "bfPixelsDEAD",
+      "png": "characters\\xml\\bfPixelsDEAD.png",
+      "xml": "characters\\xml\\bfPixelsDEAD.xml"
+    },
+    {
+      "key": "BOYFRIEND",
+      "png": "characters\\xml\\BOYFRIEND.png",
+      "xml": "characters\\xml\\BOYFRIEND.xml"
+    },
+    {
+      "key": "BOYFRIEND_DEAD",
+      "png": "characters\\xml\\BOYFRIEND_DEAD.png",
+      "xml": "characters\\xml\\BOYFRIEND_DEAD.xml"
+    },
+    {
+      "key": "DADDY_DEAREST",
+      "png": "characters\\xml\\DADDY_DEAREST.png",
+      "xml": "characters\\xml\\DADDY_DEAREST.xml"
+    },
+    {
+      "key": "gfPixel",
+      "png": "characters\\xml\\gfPixel.png",
+      "xml": "characters\\xml\\gfPixel.xml"
+    },
+    {
+      "key": "gfTankmen",
+      "png": "characters\\xml\\gfTankmen.png",
+      "xml": "characters\\xml\\gfTankmen.xml"
+    },
+    {
+      "key": "GF_assets",
+      "png": "characters\\xml\\GF_assets.png",
+      "xml": "characters\\xml\\GF_assets.xml"
+    },
+    {
+      "key": "neneChristmasKnife",
+      "png": "characters\\xml\\neneChristmasKnife.png",
+      "xml": "characters\\xml\\neneChristmasKnife.xml"
+    },
+    {
+      "key": "NeneKnifeToss",
+      "png": "characters\\xml\\NeneKnifeToss.png",
+      "xml": "characters\\xml\\NeneKnifeToss.xml"
+    },
+    {
+      "key": "Nene_comboHeart",
+      "png": "characters\\xml\\Nene_comboHeart.png",
+      "xml": "characters\\xml\\Nene_comboHeart.xml"
+    },
+    {
+      "key": "Pico_Censored",
+      "png": "characters\\xml\\Pico_Censored.png",
+      "xml": "characters\\xml\\Pico_Censored.xml"
+    },
+    {
+      "key": "senpai",
+      "png": "characters\\xml\\senpai.png",
+      "xml": "characters\\xml\\senpai.xml"
+    },
+    {
+      "key": "SpookyKids",
+      "png": "characters\\xml\\SpookyKids.png",
+      "xml": "characters\\xml\\SpookyKids.xml"
+    },
+    {
+      "key": "spooky_dark",
+      "png": "characters\\xml\\spooky_dark.png",
+      "xml": "characters\\xml\\spooky_dark.xml"
+    },
+    {
+      "key": "bfIcon",
+      "png": "charSelect\\bfIcon.png",
+      "xml": "charSelect\\bfIcon.xml"
+    },
+    {
+      "key": "charSelectorConfirm",
+      "png": "charSelect\\charSelectorConfirm.png",
+      "xml": "charSelect\\charSelectorConfirm.xml"
+    },
+    {
+      "key": "charSelectorDenied",
+      "png": "charSelect\\charSelectorDenied.png",
+      "xml": "charSelect\\charSelectorDenied.xml"
+    },
+    {
+      "key": "charSelectStage",
+      "png": "charSelect\\charSelectStage.png",
+      "xml": "charSelect\\charSelectStage.xml"
+    },
+    {
+      "key": "dipshitBacking",
+      "png": "charSelect\\dipshitBacking.png",
+      "xml": "charSelect\\dipshitBacking.xml"
+    },
+    {
+      "key": "dipshitBlur",
+      "png": "charSelect\\dipshitBlur.png",
+      "xml": "charSelect\\dipshitBlur.xml"
+    },
+    {
+      "key": "locks",
+      "png": "charSelect\\locks.png",
+      "xml": "charSelect\\locks.xml"
+    },
+    {
+      "key": "picoIcon",
+      "png": "charSelect\\picoIcon.png",
+      "xml": "charSelect\\picoIcon.xml"
+    },
+    {
+      "key": "randomChill",
+      "png": "charSelect\\randomChill.png",
+      "xml": "charSelect\\randomChill.xml"
+    },
+    {
+      "key": "checkboxThingie",
+      "png": "checkboxThingie.png",
+      "xml": "checkboxThingie.xml"
+    },
+    {
+      "key": "digital_numbers",
+      "png": "digital_numbers.png",
+      "xml": "digital_numbers.xml"
+    },
+    {
+      "key": "digital_numbers_pico",
+      "png": "digital_numbers_pico.png",
+      "xml": "digital_numbers_pico.xml"
+    },
+    {
+      "key": "bold",
+      "png": "fonts\\bold.png",
+      "xml": "fonts\\bold.xml"
+    },
+    {
+      "key": "default",
+      "png": "fonts\\default.png",
+      "xml": "fonts\\default.xml"
+    },
+    {
+      "key": "freeplay-clear",
+      "png": "fonts\\freeplay-clear.png",
+      "xml": "fonts\\freeplay-clear.xml"
+    },
+    {
+      "key": "expansion1-text",
+      "png": "freeplay\\albumRoll\\expansion1-text.png",
+      "xml": "freeplay\\albumRoll\\expansion1-text.xml"
+    },
+    {
+      "key": "expansion2-text",
+      "png": "freeplay\\albumRoll\\expansion2-text.png",
+      "xml": "freeplay\\albumRoll\\expansion2-text.xml"
+    },
+    {
+      "key": "spaghetti-text",
+      "png": "freeplay\\albumRoll\\spaghetti-text.png",
+      "xml": "freeplay\\albumRoll\\spaghetti-text.xml"
+    },
+    {
+      "key": "volume1-text",
+      "png": "freeplay\\albumRoll\\volume1-text.png",
+      "xml": "freeplay\\albumRoll\\volume1-text.xml"
+    },
+    {
+      "key": "volume2-text",
+      "png": "freeplay\\albumRoll\\volume2-text.png",
+      "xml": "freeplay\\albumRoll\\volume2-text.xml"
+    },
+    {
+      "key": "volume3-text",
+      "png": "freeplay\\albumRoll\\volume3-text.png",
+      "xml": "freeplay\\albumRoll\\volume3-text.xml"
+    },
+    {
+      "key": "volume4-text",
+      "png": "freeplay\\albumRoll\\volume4-text.png",
+      "xml": "freeplay\\albumRoll\\volume4-text.xml"
+    },
+    {
+      "key": "topLoop",
+      "png": "freeplay\\backingCards\\pico\\topLoop.png",
+      "xml": "freeplay\\backingCards\\pico\\topLoop.xml"
+    },
+    {
+      "key": "dotPulse",
+      "png": "freeplay\\dotPulse.png",
+      "xml": "freeplay\\dotPulse.xml"
+    },
+    {
+      "key": "favHeart",
+      "png": "freeplay\\favHeart.png",
+      "xml": "freeplay\\favHeart.xml"
+    },
+    {
+      "key": "bignumbers",
+      "png": "freeplay\\freeplayCapsule\\bignumbers.png",
+      "xml": "freeplay\\freeplayCapsule\\bignumbers.xml"
+    },
+    {
+      "key": "freeplayCapsule",
+      "png": "freeplay\\freeplayCapsule\\capsule\\freeplayCapsule.png",
+      "xml": "freeplay\\freeplayCapsule\\capsule\\freeplayCapsule.xml"
+    },
+    {
+      "key": "freeplayCapsule_pico",
+      "png": "freeplay\\freeplayCapsule\\capsule\\freeplayCapsule_pico.png",
+      "xml": "freeplay\\freeplayCapsule\\capsule\\freeplayCapsule_pico.xml"
+    },
+    {
+      "key": "new",
+      "png": "freeplay\\freeplayCapsule\\new.png",
+      "xml": "freeplay\\freeplayCapsule\\new.xml"
+    },
+    {
+      "key": "smallnumbers",
+      "png": "freeplay\\freeplayCapsule\\smallnumbers.png",
+      "xml": "freeplay\\freeplayCapsule\\smallnumbers.xml"
+    },
+    {
+      "key": "freeplayFlame",
+      "png": "freeplay\\freeplayFlame.png",
+      "xml": "freeplay\\freeplayFlame.xml"
+    },
+    {
+      "key": "freeplaynightmare",
+      "png": "freeplay\\freeplaynightmare.png",
+      "xml": "freeplay\\freeplaynightmare.xml"
+    },
+    {
+      "key": "freeplaySelector",
+      "png": "freeplay\\freeplaySelector\\freeplaySelector.png",
+      "xml": "freeplay\\freeplaySelector\\freeplaySelector.xml"
+    },
+    {
+      "key": "freeplaySelector_pico",
+      "png": "freeplay\\freeplaySelector\\freeplaySelector_pico.png",
+      "xml": "freeplay\\freeplaySelector\\freeplaySelector_pico.xml"
+    },
+    {
+      "key": "freeplaySelector",
+      "png": "freeplay\\freeplaySelector.png",
+      "xml": "freeplay\\freeplaySelector.xml"
+    },
+    {
+      "key": "highscore",
+      "png": "freeplay\\highscore.png",
+      "xml": "freeplay\\highscore.xml"
+    },
+    {
+      "key": "bfpixel",
+      "png": "freeplay\\icons\\bfpixel.png",
+      "xml": "freeplay\\icons\\bfpixel.xml"
+    },
+    {
+      "key": "dadpixel",
+      "png": "freeplay\\icons\\dadpixel.png",
+      "xml": "freeplay\\icons\\dadpixel.xml"
+    },
+    {
+      "key": "darnellpixel",
+      "png": "freeplay\\icons\\darnellpixel.png",
+      "xml": "freeplay\\icons\\darnellpixel.xml"
+    },
+    {
+      "key": "gfpixel",
+      "png": "freeplay\\icons\\gfpixel.png",
+      "xml": "freeplay\\icons\\gfpixel.xml"
+    },
+    {
+      "key": "mompixel",
+      "png": "freeplay\\icons\\mompixel.png",
+      "xml": "freeplay\\icons\\mompixel.xml"
+    },
+    {
+      "key": "monsterpixel",
+      "png": "freeplay\\icons\\monsterpixel.png",
+      "xml": "freeplay\\icons\\monsterpixel.xml"
+    },
+    {
+      "key": "parents-christmaspixel",
+      "png": "freeplay\\icons\\parents-christmaspixel.png",
+      "xml": "freeplay\\icons\\parents-christmaspixel.xml"
+    },
+    {
+      "key": "picopixel",
+      "png": "freeplay\\icons\\picopixel.png",
+      "xml": "freeplay\\icons\\picopixel.xml"
+    },
+    {
+      "key": "senpaipixel",
+      "png": "freeplay\\icons\\senpaipixel.png",
+      "xml": "freeplay\\icons\\senpaipixel.xml"
+    },
+    {
+      "key": "spiritpixel",
+      "png": "freeplay\\icons\\spiritpixel.png",
+      "xml": "freeplay\\icons\\spiritpixel.xml"
+    },
+    {
+      "key": "spookypixel",
+      "png": "freeplay\\icons\\spookypixel.png",
+      "xml": "freeplay\\icons\\spookypixel.xml"
+    },
+    {
+      "key": "sserafim-kazuhapixel",
+      "png": "freeplay\\icons\\sserafim-kazuhapixel.png",
+      "xml": "freeplay\\icons\\sserafim-kazuhapixel.xml"
+    },
+    {
+      "key": "tankmanpixel",
+      "png": "freeplay\\icons\\tankmanpixel.png",
+      "xml": "freeplay\\icons\\tankmanpixel.xml"
+    },
+    {
+      "key": "instBox",
+      "png": "freeplay\\instBox\\instBox.png",
+      "xml": "freeplay\\instBox\\instBox.xml"
+    },
+    {
+      "key": "letterStuff",
+      "png": "freeplay\\letterStuff.png",
+      "xml": "freeplay\\letterStuff.xml"
+    },
+    {
+      "key": "rankbadges",
+      "png": "freeplay\\rankbadges.png",
+      "xml": "freeplay\\rankbadges.xml"
+    },
+    {
+      "key": "sparkle",
+      "png": "freeplay\\sparkle.png",
+      "xml": "freeplay\\sparkle.xml"
+    },
+    {
+      "key": "sparks",
+      "png": "freeplay\\sparks.png",
+      "xml": "freeplay\\sparks.xml"
+    },
+    {
+      "key": "sparksadd",
+      "png": "freeplay\\sparksadd.png",
+      "xml": "freeplay\\sparksadd.xml"
+    },
+    {
+      "key": "gfDanceTitle",
+      "png": "gfDanceTitle.png",
+      "xml": "gfDanceTitle.xml"
+    },
+    {
+      "key": "holdCoverBlue",
+      "png": "holdCoverBlue.png",
+      "xml": "holdCoverBlue.xml"
+    },
+    {
+      "key": "holdCoverGreen",
+      "png": "holdCoverGreen.png",
+      "xml": "holdCoverGreen.xml"
+    },
+    {
+      "key": "holdCoverPurple",
+      "png": "holdCoverPurple.png",
+      "xml": "holdCoverPurple.xml"
+    },
+    {
+      "key": "holdCoverRed",
+      "png": "holdCoverRed.png",
+      "xml": "holdCoverRed.xml"
+    },
+    {
+      "key": "logoBumpin",
+      "png": "logoBumpin.png",
+      "xml": "logoBumpin.xml"
+    },
+    {
+      "key": "city",
+      "png": "menu\\intro\\city.png",
+      "xml": "menu\\intro\\city.xml"
+    },
+    {
+      "key": "gfDanceTitle",
+      "png": "menu\\intro\\gfDanceTitle.png",
+      "xml": "menu\\intro\\gfDanceTitle.xml"
+    },
+    {
+      "key": "logoBumpin",
+      "png": "menu\\intro\\logoBumpin.png",
+      "xml": "menu\\intro\\logoBumpin.xml"
+    },
+    {
+      "key": "titleEnter",
+      "png": "menu\\intro\\titleEnter.png",
+      "xml": "menu\\intro\\titleEnter.xml"
+    },
+    {
+      "key": "titleEnter_mobile",
+      "png": "menu\\intro\\titleEnter_mobile.png",
+      "xml": "menu\\intro\\titleEnter_mobile.xml"
+    },
+    {
+      "key": "credits",
+      "png": "menu\\mainmenu\\credits.png",
+      "xml": "menu\\mainmenu\\credits.xml"
+    },
+    {
+      "key": "freeplay",
+      "png": "menu\\mainmenu\\freeplay.png",
+      "xml": "menu\\mainmenu\\freeplay.xml"
+    },
+    {
+      "key": "merch",
+      "png": "menu\\mainmenu\\merch.png",
+      "xml": "menu\\mainmenu\\merch.xml"
+    },
+    {
+      "key": "multiplayer",
+      "png": "menu\\mainmenu\\multiplayer.png",
+      "xml": "menu\\mainmenu\\multiplayer.xml"
+    },
+    {
+      "key": "options",
+      "png": "menu\\mainmenu\\options.png",
+      "xml": "menu\\mainmenu\\options.xml"
+    },
+    {
+      "key": "optionsButton",
+      "png": "menu\\mainmenu\\optionsButton.png",
+      "xml": "menu\\mainmenu\\optionsButton.xml"
+    },
+    {
+      "key": "storymode",
+      "png": "menu\\mainmenu\\storymode.png",
+      "xml": "menu\\mainmenu\\storymode.xml"
+    },
+    {
+      "key": "upgrade",
+      "png": "menu\\mainmenu\\upgrade.png",
+      "xml": "menu\\mainmenu\\upgrade.xml"
+    },
+    {
+      "key": "checkboxThingie",
+      "png": "menu\\options\\checkboxThingie.png",
+      "xml": "menu\\options\\checkboxThingie.xml"
+    },
+    {
+      "key": "OptionsButtonsIcons",
+      "png": "menu\\options\\OptionsButtonsIcons.png",
+      "xml": "menu\\options\\OptionsButtonsIcons.xml"
+    },
+    {
+      "key": "tabSelector",
+      "png": "menu\\options\\tabSelector.png",
+      "xml": "menu\\options\\tabSelector.xml"
+    },
+    {
+      "key": "nightmare",
+      "png": "menu\\storymenu\\difficulties\\nightmare.png",
+      "xml": "menu\\storymenu\\difficulties\\nightmare.xml"
+    },
+    {
+      "key": "bf",
+      "png": "menu\\storymenu\\props\\bf.png",
+      "xml": "menu\\storymenu\\props\\bf.xml"
+    },
+    {
+      "key": "dad",
+      "png": "menu\\storymenu\\props\\dad.png",
+      "xml": "menu\\storymenu\\props\\dad.xml"
+    },
+    {
+      "key": "darnell",
+      "png": "menu\\storymenu\\props\\darnell.png",
+      "xml": "menu\\storymenu\\props\\darnell.xml"
+    },
+    {
+      "key": "gf",
+      "png": "menu\\storymenu\\props\\gf.png",
+      "xml": "menu\\storymenu\\props\\gf.xml"
+    },
+    {
+      "key": "mom",
+      "png": "menu\\storymenu\\props\\mom.png",
+      "xml": "menu\\storymenu\\props\\mom.xml"
+    },
+    {
+      "key": "nene",
+      "png": "menu\\storymenu\\props\\nene.png",
+      "xml": "menu\\storymenu\\props\\nene.xml"
+    },
+    {
+      "key": "parents-xmas",
+      "png": "menu\\storymenu\\props\\parents-xmas.png",
+      "xml": "menu\\storymenu\\props\\parents-xmas.xml"
+    },
+    {
+      "key": "pico-player",
+      "png": "menu\\storymenu\\props\\pico-player.png",
+      "xml": "menu\\storymenu\\props\\pico-player.xml"
+    },
+    {
+      "key": "pico",
+      "png": "menu\\storymenu\\props\\pico.png",
+      "xml": "menu\\storymenu\\props\\pico.xml"
+    },
+    {
+      "key": "senpai",
+      "png": "menu\\storymenu\\props\\senpai.png",
+      "xml": "menu\\storymenu\\props\\senpai.xml"
+    },
+    {
+      "key": "spaghetti",
+      "png": "menu\\storymenu\\props\\spaghetti.png",
+      "xml": "menu\\storymenu\\props\\spaghetti.xml"
+    },
+    {
+      "key": "spooky",
+      "png": "menu\\storymenu\\props\\spooky.png",
+      "xml": "menu\\storymenu\\props\\spooky.xml"
+    },
+    {
+      "key": "tankman",
+      "png": "menu\\storymenu\\props\\tankman.png",
+      "xml": "menu\\storymenu\\props\\tankman.xml"
+    },
+    {
+      "key": "arrows",
+      "png": "menu\\storymenu\\ui\\arrows.png",
+      "xml": "menu\\storymenu\\ui\\arrows.xml"
+    },
+    {
+      "key": "arrows",
+      "png": "menu\\storymode\\arrows.png",
+      "xml": "menu\\storymode\\arrows.xml"
+    },
+    {
+      "key": "nightmare",
+      "png": "menu\\storymode\\difficults\\nightmare.png",
+      "xml": "menu\\storymode\\difficults\\nightmare.xml"
+    },
+    {
+      "key": "Menu_bf",
+      "png": "menu\\storymode\\menucharacters\\Menu_bf.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_bf.xml"
+    },
+    {
+      "key": "Menu_dad",
+      "png": "menu\\storymode\\menucharacters\\Menu_dad.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_dad.xml"
+    },
+    {
+      "key": "Menu_darnell",
+      "png": "menu\\storymode\\menucharacters\\Menu_darnell.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_darnell.xml"
+    },
+    {
+      "key": "Menu_gf",
+      "png": "menu\\storymode\\menucharacters\\Menu_gf.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_gf.xml"
+    },
+    {
+      "key": "Menu_mom",
+      "png": "menu\\storymode\\menucharacters\\Menu_mom.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_mom.xml"
+    },
+    {
+      "key": "Menu_nene",
+      "png": "menu\\storymode\\menucharacters\\Menu_nene.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_nene.xml"
+    },
+    {
+      "key": "Menu_parents",
+      "png": "menu\\storymode\\menucharacters\\Menu_parents.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_parents.xml"
+    },
+    {
+      "key": "Menu_pico-player",
+      "png": "menu\\storymode\\menucharacters\\Menu_pico-player.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_pico-player.xml"
+    },
+    {
+      "key": "Menu_pico",
+      "png": "menu\\storymode\\menucharacters\\Menu_pico.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_pico.xml"
+    },
+    {
+      "key": "Menu_senpai",
+      "png": "menu\\storymode\\menucharacters\\Menu_senpai.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_senpai.xml"
+    },
+    {
+      "key": "Menu_spaghetti",
+      "png": "menu\\storymode\\menucharacters\\Menu_spaghetti.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_spaghetti.xml"
+    },
+    {
+      "key": "Menu_spooky",
+      "png": "menu\\storymode\\menucharacters\\Menu_spooky.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_spooky.xml"
+    },
+    {
+      "key": "Menu_tankman",
+      "png": "menu\\storymode\\menucharacters\\Menu_tankman.png",
+      "xml": "menu\\storymode\\menucharacters\\Menu_tankman.xml"
+    },
+    {
+      "key": "notes",
+      "png": "notes.png",
+      "xml": "notes.xml"
+    },
+    {
+      "key": "noteSplashes",
+      "png": "noteSplashes.png",
+      "xml": "noteSplashes.xml"
+    },
+    {
+      "key": "noteStrumline",
+      "png": "noteStrumline.png",
+      "xml": "noteStrumline.xml"
+    },
+    {
+      "key": "NOTE_assets",
+      "png": "NOTE_assets.png",
+      "xml": "NOTE_assets.xml"
+    },
+    {
+      "key": "bfLol",
+      "png": "pauseAlt\\bfLol.png",
+      "xml": "pauseAlt\\bfLol.xml"
+    },
+    {
+      "key": "pauseUI",
+      "png": "pauseAlt\\pauseUI.png",
+      "xml": "pauseAlt\\pauseUI.xml"
+    },
+    {
+      "key": "pauseButton",
+      "png": "pauseButton.png",
+      "xml": "pauseButton.xml"
+    },
+    {
+      "key": "prompt-ng_login",
+      "png": "prompt-ng_login.png",
+      "xml": "prompt-ng_login.xml"
+    },
+    {
+      "key": "clearPercentNumberLeft",
+      "png": "resultScreen\\clearPercent\\clearPercentNumberLeft.png",
+      "xml": "resultScreen\\clearPercent\\clearPercentNumberLeft.xml"
+    },
+    {
+      "key": "clearPercentNumberRight",
+      "png": "resultScreen\\clearPercent\\clearPercentNumberRight.png",
+      "xml": "resultScreen\\clearPercent\\clearPercentNumberRight.xml"
+    },
+    {
+      "key": "clearPercentNumberSmall",
+      "png": "resultScreen\\clearPercent\\clearPercentNumberSmall.png",
+      "xml": "resultScreen\\clearPercent\\clearPercentNumberSmall.xml"
+    },
+    {
+      "key": "highscoreNew",
+      "png": "resultScreen\\highscoreNew.png",
+      "xml": "resultScreen\\highscoreNew.xml"
+    },
+    {
+      "key": "ratingsPopin",
+      "png": "resultScreen\\ratingsPopin.png",
+      "xml": "resultScreen\\ratingsPopin.xml"
+    },
+    {
+      "key": "resultGirlfriendGOOD",
+      "png": "resultScreen\\results-bf\\resultsGOOD\\resultGirlfriendGOOD.png",
+      "xml": "resultScreen\\results-bf\\resultsGOOD\\resultGirlfriendGOOD.xml"
+    },
+    {
+      "key": "results",
+      "png": "resultScreen\\results.png",
+      "xml": "resultScreen\\results.xml"
+    },
+    {
+      "key": "score-digital-numbers",
+      "png": "resultScreen\\score-digital-numbers.png",
+      "xml": "resultScreen\\score-digital-numbers.xml"
+    },
+    {
+      "key": "scorePopin",
+      "png": "resultScreen\\scorePopin.png",
+      "xml": "resultScreen\\scorePopin.xml"
+    },
+    {
+      "key": "soundSystem",
+      "png": "resultScreen\\soundSystem.png",
+      "xml": "resultScreen\\soundSystem.xml"
+    },
+    {
+      "key": "tallieNumber",
+      "png": "resultScreen\\tallieNumber.png",
+      "xml": "resultScreen\\tallieNumber.xml"
+    },
+    {
+      "key": "holdCoverBlue",
+      "png": "skins\\Funkin\\notes\\holdCovers\\holdCoverBlue.png",
+      "xml": "skins\\Funkin\\notes\\holdCovers\\holdCoverBlue.xml"
+    },
+    {
+      "key": "holdCoverGreen",
+      "png": "skins\\Funkin\\notes\\holdCovers\\holdCoverGreen.png",
+      "xml": "skins\\Funkin\\notes\\holdCovers\\holdCoverGreen.xml"
+    },
+    {
+      "key": "holdCoverPurple",
+      "png": "skins\\Funkin\\notes\\holdCovers\\holdCoverPurple.png",
+      "xml": "skins\\Funkin\\notes\\holdCovers\\holdCoverPurple.xml"
+    },
+    {
+      "key": "holdCoverRed",
+      "png": "skins\\Funkin\\notes\\holdCovers\\holdCoverRed.png",
+      "xml": "skins\\Funkin\\notes\\holdCovers\\holdCoverRed.xml"
+    },
+    {
+      "key": "notes",
+      "png": "skins\\Funkin\\notes\\notes.png",
+      "xml": "skins\\Funkin\\notes\\notes.xml"
+    },
+    {
+      "key": "noteSplashes",
+      "png": "skins\\Funkin\\notes\\noteSplashes.png",
+      "xml": "skins\\Funkin\\notes\\noteSplashes.xml"
+    },
+    {
+      "key": "noteStrumline",
+      "png": "skins\\Funkin\\notes\\noteStrumline.png",
+      "xml": "skins\\Funkin\\notes\\noteStrumline.xml"
+    },
+    {
+      "key": "NOTE_hold_assets",
+      "png": "skins\\Funkin\\notes\\NOTE_hold_assets.png",
+      "xml": "skins\\Funkin\\notes\\NOTE_hold_assets.xml"
+    },
+    {
+      "key": "crowd",
+      "png": "stages\\backstage\\crowd.png",
+      "xml": "stages\\backstage\\crowd.xml"
+    },
+    {
+      "key": "bottomBop",
+      "png": "stages\\christmas\\bottomBop.png",
+      "xml": "stages\\christmas\\bottomBop.xml"
+    },
+    {
+      "key": "snowflakes",
+      "png": "stages\\christmas\\erect\\snowflakes.png",
+      "xml": "stages\\christmas\\erect\\snowflakes.xml"
+    },
+    {
+      "key": "upperBop",
+      "png": "stages\\christmas\\erect\\upperBop.png",
+      "xml": "stages\\christmas\\erect\\upperBop.xml"
+    },
+    {
+      "key": "santa",
+      "png": "stages\\christmas\\santa.png",
+      "xml": "stages\\christmas\\santa.xml"
+    },
+    {
+      "key": "upperBop",
+      "png": "stages\\christmas\\upperBop.png",
+      "xml": "stages\\christmas\\upperBop.xml"
+    },
+    {
+      "key": "crowd",
+      "png": "stages\\erect\\crowd.png",
+      "xml": "stages\\erect\\crowd.xml"
+    },
+    {
+      "key": "bgtrees",
+      "png": "stages\\halloween\\erect\\bgtrees.png",
+      "xml": "stages\\halloween\\erect\\bgtrees.xml"
+    },
+    {
+      "key": "bgLimo",
+      "png": "stages\\limo\\bgLimo.png",
+      "xml": "stages\\limo\\bgLimo.xml"
+    },
+    {
+      "key": "bgLimo",
+      "png": "stages\\limo\\erect\\bgLimo.png",
+      "xml": "stages\\limo\\erect\\bgLimo.xml"
+    },
+    {
+      "key": "limoDrive",
+      "png": "stages\\limo\\erect\\limoDrive.png",
+      "xml": "stages\\limo\\erect\\limoDrive.xml"
+    },
+    {
+      "key": "shooting star",
+      "png": "stages\\limo\\erect\\shooting star.png",
+      "xml": "stages\\limo\\erect\\shooting star.xml"
+    },
+    {
+      "key": "henchmen",
+      "png": "stages\\limo\\henchmen.png",
+      "xml": "stages\\limo\\henchmen.xml"
+    },
+    {
+      "key": "limoDancer",
+      "png": "stages\\limo\\limoDancer.png",
+      "xml": "stages\\limo\\limoDancer.xml"
+    },
+    {
+      "key": "limoDrive",
+      "png": "stages\\limo\\limoDrive.png",
+      "xml": "stages\\limo\\limoDrive.xml"
+    },
+    {
+      "key": "cigarette",
+      "png": "stages\\philly\\erect\\cigarette.png",
+      "xml": "stages\\philly\\erect\\cigarette.xml"
+    },
+    {
+      "key": "smokeLeft",
+      "png": "stages\\tankman\\smokeLeft.png",
+      "xml": "stages\\tankman\\smokeLeft.xml"
+    },
+    {
+      "key": "smokeRight",
+      "png": "stages\\tankman\\smokeRight.png",
+      "xml": "stages\\tankman\\smokeRight.xml"
+    },
+    {
+      "key": "tank0",
+      "png": "stages\\tankman\\tank0.png",
+      "xml": "stages\\tankman\\tank0.xml"
+    },
+    {
+      "key": "tank1",
+      "png": "stages\\tankman\\tank1.png",
+      "xml": "stages\\tankman\\tank1.xml"
+    },
+    {
+      "key": "tank2",
+      "png": "stages\\tankman\\tank2.png",
+      "xml": "stages\\tankman\\tank2.xml"
+    },
+    {
+      "key": "tank3",
+      "png": "stages\\tankman\\tank3.png",
+      "xml": "stages\\tankman\\tank3.xml"
+    },
+    {
+      "key": "tank4",
+      "png": "stages\\tankman\\tank4.png",
+      "xml": "stages\\tankman\\tank4.xml"
+    },
+    {
+      "key": "tank5",
+      "png": "stages\\tankman\\tank5.png",
+      "xml": "stages\\tankman\\tank5.xml"
+    },
+    {
+      "key": "tankmanKilled1",
+      "png": "stages\\tankman\\tankmanKilled1.png",
+      "xml": "stages\\tankman\\tankmanKilled1.xml"
+    },
+    {
+      "key": "tankRolling",
+      "png": "stages\\tankman\\tankRolling.png",
+      "xml": "stages\\tankman\\tankRolling.xml"
+    },
+    {
+      "key": "tankWatchtower",
+      "png": "stages\\tankman\\tankWatchtower.png",
+      "xml": "stages\\tankman\\tankWatchtower.xml"
+    },
+    {
+      "key": "animatedEvilSchool",
+      "png": "stages\\weeb\\animatedEvilSchool.png",
+      "xml": "stages\\weeb\\animatedEvilSchool.xml"
+    },
+    {
+      "key": "bgFreaks",
+      "png": "stages\\weeb\\bgFreaks.png",
+      "xml": "stages\\weeb\\bgFreaks.xml"
+    },
+    {
+      "key": "petals",
+      "png": "stages\\weeb\\erect\\petals.png",
+      "xml": "stages\\weeb\\erect\\petals.xml"
+    },
+    {
+      "key": "petals",
+      "png": "stages\\weeb\\petals.png",
+      "xml": "stages\\weeb\\petals.xml"
+    },
+    {
+      "key": "pixelNoteHoldCover",
+      "png": "stages\\weeb\\pixelNoteHoldCover.png",
+      "xml": "stages\\weeb\\pixelNoteHoldCover.xml"
+    },
+    {
+      "key": "pixelNoteSplash",
+      "png": "stages\\weeb\\pixelNoteSplash.png",
+      "xml": "stages\\weeb\\pixelNoteSplash.xml"
+    },
+    {
+      "key": "arrows-pixels",
+      "png": "stages\\weeb\\pixelUI\\arrows-pixels.png",
+      "xml": "stages\\weeb\\pixelUI\\arrows-pixels.xml"
+    },
+    {
+      "key": "dialogueBox-evil",
+      "png": "stages\\weeb\\pixelUI\\dialogueBox-evil.png",
+      "xml": "stages\\weeb\\pixelUI\\dialogueBox-evil.xml"
+    },
+    {
+      "key": "dialogueBox-evilNew",
+      "png": "stages\\weeb\\pixelUI\\dialogueBox-evilNew.png",
+      "xml": "stages\\weeb\\pixelUI\\dialogueBox-evilNew.xml"
+    },
+    {
+      "key": "dialogueBox-new",
+      "png": "stages\\weeb\\pixelUI\\dialogueBox-new.png",
+      "xml": "stages\\weeb\\pixelUI\\dialogueBox-new.xml"
+    },
+    {
+      "key": "dialogueBox-pixel",
+      "png": "stages\\weeb\\pixelUI\\dialogueBox-pixel.png",
+      "xml": "stages\\weeb\\pixelUI\\dialogueBox-pixel.xml"
+    },
+    {
+      "key": "dialogueBox-senpaiMad",
+      "png": "stages\\weeb\\pixelUI\\dialogueBox-senpaiMad.png",
+      "xml": "stages\\weeb\\pixelUI\\dialogueBox-senpaiMad.xml"
+    },
+    {
+      "key": "portrait-boyfriend",
+      "png": "stages\\weeb\\portrait-boyfriend.png",
+      "xml": "stages\\weeb\\portrait-boyfriend.xml"
+    },
+    {
+      "key": "portrait-nene-peeved",
+      "png": "stages\\weeb\\portrait-nene-peeved.png",
+      "xml": "stages\\weeb\\portrait-nene-peeved.xml"
+    },
+    {
+      "key": "portrait-nene",
+      "png": "stages\\weeb\\portrait-nene.png",
+      "xml": "stages\\weeb\\portrait-nene.xml"
+    },
+    {
+      "key": "portrait-pico-peeved",
+      "png": "stages\\weeb\\portrait-pico-peeved.png",
+      "xml": "stages\\weeb\\portrait-pico-peeved.xml"
+    },
+    {
+      "key": "portrait-pico",
+      "png": "stages\\weeb\\portrait-pico.png",
+      "xml": "stages\\weeb\\portrait-pico.xml"
+    },
+    {
+      "key": "portrait-senpai-angry",
+      "png": "stages\\weeb\\portrait-senpai-angry.png",
+      "xml": "stages\\weeb\\portrait-senpai-angry.xml"
+    },
+    {
+      "key": "portrait-senpai-bwuh",
+      "png": "stages\\weeb\\portrait-senpai-bwuh.png",
+      "xml": "stages\\weeb\\portrait-senpai-bwuh.xml"
+    },
+    {
+      "key": "portrait-senpai",
+      "png": "stages\\weeb\\portrait-senpai.png",
+      "xml": "stages\\weeb\\portrait-senpai.xml"
+    },
+    {
+      "key": "senpaiCrazy",
+      "png": "stages\\weeb\\senpaiCrazy.png",
+      "xml": "stages\\weeb\\senpaiCrazy.xml"
+    },
+    {
+      "key": "spiritFaceForward",
+      "png": "stages\\weeb\\spiritFaceForward.png",
+      "xml": "stages\\weeb\\spiritFaceForward.xml"
+    },
+    {
+      "key": "animatedEvilSchool",
+      "png": "stages\\weeb\\weeb\\animatedEvilSchool.png",
+      "xml": "stages\\weeb\\weeb\\animatedEvilSchool.xml"
+    },
+    {
+      "key": "bgFreaks",
+      "png": "stages\\weeb\\weeb\\bgFreaks.png",
+      "xml": "stages\\weeb\\weeb\\bgFreaks.xml"
+    },
+    {
+      "key": "petals",
+      "png": "stages\\weeb\\weeb\\erect\\petals.png",
+      "xml": "stages\\weeb\\weeb\\erect\\petals.xml"
+    },
+    {
+      "key": "petals",
+      "png": "stages\\weeb\\weeb\\petals.png",
+      "xml": "stages\\weeb\\weeb\\petals.xml"
+    },
+    {
+      "key": "arrows-pixels",
+      "png": "stages\\weeb\\weeb\\pixelUI\\arrows-pixels.png",
+      "xml": "stages\\weeb\\weeb\\pixelUI\\arrows-pixels.xml"
+    },
+    {
+      "key": "dialogueBox-evil",
+      "png": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-evil.png",
+      "xml": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-evil.xml"
+    },
+    {
+      "key": "dialogueBox-evilNew",
+      "png": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-evilNew.png",
+      "xml": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-evilNew.xml"
+    },
+    {
+      "key": "dialogueBox-new",
+      "png": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-new.png",
+      "xml": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-new.xml"
+    },
+    {
+      "key": "dialogueBox-pixel",
+      "png": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-pixel.png",
+      "xml": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-pixel.xml"
+    },
+    {
+      "key": "dialogueBox-senpaiMad",
+      "png": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-senpaiMad.png",
+      "xml": "stages\\weeb\\weeb\\pixelUI\\dialogueBox-senpaiMad.xml"
+    },
+    {
+      "key": "portrait-boyfriend",
+      "png": "stages\\weeb\\weeb\\portrait-boyfriend.png",
+      "xml": "stages\\weeb\\weeb\\portrait-boyfriend.xml"
+    },
+    {
+      "key": "portrait-nene-peeved",
+      "png": "stages\\weeb\\weeb\\portrait-nene-peeved.png",
+      "xml": "stages\\weeb\\weeb\\portrait-nene-peeved.xml"
+    },
+    {
+      "key": "portrait-nene",
+      "png": "stages\\weeb\\weeb\\portrait-nene.png",
+      "xml": "stages\\weeb\\weeb\\portrait-nene.xml"
+    },
+    {
+      "key": "portrait-pico-peeved",
+      "png": "stages\\weeb\\weeb\\portrait-pico-peeved.png",
+      "xml": "stages\\weeb\\weeb\\portrait-pico-peeved.xml"
+    },
+    {
+      "key": "portrait-pico",
+      "png": "stages\\weeb\\weeb\\portrait-pico.png",
+      "xml": "stages\\weeb\\weeb\\portrait-pico.xml"
+    },
+    {
+      "key": "portrait-senpai-angry",
+      "png": "stages\\weeb\\weeb\\portrait-senpai-angry.png",
+      "xml": "stages\\weeb\\weeb\\portrait-senpai-angry.xml"
+    },
+    {
+      "key": "portrait-senpai-bwuh",
+      "png": "stages\\weeb\\weeb\\portrait-senpai-bwuh.png",
+      "xml": "stages\\weeb\\weeb\\portrait-senpai-bwuh.xml"
+    },
+    {
+      "key": "portrait-senpai",
+      "png": "stages\\weeb\\weeb\\portrait-senpai.png",
+      "xml": "stages\\weeb\\weeb\\portrait-senpai.xml"
+    },
+    {
+      "key": "senpaiCrazy",
+      "png": "stages\\weeb\\weeb\\senpaiCrazy.png",
+      "xml": "stages\\weeb\\weeb\\senpaiCrazy.xml"
+    },
+    {
+      "key": "spiritFaceForward",
+      "png": "stages\\weeb\\weeb\\spiritFaceForward.png",
+      "xml": "stages\\weeb\\weeb\\spiritFaceForward.xml"
+    },
+    {
+      "key": "CanImpactParticle",
+      "png": "stages\\weekend1\\CanImpactParticle.png",
+      "xml": "stages\\weekend1\\CanImpactParticle.xml"
+    },
+    {
+      "key": "fightDarnell",
+      "png": "stages\\weekend1\\fightDarnell.png",
+      "xml": "stages\\weekend1\\fightDarnell.xml"
+    },
+    {
+      "key": "fightPico",
+      "png": "stages\\weekend1\\fightPico.png",
+      "xml": "stages\\weekend1\\fightPico.xml"
+    },
+    {
+      "key": "lightning",
+      "png": "stages\\weekend1\\phillyBlazin\\lightning.png",
+      "xml": "stages\\weekend1\\phillyBlazin\\lightning.xml"
+    },
+    {
+      "key": "paper",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\paper.png",
+      "xml": "stages\\weekend1\\phillyStreets\\erect\\paper.xml"
+    },
+    {
+      "key": "phillyCars",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyCars.png",
+      "xml": "stages\\weekend1\\phillyStreets\\erect\\phillyCars.xml"
+    },
+    {
+      "key": "phillyTraffic",
+      "png": "stages\\weekend1\\phillyStreets\\erect\\phillyTraffic.png",
+      "xml": "stages\\weekend1\\phillyStreets\\erect\\phillyTraffic.xml"
+    },
+    {
+      "key": "phillyCars",
+      "png": "stages\\weekend1\\phillyStreets\\phillyCars.png",
+      "xml": "stages\\weekend1\\phillyStreets\\phillyCars.xml"
+    },
+    {
+      "key": "phillyTraffic",
+      "png": "stages\\weekend1\\phillyStreets\\phillyTraffic.png",
+      "xml": "stages\\weekend1\\phillyStreets\\phillyTraffic.xml"
+    },
+    {
+      "key": "picoBlazinDeathConfirm",
+      "png": "stages\\weekend1\\picoBlazinDeathConfirm.png",
+      "xml": "stages\\weekend1\\picoBlazinDeathConfirm.xml"
+    },
+    {
+      "key": "PicoBullet",
+      "png": "stages\\weekend1\\PicoBullet.png",
+      "xml": "stages\\weekend1\\PicoBullet.xml"
+    },
+    {
+      "key": "SpraypaintExplosion",
+      "png": "stages\\weekend1\\SpraypaintExplosion.png",
+      "xml": "stages\\weekend1\\SpraypaintExplosion.xml"
+    },
+    {
+      "key": "spraypaintExplosionEZ",
+      "png": "stages\\weekend1\\spraypaintExplosionEZ.png",
+      "xml": "stages\\weekend1\\spraypaintExplosionEZ.xml"
+    },
+    {
+      "key": "wked1_cutscene_1_can",
+      "png": "stages\\weekend1\\wked1_cutscene_1_can.png",
+      "xml": "stages\\weekend1\\wked1_cutscene_1_can.xml"
+    },
+    {
+      "key": "nightmare",
+      "png": "storymenu\\difficulties\\nightmare.png",
+      "xml": "storymenu\\difficulties\\nightmare.xml"
+    },
+    {
+      "key": "bf",
+      "png": "storymenu\\props\\bf.png",
+      "xml": "storymenu\\props\\bf.xml"
+    },
+    {
+      "key": "dad",
+      "png": "storymenu\\props\\dad.png",
+      "xml": "storymenu\\props\\dad.xml"
+    },
+    {
+      "key": "darnell",
+      "png": "storymenu\\props\\darnell.png",
+      "xml": "storymenu\\props\\darnell.xml"
+    },
+    {
+      "key": "gf",
+      "png": "storymenu\\props\\gf.png",
+      "xml": "storymenu\\props\\gf.xml"
+    },
+    {
+      "key": "mom",
+      "png": "storymenu\\props\\mom.png",
+      "xml": "storymenu\\props\\mom.xml"
+    },
+    {
+      "key": "nene",
+      "png": "storymenu\\props\\nene.png",
+      "xml": "storymenu\\props\\nene.xml"
+    },
+    {
+      "key": "parents-xmas",
+      "png": "storymenu\\props\\parents-xmas.png",
+      "xml": "storymenu\\props\\parents-xmas.xml"
+    },
+    {
+      "key": "pico-player",
+      "png": "storymenu\\props\\pico-player.png",
+      "xml": "storymenu\\props\\pico-player.xml"
+    },
+    {
+      "key": "pico",
+      "png": "storymenu\\props\\pico.png",
+      "xml": "storymenu\\props\\pico.xml"
+    },
+    {
+      "key": "senpai",
+      "png": "storymenu\\props\\senpai.png",
+      "xml": "storymenu\\props\\senpai.xml"
+    },
+    {
+      "key": "spaghetti",
+      "png": "storymenu\\props\\spaghetti.png",
+      "xml": "storymenu\\props\\spaghetti.xml"
+    },
+    {
+      "key": "spooky",
+      "png": "storymenu\\props\\spooky.png",
+      "xml": "storymenu\\props\\spooky.xml"
+    },
+    {
+      "key": "tankman",
+      "png": "storymenu\\props\\tankman.png",
+      "xml": "storymenu\\props\\tankman.xml"
+    },
+    {
+      "key": "arrows",
+      "png": "storymenu\\ui\\arrows.png",
+      "xml": "storymenu\\ui\\arrows.xml"
+    },
+    {
+      "key": "StrumlineNotes",
+      "png": "StrumlineNotes.png",
+      "xml": "StrumlineNotes.xml"
+    },
+    {
+      "key": "backButton",
+      "png": "ui\\backButton.png",
+      "xml": "ui\\backButton.xml"
+    },
+    {
+      "key": "BPMChange",
+      "png": "ui\\chart-editor\\events\\BPMChange.png",
+      "xml": "ui\\chart-editor\\events\\BPMChange.xml"
+    },
+    {
+      "key": "Default",
+      "png": "ui\\chart-editor\\events\\Default.png",
+      "xml": "ui\\chart-editor\\events\\Default.xml"
+    },
+    {
+      "key": "FocusCamera",
+      "png": "ui\\chart-editor\\events\\FocusCamera.png",
+      "xml": "ui\\chart-editor\\events\\FocusCamera.xml"
+    },
+    {
+      "key": "PlayAnimation",
+      "png": "ui\\chart-editor\\events\\PlayAnimation.png",
+      "xml": "ui\\chart-editor\\events\\PlayAnimation.xml"
+    },
+    {
+      "key": "sserafimDark",
+      "png": "ui\\chart-editor\\events\\sserafimDark.png",
+      "xml": "ui\\chart-editor\\events\\sserafimDark.xml"
+    },
+    {
+      "key": "sserafimKick",
+      "png": "ui\\chart-editor\\events\\sserafimKick.png",
+      "xml": "ui\\chart-editor\\events\\sserafimKick.xml"
+    },
+    {
+      "key": "sserafimLights",
+      "png": "ui\\chart-editor\\events\\sserafimLights.png",
+      "xml": "ui\\chart-editor\\events\\sserafimLights.xml"
+    },
+    {
+      "key": "sserafimPulseLights",
+      "png": "ui\\chart-editor\\events\\sserafimPulseLights.png",
+      "xml": "ui\\chart-editor\\events\\sserafimPulseLights.xml"
+    },
+    {
+      "key": "sserafimShow",
+      "png": "ui\\chart-editor\\events\\sserafimShow.png",
+      "xml": "ui\\chart-editor\\events\\sserafimShow.xml"
+    },
+    {
+      "key": "sserafimSing",
+      "png": "ui\\chart-editor\\events\\sserafimSing.png",
+      "xml": "ui\\chart-editor\\events\\sserafimSing.xml"
+    },
+    {
+      "key": "bf",
+      "png": "ui\\loading\\christmas\\bf.png",
+      "xml": "ui\\loading\\christmas\\bf.xml"
+    },
+    {
+      "key": "pressEnter",
+      "png": "ui\\loading\\christmas\\pressEnter.png",
+      "xml": "ui\\loading\\christmas\\pressEnter.xml"
+    },
+    {
+      "key": "bfLol",
+      "png": "ui\\pause\\bfLol.png",
+      "xml": "ui\\pause\\bfLol.xml"
+    },
+    {
+      "key": "pauseUI",
+      "png": "ui\\pause\\pauseUI.png",
+      "xml": "ui\\pause\\pauseUI.xml"
+    },
+    {
+      "key": "pauseButton",
+      "png": "ui\\pauseButton.png",
+      "xml": "ui\\pauseButton.xml"
+    },
+    {
+      "key": "clearPercentNumberLeft",
+      "png": "ui\\results\\resultScreen\\clearPercent\\clearPercentNumberLeft.png",
+      "xml": "ui\\results\\resultScreen\\clearPercent\\clearPercentNumberLeft.xml"
+    },
+    {
+      "key": "clearPercentNumberRight",
+      "png": "ui\\results\\resultScreen\\clearPercent\\clearPercentNumberRight.png",
+      "xml": "ui\\results\\resultScreen\\clearPercent\\clearPercentNumberRight.xml"
+    },
+    {
+      "key": "clearPercentNumberSmall",
+      "png": "ui\\results\\resultScreen\\clearPercent\\clearPercentNumberSmall.png",
+      "xml": "ui\\results\\resultScreen\\clearPercent\\clearPercentNumberSmall.xml"
+    },
+    {
+      "key": "highscoreNew",
+      "png": "ui\\results\\resultScreen\\highscoreNew.png",
+      "xml": "ui\\results\\resultScreen\\highscoreNew.xml"
+    },
+    {
+      "key": "ratingsPopin",
+      "png": "ui\\results\\resultScreen\\ratingsPopin.png",
+      "xml": "ui\\results\\resultScreen\\ratingsPopin.xml"
+    },
+    {
+      "key": "resultGirlfriendGOOD",
+      "png": "ui\\results\\resultScreen\\results-bf\\resultsGOOD\\resultGirlfriendGOOD.png",
+      "xml": "ui\\results\\resultScreen\\results-bf\\resultsGOOD\\resultGirlfriendGOOD.xml"
+    },
+    {
+      "key": "results",
+      "png": "ui\\results\\resultScreen\\results.png",
+      "xml": "ui\\results\\resultScreen\\results.xml"
+    },
+    {
+      "key": "score-digital-numbers",
+      "png": "ui\\results\\resultScreen\\score-digital-numbers.png",
+      "xml": "ui\\results\\resultScreen\\score-digital-numbers.xml"
+    },
+    {
+      "key": "scorePopin",
+      "png": "ui\\results\\resultScreen\\scorePopin.png",
+      "xml": "ui\\results\\resultScreen\\scorePopin.xml"
+    },
+    {
+      "key": "soundSystem",
+      "png": "ui\\results\\resultScreen\\soundSystem.png",
+      "xml": "ui\\results\\resultScreen\\soundSystem.xml"
+    },
+    {
+      "key": "tallieNumber",
+      "png": "ui\\results\\resultScreen\\tallieNumber.png",
+      "xml": "ui\\results\\resultScreen\\tallieNumber.xml"
+    }
+  ]
+}

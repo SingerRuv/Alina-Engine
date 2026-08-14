@@ -1,0 +1,213 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Sakura",
+  "healthbar_colors": [180, 100, 255],
+  "assetPath": "shared:characters/sserafim/sakura",
+  "renderType": "multianimateatlas",
+  "healthIcon": {
+    "id": "bf"
+  },
+  "death": {
+    "cameraOffsets": [-75, 140],
+    "cameraZoom": 1.5
+  },
+  "flipX": true,
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura pose left",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura pose down",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura pose up",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura pose right",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura left miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura down miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura up miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "sakura right miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint pose left",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint pose down",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint pose up",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint pose right",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint left miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint down miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint up miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss-joint",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "joint right miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-bf1",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf left 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN-bf1",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf down 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP-bf1",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf up 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT-bf1",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf right 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf left 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf down 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf up 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "bf right 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "style left miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "style down miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "style up miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss-bf2",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "style right miss",
+      "offsets": [0, 0]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "firstDeath",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "Death Intro",
+      "offsets": [20, -220]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathLoop",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [20, -220]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathConfirm",
+  "healthbar_colors": [180, 100, 255],
+      "prefix": "Death Confirm",
+      "offsets": [20, -220]
+    }
+  ]
+}

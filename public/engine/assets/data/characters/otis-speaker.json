@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Otis (Speaker Shooter)",
+  "healthbar_colors": [255, 0, 0],
+  "assetPath": "shared:characters/otis",
+  "startingAnimation": "idle",
+  "renderType": "animateatlas",
+  "singTime": 4.0,
+  "offsets": [-13, -132],
+  "cameraOffsets": [-27, 57],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "idle"
+    },
+    {
+      "name": "shoot1",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "shoot right"
+    },
+    {
+      "name": "shoot2",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "shoot right low"
+    },
+    {
+      "name": "shoot3",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "shoot left"
+    },
+    {
+      "name": "shoot4",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "shoot left low"
+    }
+  ]
+}

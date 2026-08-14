@@ -1,0 +1,126 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Pico (Dark)",
+  "healthbar_colors": [200, 0, 0],
+  "assetPath": "shared:characters/pico-dark",
+  "healthIcon": {
+    "id": "pico",
+    "flipX": false
+  },
+  "death": {
+    "cameraOffsets": [10, -40],
+    "cameraZoom": 1.0
+  },
+  "flipX": true,
+  "renderType": "multianimateatlas",
+  "offsets": [19, 1],
+  "cameraOffsets": [-19, 32],
+  "atlasSettings": {
+    "useRenderTexture": true
+  },
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Idle"
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Right"
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Up"
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Left"
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Right Miss"
+    },
+    {
+      "assetPath": "shared:characters/pico/death",
+      "name": "firstDeath",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Death Intro",
+      "offsets": [100, 195]
+    },
+    {
+      "assetPath": "shared:characters/pico/death",
+      "name": "deathLoop",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [100, 195]
+    },
+    {
+      "assetPath": "shared:characters/pico/death",
+      "name": "deathConfirm",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Death Confirm",
+      "offsets": [100, 195]
+    },
+    {
+      "name": "hey",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Hey"
+    },
+    {
+      "name": "cheer",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Cheer"
+    },
+    {
+      "name": "burpShit",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "*BURP* ... Shit"
+    },
+    {
+      "name": "burpSmile",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Burp Smile"
+    },
+    {
+      "name": "burpSmileLong",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Burp Smile",
+      "frameIndices": [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        20, 21, 22, 23, 24, 25, 25, 26, 27, 28, 29, 30, 31, 31, 31, 31, 31, 31,
+        31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31,
+        31, 31, 31, 31, 31, 31
+      ]
+    },
+    {
+      "name": "shit",
+  "healthbar_colors": [200, 0, 0],
+      "prefix": "Burp Censor"
+    }
+  ]
+}

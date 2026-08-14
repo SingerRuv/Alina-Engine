@@ -1,0 +1,119 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Darnell (Blazin')",
+  "healthbar_colors": [255, 120, 0],
+  "assetPath": "shared:characters/darnellBlazin",
+  "healthIcon": {
+    "id": "darnell"
+  },
+  "renderType": "animateatlas",
+  "singTime": 999.0,
+  "offsets": [523, 453],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Idle",
+      "looped": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "pissed",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Pissed",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "cringe",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Cringe",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "fakeout",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Fake Hit",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "block",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Block",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "dodge",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Dodge",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "uppercutPrep",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Uppercut Prep",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "uppercut",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Uppercut Punch",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "uppercutHit",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Uppercut Hit",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "uppercut-hold",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Uppercut Punch Loop",
+      "looped": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "punchHigh1",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Punch High 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "punchHigh2",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Punch High 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "punchLow1",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Punch Low 1",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "punchLow2",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Punch Low 2",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "hitHigh",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Hit High",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "hitLow",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Hit Low",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "hitSpin",
+  "healthbar_colors": [255, 120, 0],
+      "prefix": "Hit Spin",
+      "looped": true,
+      "offsets": [0, 0]
+    }
+  ]
+}

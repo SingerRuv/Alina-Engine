@@ -1,0 +1,102 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Boyfriend (Holding GF)",
+  "healthbar_colors": [161, 161, 161],
+  "assetPath": "characters/bfAndGF",
+  "flipX": true,
+  "renderType": "multisparrow",
+  "healthIcon": {
+    "id": "bf"
+  },
+  "animations": [
+    {
+      "name": "singUP",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF Dead with GF Loop",
+      "assetPath": "characters/bfHoldingGF-DEAD",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "firstDeath",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF Dies with GF",
+      "assetPath": "characters/bfHoldingGF-DEAD",
+      "offsets": [37, 14]
+    },
+    {
+      "name": "deathConfirm",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "RETRY confirm holding gf",
+      "assetPath": "characters/bfHoldingGF-DEAD",
+      "offsets": [37, 28]
+    },
+    {
+      "name": "deathLoop",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF Dead with GF Loop",
+      "looped": true,
+      "assetPath": "characters/bfHoldingGF-DEAD",
+      "offsets": [37, -3]
+    },
+    {
+      "name": "idle",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF idle dance w gf0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE LEFT0",
+      "offsets": [12, 7]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE DOWN0",
+      "offsets": [-10, -10]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE UP0",
+      "offsets": [-29, 10]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE RIGHT0",
+      "offsets": [-41, 23]
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE LEFT MISS",
+      "offsets": [12, 7]
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE DOWN MISS",
+      "offsets": [-10, -10]
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE UP MISS",
+      "offsets": [-29, 10]
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF NOTE RIGHT MISS",
+      "offsets": [-41, 23]
+    },
+    {
+      "name": "bfCatch",
+  "healthbar_colors": [161, 161, 161],
+      "prefix": "BF catches GF",
+      "offsets": [0, 0]
+    }
+  ]
+}

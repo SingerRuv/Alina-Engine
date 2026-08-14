@@ -1,0 +1,81 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Pico (Christmas)",
+  "healthbar_colors": [255, 0, 0],
+  "assetPath": "shared:characters/pico-christmas",
+  "healthIcon": {
+    "id": "pico",
+    "flipX": false
+  },
+  "death": {
+    "cameraOffsets": [-18, 68],
+    "cameraZoom": 1.0
+  },
+  "flipX": true,
+  "renderType": "multianimateatlas",
+  "offsets": [43, 32],
+  "cameraOffsets": [47, 132],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Idle"
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Right"
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Up"
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Left"
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Right Miss"
+    },
+    {
+      "name": "firstDeath",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Death Intro"
+    },
+    {
+      "name": "deathLoop",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Death Loop",
+      "looped": true
+    },
+    {
+      "name": "deathConfirm",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "Death Confirm"
+    }
+  ]
+}

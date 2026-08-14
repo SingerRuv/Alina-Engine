@@ -1,0 +1,70 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Kazuha",
+  "healthbar_colors": [100, 200, 120],
+  "assetPath": "shared:characters/sserafim/kazuha",
+  "renderType": "animateatlas",
+  "healthIcon": {
+    "id": "kazuha",
+    "offsets": [0, 5000]
+  },
+  "flipX": false,
+  "offsets": [0, 200],
+  "cameraOffsets": [0, 200],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "left",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "down",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "up",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "right",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "left miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "down miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "up miss",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+  "healthbar_colors": [100, 200, 120],
+      "prefix": "right miss",
+      "offsets": [0, 0]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Senpai (Angry)",
+  "healthbar_colors": [255, 40, 40],
+  "assetPath": "characters/senpai",
+  "singTime": 8.0,
+  "isPixel": true,
+  "scale": 6,
+  "healthIcon": {
+    "id": "senpai-angry",
+    "isPixel": true
+  },
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 40, 40],
+      "prefix": "Angry Senpai Idle instance 10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 40, 40],
+      "prefix": "Angry Senpai LEFT NOTE instance 10",
+      "offsets": [4, 1]
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 40, 40],
+      "prefix": "Angry Senpai DOWN NOTE instance 10",
+      "offsets": [1, 1]
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 40, 40],
+      "prefix": "Angry Senpai UP NOTE instance 10",
+      "offsets": [1, 6]
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 40, 40],
+      "prefix": "Angry Senpai RIGHT NOTE instance 10",
+      "offsets": [-1, 0]
+    }
+  ]
+}

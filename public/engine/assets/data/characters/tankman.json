@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "name": "Tankman",
+  "healthbar_colors": [255, 0, 0],
+  "renderType": "multianimateatlas",
+  "assetPath": "shared:characters/tankman/basic",
+  "offsets": [3, -44],
+  "cameraOffsets": [-3, 32],
+  "animations": [
+    {
+      "name": "idle",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "idle"
+    },
+    {
+      "name": "singLEFT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "left"
+    },
+    {
+      "name": "singDOWN",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "down"
+    },
+    {
+      "name": "singUP",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "up"
+    },
+    {
+      "name": "singRIGHT",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "right"
+    },
+    {
+      "assetPath": "shared:characters/tankman/extra-animations",
+      "name": "hehPrettyGood",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "pretty good",
+      "offsets": [5, -40]
+    },
+    {
+      "assetPath": "shared:characters/tankman/extra-animations",
+      "name": "ugh",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "ugh",
+      "offsets": [5, -40]
+    },
+    {
+      "assetPath": "shared:characters/tankman/extra-animations",
+      "name": "laugh",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "laugh",
+      "offsets": [5, -40]
+    },
+    {
+      "assetPath": "shared:characters/tankman/extra-animations",
+      "name": "beat it",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "beat it",
+      "offsets": [5, -40]
+    },
+    {
+      "assetPath": "shared:characters/tankman/extra-animations",
+      "name": "augh",
+  "healthbar_colors": [255, 0, 0],
+      "prefix": "argh",
+      "offsets": [5, -40]
+    }
+  ]
+}
