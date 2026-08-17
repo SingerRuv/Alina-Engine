@@ -106,11 +106,6 @@ async function bootEngine() {
     window.DiscordRPC.init();
   }
 
-  // Auto-update: consulta el manifest si el toggle esta activo.
-  if (window.AutoUpdate && typeof window.AutoUpdate.check === "function") {
-    window.AutoUpdate.check();
-  }
-
   if (window.AlinaConfig) {
     const queuedScenes = window.game._sceneQueue || [];
     window.game = new Phaser.Game(window.AlinaConfig);

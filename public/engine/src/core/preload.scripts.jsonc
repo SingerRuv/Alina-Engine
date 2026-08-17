@@ -20,7 +20,6 @@
   "src/utils/Controls.js",
   "src/utils/ClientGlobals.js",
   "src/utils/DiscordRPC.js",
-  "src/utils/AutoUpdate.js",
   "src/utils/alphabet/Alphabet.js",
   "src/utils/alphabet/AlphabetData.js",
   "src/utils/soundtray/main.js",
