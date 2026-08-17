@@ -1,5 +1,5 @@
 {
-  "name": "genesis-engine",
+  "name": "alina-engine",
   "main": "src/index.tsx",
   "version": "1.0.0",
   "scripts": {

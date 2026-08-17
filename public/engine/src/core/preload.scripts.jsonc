@@ -20,6 +20,7 @@
   "src/utils/Controls.js",
   "src/utils/ClientGlobals.js",
   "src/utils/DiscordRPC.js",
+  "src/utils/AutoUpdate.js",
   "src/utils/alphabet/Alphabet.js",
   "src/utils/alphabet/AlphabetData.js",
   "src/utils/soundtray/main.js",
@@ -147,16 +148,5 @@
   "src/funkin/menu/options/components/input/InputKeybinder.js",
 
   "src/funkin/menu/options/components/tabs/TabsRenderer.js",
-  "src/funkin/menu/options/components/tabs/TabsAnimator.js",
-
-  // Debug / Dev tools
-  // BTA puro (conversor) - modulos clasicos sin auto-registro en Phaser
-  "src/utils/animations/bta/utils.js",
-  "src/utils/animations/bta/rend/filters.js",
-  "src/utils/animations/bta/rend/elements.js",
-  "src/utils/animations/bta/rend/bounds.js",
-  "src/utils/animations/bta/rend/core.js",
-  "src/utils/animations/bta/renderer.js",
-  "src/utils/animations/bta/parser.js",
-  "src/funkin/menu/debug/BTAConverterScene.js"
-] 
+  "src/funkin/menu/options/components/tabs/TabsAnimator.js"
+]

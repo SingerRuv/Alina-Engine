@@ -106,6 +106,11 @@ async function bootEngine() {
     window.DiscordRPC.init();
   }
 
+  // Auto-update: consulta el manifest si el toggle esta activo.
+  if (window.AutoUpdate && typeof window.AutoUpdate.check === "function") {
+    window.AutoUpdate.check();
+  }
+
   if (window.AlinaConfig) {
     const queuedScenes = window.game._sceneQueue || [];
     window.game = new Phaser.Game(window.AlinaConfig);
@@ -113,29 +118,6 @@ async function bootEngine() {
     queuedScenes.forEach((s) => {
       window.game.scene.add(s.key, s.sceneClass, s.autoStart);
     });
-
-    // ponytail: atajo F4 para abrir el conversor BTA (herramienta de dev).
-    if (window.BTAConverterScene) {
-      try {
-        window.game.scene.add("BTAConverterScene", window.BTAConverterScene, false);
-      } catch (e) {}
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "F4" && !e.ctrlKey && !e.shiftKey && !e.altKey) {
-          const isActive = window.game.scene.isActive && window.game.scene.isActive("BTAConverterScene");
-          if (isActive) {
-            window.game.scene.stop("BTAConverterScene");
-            const prev = window.game._btaPrev;
-            if (prev) { try { window.game.scene.wake(prev); } catch (e) {} }
-          } else {
-            const active = window.game.scene.getScenes(true).map((s) => s.scene.key);
-            window.game._btaPrev = active[0] || null;
-            try { window.game.scene.sleep(window.game._btaPrev || "MainMenuScene"); } catch (e) {}
-            try { window.game.scene.start("BTAConverterScene"); } catch (e) {}
-          }
-          e.preventDefault();
-        }
-      }, { capture: true });
-    }
 
     console.log(
       `%c ALINA %c Boot completado. ${queuedScenes.length} escenas inyectadas.`,

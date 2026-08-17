@@ -51,6 +51,13 @@ class UIEvents {
             window.DiscordRPC.setEnabled(item.options.values[0]);
           }
 
+          // Auto-update: si se activa, consultar inmediatamente.
+          if (item.id === "opt-updates" && window.AutoUpdate) {
+            if (item.options.values[0]) {
+              window.AutoUpdate.check(true);
+            }
+          }
+
           if (item.options.values[0]) {
             this.scene.sound.play("confirmMenu");
             p.animations.checkbox.playBlink(

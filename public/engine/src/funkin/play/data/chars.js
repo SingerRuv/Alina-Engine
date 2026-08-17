@@ -32,9 +32,7 @@ class CharsData {
   }
 
   static loadCharacterAssets(scene, charId, data) {
-    // ponytail: si el personaje es BTA (multianimateatlas), intentar cargar el atlas
-    // convertido a Sparrow (atlas.png + atlas.xml) generado por BTAConverterScene.
-    // Si no existe, cae al flujo normal (que puede dar 404 pero no rompe).
+    // Carga el atlas Sparrow (atlas.png + atlas.xml) para personajes multianimateatlas.
     const isBTA =
       data &&
       (data.renderType === "multianimateatlas" ||
