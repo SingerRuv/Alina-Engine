@@ -123,16 +123,27 @@ async function bootEngine() {
     // ponytail: atajo de teclado global para abrir la escena de debug/info KScene.
     // Si KScene ya esta activa, la cierra. Si no, la arranca. Funciona desde
     // cualquier escena (incluyendo PlayScene, menus, etc).
+    // El listener espera a que Phaser exponga SceneManager (keys/run/stop/isActive).
+    // Antes del bootEngine, window.game es un stub con solo `add`, asi que
+    // cualquier intento de run/stop tira "not a function".
     window.__toggleKScene = (e) => {
       if (!window.game || !window.game.scene) return;
+      const sm = window.game.scene;
+      // Esperar a que el SceneManager real exista (con keys/run/etc).
+      if (!sm.keys || typeof sm.isActive !== "function") return;
       const key = e && e.key ? e.key.toLowerCase() : "";
       const code = e && (e.keyCode || e.which);
       if (key !== "k" && code !== 75) return;
       const target = "KScene";
-      if (window.game.scene.isActive(target)) {
-        window.game.scene.stop(target);
-      } else if (window.game.scene.isSleeping(target) || window.game.scene.get(target)) {
-        window.game.scene.run(target);
+      const sceneObj = sm.keys[target];
+      const active = sm.isActive(target);
+      const sleeping = sm.isSleeping(target);
+      if (active) {
+        sm.stop(target);
+      } else if (sleeping || sceneObj) {
+        sm.run(target);
+      } else {
+        sm.start(target);
       }
     };
     if (!window.__kSceneListener) {
