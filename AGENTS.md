@@ -111,5 +111,5 @@ Esta sección documenta features que se agregaron al engine. Si necesitás modif
 - **Archivos modificados**:
   - `bot.js:142` — `hitPlayer` ahora pasa `diff = 20` (rating `"sick"`, entre 12.5 killer y 45 sick threshold).
   - `rating/logic.js:99` — quitado el `return` que ocultaba los popups del bot durante botplay.
-  - `rating/logic.js:58` — `getValidRating("perfect"|"killer")` ahora retorna `"sick"` directamente (no depende del fallback).
+   - `rating/logic.js:58` — `getValidRating("perfect"|"killer")` ahora retorna `"sick"` directamente (no depende del fallback).
 - **Nota**: Si se agrega imagen de `"perfect"` al skin, se puede volver a `diff=0` en el bot.
