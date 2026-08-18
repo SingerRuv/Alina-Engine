@@ -90,7 +90,7 @@ class MultiLogic {
           }
           // COORDINACIÓN DE ANIMACIONES DEL PERSONAJE REMOTO
           if (data.animData && this.scene.referee.charsData) {
-            const pEnemy = window.Preferences ? window.Preferences.playerEnemy : false;
+            const pEnemy = window.MultiplayerData ? !window.MultiplayerData.isHost : false;
             const oppRole = pEnemy ? "players" : "opponents";
             const oppChar = this.scene.referee.charsData.logic.characters.find(c => c.role === oppRole);
             if (oppChar && oppChar.anims.currentAnim) {
@@ -165,7 +165,7 @@ class MultiLogic {
 
   getLocalCharacterState() {
     if (!this.scene.referee || !this.scene.referee.charsData || !this.scene.referee.charsData.logic) return null;
-    const pEnemy = window.Preferences ? window.Preferences.playerEnemy : false;
+    const pEnemy = window.MultiplayerData ? !window.MultiplayerData.isHost : false;
     const myRole = pEnemy ? "opponents" : "players";
     const char = this.scene.referee.charsData.logic.characters.find(c => c.role === myRole);
     if (char && char.anims.currentAnim) {

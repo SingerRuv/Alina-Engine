@@ -108,6 +108,7 @@
 
   // storymode
   "src/funkin/menu/storymode/StoryMenuScene.js",
+  "src/funkin/menu/storymode/LoadingScreenScene.js",
 
   // free
   "src/funkin/menu/free/FreeplayIcon.js",

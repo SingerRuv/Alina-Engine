@@ -25,9 +25,7 @@ class NoteLogic {
     const isMultiplayer = window.isMultiplayer || false;
     const playerEnemy = isMultiplayer
       ? window.MultiplayerData && !window.MultiplayerData.isHost
-      : window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
+      : false;
     return playerEnemy ? isOpponentSide : !isOpponentSide;
   }
 

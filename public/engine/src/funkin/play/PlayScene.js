@@ -29,6 +29,8 @@ class PlayScene extends Phaser.Scene {
     this.referee = new window.PlayReferee(this);
     this.events.on("gameover", () => this.triggerGameOver());
 
+    this.events.emit("play-scene-ready");
+
     // Discord RPC: jugando una canción
     if (window.DiscordRPC && typeof window.DiscordRPC.setPlaying === "function") {
       const songName = this.playData.songName || this.playData.songId || "?";

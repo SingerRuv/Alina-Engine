@@ -72,9 +72,7 @@ class NoteSplashLogic {
       : false;
     const playerEnemy = isMultiplayer
       ? window.MultiplayerData && !window.MultiplayerData.isHost
-      : window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
+      : false;
 
     const isOpponentSide = data.note.noteData.p === "op";
     const isLocalNote = playerEnemy ? isOpponentSide : !isOpponentSide;

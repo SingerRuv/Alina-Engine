@@ -1,5 +1,9 @@
 // src/funkin/play/UI/health/logic.js
 class HealthLogic {
+  // ponytail: helper para evitar repetir el guard 4 veces.
+  static _isMultiplayer() {
+    return window.isMultiplayer || false;
+  }
   static preload(scene) {
     const pd = scene.playData;
     const jsonKey = pd.skinJsonKey;
@@ -58,17 +62,14 @@ class HealthLogic {
   }
 
   applyHit(rating, isOpponent = false) {
-    if (window.isMultiplayer) return; // FIX: La vida en multijugador se basa en Score. Ignorar incrementos individuales.
+    if (HealthLogic._isMultiplayer()) return; // FIX: La vida en multijugador se basa en Score. Ignorar incrementos individuales.
 
     const isTwoPlayers = window.Preferences
       ? window.Preferences.twoPlayers
       : false;
-    const playerEnemy = window.Preferences
-      ? window.Preferences.playerEnemy
-      : false;
     const isBotplay = window.Preferences ? window.Preferences.botplay : false;
 
-    const isMainPlayerAction = playerEnemy ? isOpponent : !isOpponent;
+    const isMainPlayerAction = !isOpponent;
     if (isMainPlayerAction && isBotplay) return;
     if (!isTwoPlayers && !isMainPlayerAction) return;
 
@@ -103,17 +104,14 @@ class HealthLogic {
   }
 
   applyMiss(isOpponent = false) {
-    if (window.isMultiplayer) return; // FIX
+    if (HealthLogic._isMultiplayer()) return; // FIX
 
     const isTwoPlayers = window.Preferences
       ? window.Preferences.twoPlayers
       : false;
-    const playerEnemy = window.Preferences
-      ? window.Preferences.playerEnemy
-      : false;
     const isBotplay = window.Preferences ? window.Preferences.botplay : false;
 
-    const isMainPlayerAction = playerEnemy ? isOpponent : !isOpponent;
+    const isMainPlayerAction = !isOpponent;
     if (isMainPlayerAction && isBotplay) return;
     if (!isTwoPlayers && !isMainPlayerAction) return;
 
@@ -129,17 +127,14 @@ class HealthLogic {
   }
 
   applyGhostMiss(isOpponent = false) {
-    if (window.isMultiplayer) return; // FIX
+    if (HealthLogic._isMultiplayer()) return; // FIX
 
     const isTwoPlayers = window.Preferences
       ? window.Preferences.twoPlayers
       : false;
-    const playerEnemy = window.Preferences
-      ? window.Preferences.playerEnemy
-      : false;
     const isBotplay = window.Preferences ? window.Preferences.botplay : false;
 
-    const isMainPlayerAction = playerEnemy ? isOpponent : !isOpponent;
+    const isMainPlayerAction = !isOpponent;
     if (isMainPlayerAction && isBotplay) return;
     if (!isTwoPlayers && !isMainPlayerAction) return;
 
@@ -155,17 +150,14 @@ class HealthLogic {
   }
 
   applyHold(delta, isOpponent = false) {
-    if (window.isMultiplayer) return; // FIX
+    if (HealthLogic._isMultiplayer()) return; // FIX
 
     const isTwoPlayers = window.Preferences
       ? window.Preferences.twoPlayers
       : false;
-    const playerEnemy = window.Preferences
-      ? window.Preferences.playerEnemy
-      : false;
     const isBotplay = window.Preferences ? window.Preferences.botplay : false;
 
-    const isMainPlayerAction = playerEnemy ? isOpponent : !isOpponent;
+    const isMainPlayerAction = !isOpponent;
     if (isMainPlayerAction && isBotplay) return;
     if (!isTwoPlayers && !isMainPlayerAction) return;
 
@@ -181,9 +173,6 @@ class HealthLogic {
   }
 
   checkGameOver(scene) {
-    const playerEnemy = window.Preferences
-      ? window.Preferences.playerEnemy
-      : false;
     const isTwoPlayers = window.Preferences
       ? window.Preferences.twoPlayers
       : false;
@@ -197,18 +186,12 @@ class HealthLogic {
         this.isGameOver = true;
         if (isTwoPlayers || isMultiplayer) {
           console.log(
-            "[HealthLogic] Game Over: ¡El Jugador 1 (P1) ha perdido!",
+            "[HealthLogic] Game Over: l Jugador 1 (P1) ha perdido!",
           );
           if (evtScene.events) evtScene.events.emit("gameover_p1");
         } else {
-          if (playerEnemy) {
-            console.log(
-              "[HealthLogic] ¡Felicidades! Has derrotado al bot (Jugador 1).",
-            );
-          } else {
-            console.log("[HealthLogic] Game Over: ¡Has perdido la partida!");
-            if (evtScene.events) evtScene.events.emit("gameover");
-          }
+          console.log("[HealthLogic] Game Over: �Has perdido la partida!");
+          if (evtScene.events) evtScene.events.emit("gameover");
         }
       }
     } else if (this.health >= 2) {
@@ -218,20 +201,13 @@ class HealthLogic {
         this.isGameOver = true;
         if (isTwoPlayers || isMultiplayer) {
           console.log(
-            "[HealthLogic] Game Over: ¡El Jugador 2 (P2) ha perdido!",
+            "[HealthLogic] Game Over: l Jugador 2 (P2) ha perdido!",
           );
           if (evtScene.events) evtScene.events.emit("gameover_p2");
         } else {
-          if (playerEnemy) {
-            console.log(
-              "[HealthLogic] Game Over: ¡Has perdido (jugando como Enemigo)!",
-            );
-            if (evtScene.events) evtScene.events.emit("gameover");
-          } else {
-            console.log(
-              "[HealthLogic] ¡Felicidades! Has derrotado al Enemigo (P2/bot).",
-            );
-          }
+          console.log(
+            "[HealthLogic] elicidades! Has derrotado al Enemigo (P2/bot).",
+          );
         }
       }
     } else {
@@ -242,7 +218,7 @@ class HealthLogic {
   update(time, delta) {
     const isBotplay = window.Preferences ? window.Preferences.botplay : false;
 
-    // FIX: Reestructurar salud en función estricta de Scores (Multijugador)
+    // FIX: Reestructurar salud en funci锟n estricta de Scores (Multijugador)
     if (window.isMultiplayer && this.scene.scoreLogic) {
       let scoreP1 = this.scene.scoreLogic.statsP1.score;
       let scoreP2 = this.scene.scoreLogic.statsP2.score;
@@ -253,15 +229,10 @@ class HealthLogic {
       this.health = Phaser.Math.Clamp(this.health, 0, 2);
       this.currentHealth = this.health;
       this.checkGameOver(this.scene);
-    } 
-    // NUEVO: Lógica Automática para Botplay (Sobrescribe barra al 100% de la entidad activa)
+    }
+    // NUEVO: L锟gica Autom锟tica para Botplay (Sobrescribe barra al 100% de la entidad activa)
     else if (isBotplay) {
-      const playerEnemy = window.Preferences ? window.Preferences.playerEnemy : false;
-      if (playerEnemy) {
-        this.health = 0.0; // Gana el Oponente (100% a favor de la izquierda)
-      } else {
-        this.health = 2.0; // Gana el Jugador (100% a favor de la derecha)
-      }
+      this.health = 2.0; // Gana el Jugador (100% a favor de la derecha)
       this.currentHealth = this.health;
     }
 

@@ -12,7 +12,6 @@ class Preferences {
   static opponentGlow = true;
   static hideOpStrums = false;
   static hideOpNotes = false;
-  static playerEnemy = false;
   static popUpAnim = "default"; // default & stackeable
   static popUpPos = [50, 42];
   static showOpPopUp = true;
@@ -77,7 +76,6 @@ class Preferences {
     this.opponentGlow = getBool("genesis_opponent_glow", this.opponentGlow);
     this.hideOpStrums = getBool("genesis_hide_op_strums", this.hideOpStrums);
     this.hideOpNotes = getBool("genesis_hide_op_notes", this.hideOpNotes);
-    this.playerEnemy = getBool("genesis_player_enemy", this.playerEnemy);
 
     this.popUpAnim = getString("genesis_popup_anim", this.popUpAnim);
     this.popUpPos = getArray("genesis_popup_pos", this.popUpPos);
@@ -110,7 +108,6 @@ class Preferences {
     localStorage.setItem("genesis_opponent_glow", this.opponentGlow);
     localStorage.setItem("genesis_hide_op_strums", this.hideOpStrums);
     localStorage.setItem("genesis_hide_op_notes", this.hideOpNotes);
-    localStorage.setItem("genesis_player_enemy", this.playerEnemy);
 
     localStorage.setItem("genesis_popup_anim", this.popUpAnim);
     localStorage.setItem("genesis_popup_pos", JSON.stringify(this.popUpPos));

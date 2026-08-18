@@ -20,9 +20,6 @@ class BotLogic {
 
     if (!notesLogic || !strumlines) return;
 
-    const isPlayerEnemy = window.Preferences
-      ? window.Preferences.playerEnemy
-      : false;
     const isTwoPlayers = window.Preferences
       ? window.Preferences.twoPlayers
       : false;
@@ -38,15 +35,9 @@ class BotLogic {
       this.enemyBot = false;
       this.playerBot = false;
     } else {
-      if (isPlayerEnemy) {
-        // Juegas como el Enemigo
-        this.enemyBot = isBotPlayActive; // Si activas botplay, la IA te controla a ti (enemigo)
-        this.playerBot = true; // El jugador original pasa a ser controlado por IA
-      } else {
-        // Juegas como el Jugador normal
-        this.enemyBot = true; // El enemigo original es IA
-        this.playerBot = isBotPlayActive; // Si activas botplay, la IA te controla a ti
-      }
+      // Juegas como el Jugador normal
+      this.enemyBot = true; // El enemigo original es IA
+      this.playerBot = isBotPlayActive; // Si activas botplay, la IA te controla a ti
     }
 
     const songTime =
@@ -84,9 +75,7 @@ class BotLogic {
             sustain.isBeingHeld = true;
 
             // Restricción de glow dinámico para las IA
-            const isAI = isPlayerEnemy
-              ? sustain.noteData.p === "pl"
-              : sustain.noteData.p === "op";
+            const isAI = sustain.noteData.p === "op";
             const canGlow = !isAI || (isAI && window.Preferences.opponentGlow);
 
             if (canGlow) {
@@ -120,10 +109,7 @@ class BotLogic {
       note.isBotPlay = true;
       this.scene.events.emit("noteHit", { note: note });
 
-      const isPlayerEnemy = window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
-      const isAI = !isPlayerEnemy;
+      const isAI = true;
       const canGlow = !isAI || (isAI && window.Preferences.opponentGlow);
 
       if (canGlow) {

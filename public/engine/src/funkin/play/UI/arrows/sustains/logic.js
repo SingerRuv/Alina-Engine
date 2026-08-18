@@ -11,9 +11,7 @@ class SustainLogic {
     const isMultiplayer = window.isMultiplayer || false;
     const playerEnemy = isMultiplayer
       ? window.MultiplayerData && !window.MultiplayerData.isHost
-      : window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
+      : false;
     return playerEnemy ? isOpponentSide : !isOpponentSide;
   }
 
@@ -156,10 +154,7 @@ class SustainLogic {
         renderTime -= window.NetworkLatency || 0;
       }
 
-      const playerEnemy = window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
-      const isAI = playerEnemy ? !isOpponentSustain : isOpponentSustain;
+      const isAI = isOpponentSustain;
 
       if (isAI) {
         const isWithinDuration =

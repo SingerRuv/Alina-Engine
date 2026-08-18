@@ -220,9 +220,6 @@ class Song {
         isTwoPlayersActive = window.Preferences
           ? window.Preferences.twoPlayers
           : false;
-        playerEnemy = window.Preferences
-          ? window.Preferences.playerEnemy
-          : false;
       }
       const isMainPlayerMiss = playerEnemy ? isOpponent : isPlayer;
       if (isMainPlayerMiss || (isTwoPlayersActive && !isMainPlayerMiss)) {
@@ -293,9 +290,6 @@ class Song {
       } else {
         isTwoPlayersActive = window.Preferences
           ? window.Preferences.twoPlayers
-          : false;
-        playerEnemy = window.Preferences
-          ? window.Preferences.playerEnemy
           : false;
       }
       const isMainPlayerMiss = playerEnemy ? isOpponent : isPlayer;
@@ -429,7 +423,9 @@ class Song {
             CampaignId: data.CampaignId,
           });
           if (window.transitionTo) {
-            window.transitionTo(scene, "PlayScene");
+            window.transitionTo(scene, "LoadingScreenScene");
+          } else if (scene.scene.get("LoadingScreenScene")) {
+            scene.scene.start("LoadingScreenScene");
           } else {
             scene.scene.start("PlayScene");
           }

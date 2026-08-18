@@ -17,9 +17,7 @@ class StrumlineLogic {
       this.playerEnemy = !window.MultiplayerData.isHost;
       this.twoPlayers = false;
     } else {
-      this.playerEnemy = window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
+      this.playerEnemy = false;
       this.twoPlayers = window.Preferences
         ? window.Preferences.twoPlayers
         : false;

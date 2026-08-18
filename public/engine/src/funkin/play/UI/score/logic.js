@@ -51,9 +51,7 @@ class ScoreLogic {
       : false;
     this.playerEnemy = this.isMultiplayer
       ? window.MultiplayerData && !window.MultiplayerData.isHost
-      : window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
+      : false;
 
     this.scene.events.on("noteHit", this.onNoteHit, this);
     this.scene.events.on("noteMiss", this.onNoteMiss, this);

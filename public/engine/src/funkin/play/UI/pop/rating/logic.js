@@ -83,9 +83,7 @@ class RatingLogic {
     // Auto-determinamos el rol en multiplayer
     const playerEnemy = isMultiplayer
       ? window.MultiplayerData && !window.MultiplayerData.isHost
-      : window.Preferences
-        ? window.Preferences.playerEnemy
-        : false;
+      : false;
 
     const isTwoPlayers = window.Preferences
       ? window.Preferences.twoPlayers
