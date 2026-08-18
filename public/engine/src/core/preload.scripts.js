@@ -119,6 +119,26 @@ async function bootEngine() {
       "background: #004d40; color: white;",
       "color: unset;",
     );
+
+    // ponytail: atajo de teclado global para abrir la escena de debug/info KScene.
+    // Si KScene ya esta activa, la cierra. Si no, la arranca. Funciona desde
+    // cualquier escena (incluyendo PlayScene, menus, etc).
+    window.__toggleKScene = (e) => {
+      if (!window.game || !window.game.scene) return;
+      const key = e && e.key ? e.key.toLowerCase() : "";
+      const code = e && (e.keyCode || e.which);
+      if (key !== "k" && code !== 75) return;
+      const target = "KScene";
+      if (window.game.scene.isActive(target)) {
+        window.game.scene.stop(target);
+      } else if (window.game.scene.isSleeping(target) || window.game.scene.get(target)) {
+        window.game.scene.run(target);
+      }
+    };
+    if (!window.__kSceneListener) {
+      window.__kSceneListener = window.__toggleKScene;
+      window.addEventListener("keydown", window.__kSceneListener);
+    }
   } else {
     console.error(
       "%c ALINA %c Error Fatal: AlinaConfig no está definido.",
