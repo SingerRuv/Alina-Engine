@@ -117,9 +117,6 @@
   // multiplayer
   "src/funkin/menu/multiplayer/MultiplayerScene.js",
 
-  // dev
-  "src/funkin/menu/dev/KScene.js",
-
   //Pause Sub-Scene
   "src/funkin/play/UI/pause/PauseScene.js",
   "src/funkin/play/UI/pause/PauseMenuLogic.js",

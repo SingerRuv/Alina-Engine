@@ -93,6 +93,7 @@ class StoryMenuScene extends Phaser.Scene {
 
   preload() {
     this.load.atlasXML("arrowsMenu", "assets/images/menu/storymode/arrows.png", "assets/images/menu/storymode/arrows.xml");
+    this.load.atlasXML("vinylDisk", "assets/images/menu/storymode/vinyl_disk/vinyl_disk.png", "assets/images/menu/storymode/vinyl_disk/vinyl_disk.xml");
     this.load.audio("scrollMenu", Path.sounds + "menu/scrollMenu.ogg");
     this.load.audio("confirmMenu", Path.sounds + "menu/confirmMenu.ogg");
     this.load.audio("cancelMenu", Path.sounds + "menu/cancelMenu.ogg");
@@ -128,7 +129,29 @@ class StoryMenuScene extends Phaser.Scene {
 
     this.tracks = this.add.image(130, h - 186, "TracksMenu").setOrigin(0, 1);
 
-    this.levelScoreText = this.add.text(10, 10, "WEEK SCORE: 0", {
+    if (this.textures.exists("vinylDisk")) {
+      this.vinylDisk = this.add.sprite(w - 70, 259, "vinylDisk")
+        .setOrigin(0.5, 0.5)
+        .setScale(0.5)
+        .setDepth(1);
+
+      if (!this.anims.exists("vinylDiskLoop")) {
+        const frames = this.textures.get("vinylDisk").getFrameNames().sort();
+        if (frames.length > 0) {
+          this.anims.create({
+            key: "vinylDiskLoop",
+            frames: frames.map((f) => ({ key: "vinylDisk", frame: f })),
+            frameRate: 14,
+            repeat: -1,
+          });
+        }
+      }
+      if (this.anims.exists("vinylDiskLoop")) {
+        this.vinylDisk.play("vinylDiskLoop");
+      }
+    }
+
+    this.levelScoreText = this.add.text(60, 10, "WEEK SCORE: 0", {
       fontFamily: "vcr", fontSize: "32px", fill: "#FFFFFF",
     }).setOrigin(0, 0).setDepth(100);
 
@@ -213,16 +236,27 @@ class StoryMenuScene extends Phaser.Scene {
   }
 
   renderWeekList() {
-    const centerY = this.h / 2 + 170;
-    const spacing = 117;
-    this.weeks.forEach((week, i) => {
-      const spr = this.titleSprites[i];
+    const n = this.weeks.length;
+    // Sin vinilo: mostrar solo la semana seleccionada.
+    if (!this.vinylDisk) {
+      this.titleSprites.forEach((s, i) => {
+        s.setAlpha(i === this.selectedWeek ? 1 : 0);
+      });
+      return;
+    }
+    // Sobre el vinilo: solo 3 semanas (prev, actual, next), centradas en el disco.
+    const centerX = this.vinylDisk.x - 220;
+    const centerY = this.vinylDisk.y;
+    const spacing = 120;
+    this.titleSprites.forEach((s) => s.setAlpha(0));
+    [-1, 0, 1].forEach((off) => {
+      const idx = Phaser.Math.Wrap(this.selectedWeek + off, 0, n);
+      const spr = this.titleSprites[idx];
       if (!spr) return;
-      const offset = i - this.selectedWeek;
-      const y = centerY + offset * spacing;
-      const dist = Math.abs(offset);
-      spr.setPosition(this.w / 2, y);
-      spr.setAlpha(Phaser.Math.Clamp(1 - dist * 0.3, 0, 1));
+      const x = centerX - (off === 0 ? 140 : 0);
+      spr.setPosition(x, centerY + off * spacing);
+      spr.setAlpha(off === 0 ? 1 : 0.5);
+      spr.setDepth(2);
     });
   }
 

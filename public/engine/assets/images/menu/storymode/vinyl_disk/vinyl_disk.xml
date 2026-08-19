@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="vinyl_disk.png" width="2160" height="2176">
+    <SubTexture name="vinyl_01" x="0" y="0" width="1080" height="1088"/>
+    <SubTexture name="vinyl_02" x="1080" y="0" width="1080" height="1088"/>
+    <SubTexture name="vinyl_03" x="0" y="1088" width="1080" height="1088"/>
+    <SubTexture name="vinyl_04" x="1080" y="1088" width="1080" height="1088"/>
+</TextureAtlas>
