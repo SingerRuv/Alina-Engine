@@ -84,6 +84,7 @@ class StoryMenuScene extends Phaser.Scene {
     this.rightArrow = null;
     this.songTexts = [];
     this.levelScoreText = null;
+    this.levelScoreLabel = null;
     this.levelScoreLerp = 0;
     this.levelScoreTarget = 0;
     this.w = 0;
@@ -127,8 +128,6 @@ class StoryMenuScene extends Phaser.Scene {
 
     this.cameras.main.setBackgroundColor("#000000");
 
-    this.tracks = this.add.image(130, h - 186, "TracksMenu").setOrigin(0, 1);
-
     if (this.textures.exists("vinylDisk")) {
       this.vinylDisk = this.add.sprite(w - 70, 259, "vinylDisk")
         .setOrigin(0.5, 0.5)
@@ -151,8 +150,11 @@ class StoryMenuScene extends Phaser.Scene {
       }
     }
 
-    this.levelScoreText = this.add.text(60, 10, "WEEK SCORE: 0", {
-      fontFamily: "vcr", fontSize: "32px", fill: "#FFFFFF",
+    this.levelScoreLabel = this.add.text(150, h - 150, "WEEK SCORE", {
+      fontFamily: "vcr", fontSize: "48px", fill: "#FFFFFF",
+    }).setOrigin(0, 1).setDepth(100);
+    this.levelScoreText = this.add.text(150, h - 150, "0", {
+      fontFamily: "vcr", fontSize: "48px", fill: "#888888",
     }).setOrigin(0, 0).setDepth(100);
 
     this.initTitleSprites();
@@ -213,7 +215,7 @@ class StoryMenuScene extends Phaser.Scene {
       this.levelScoreLerp += diff * 0.06;
     }
     const shown = Math.round(this.levelScoreLerp).toLocaleString("en-US");
-    this.levelScoreText.setText("WEEK SCORE: " + shown);
+    this.levelScoreText.setText(shown);
   }
 
   initTitleSprites() {
@@ -263,9 +265,13 @@ class StoryMenuScene extends Phaser.Scene {
   renderTracklist() {
     this.songTexts.forEach(t => t.destroy());
     this.songTexts = [];
+    if (!this.tracks) {
+      this.tracks = this.add.image(590, this.h - 220, "TracksMenu")
+        .setOrigin(0, 1);
+    }
     const week = this.weeks[this.selectedWeek];
     const songs = week.songs || [];
-    const startY = this.h - 186 + 10;
+    const startY = this.h - 186 + 8;
     const centerX = this.tracks.x + this.tracks.width / 2;
     songs.forEach((song, i) => {
       const txt = this.add.text(centerX, startY + i * 36, song.name, {
@@ -273,6 +279,12 @@ class StoryMenuScene extends Phaser.Scene {
       }).setOrigin(0.5, 0.1);
       this.songTexts.push(txt);
     });
+  }
+
+  positionDifficultyRow() {
+    this.diffSprite.setPosition(this.w - 210, this.h - 200);
+    this.leftArrow.setPosition(this.w - 420, this.h - 200);
+    this.rightArrow.setPosition(this.w - 140, this.h - 200);
   }
 
   showDifficulty() {
