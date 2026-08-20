@@ -39,16 +39,19 @@ class UIEvents {
         // GUARDADO AL TERMINAR DE ARRASTRAR EL MOUSE
         slider.addEventListener("change", (e) => {
           item.options.values[0] = parseFloat(e.target.value);
-          window.OptionsStorage.save(item.id, "slider", item.options.values[0]);
+          if (window.Preferences) {
+            window.Preferences.set(item.id, item.options.values[0]);
+          } else {
+            window.OptionsStorage.save(item.id, "slider", item.options.values[0]);
+          }
         });
       } else if (item.options.input === "check") {
         row.querySelector("div:last-child").addEventListener("click", (e) => {
           item.options.values[0] = !item.options.values[0];
-          window.OptionsStorage.save(item.id, "check", item.options.values[0]); // GUARDADO
-
-          // Discord RPC: aplicar el cambio al instante
-          if (item.id === "opt-discord" && window.DiscordRPC) {
-            window.DiscordRPC.setEnabled(item.options.values[0]);
+          if (window.Preferences) {
+            window.Preferences.set(item.id, item.options.values[0]);
+          } else {
+            window.OptionsStorage.save(item.id, "check", item.options.values[0]);
           }
 
           if (item.options.values[0]) {
@@ -105,7 +108,11 @@ class UIEvents {
             );
 
             item.selectedValue = vObj.id;
-            window.OptionsStorage.save(item.id, "drop", vObj.id); // GUARDADO
+            if (window.Preferences) {
+              window.Preferences.set(item.id, vObj.id);
+            } else {
+              window.OptionsStorage.save(item.id, "drop", vObj.id);
+            }
 
             if (item.id === "opt-lang") {
               window.ClientGlobals.setLanguage(vObj.id);

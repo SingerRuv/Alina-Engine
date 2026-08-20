@@ -133,7 +133,7 @@ class StoryMenuScene extends Phaser.Scene {
         .setOrigin(0.5, 0.5)
         .setScale(0.5)
         .setDepth(1);
-
+ 
       if (!this.anims.exists("vinylDiskLoop")) {
         const frames = this.textures.get("vinylDisk").getFrameNames().sort();
         if (frames.length > 0) {
@@ -282,19 +282,19 @@ class StoryMenuScene extends Phaser.Scene {
   }
 
   positionDifficultyRow() {
-    this.diffSprite.setPosition(this.w - 210, this.h - 200);
-    this.leftArrow.setPosition(this.w - 420, this.h - 200);
-    this.rightArrow.setPosition(this.w - 140, this.h - 200);
+    const y = this.h - 160;
+    this.diffSprite.setPosition(this.w - 290, y);
+    this.leftArrow.setPosition(this.w - 450, y);
+    this.rightArrow.setPosition(this.w - 140, y);
   }
 
   showDifficulty() {
     if (this.diffSprite) this.diffSprite.destroy();
     const diff = this.difficulties[this.selectedDifficulty];
-    this.diffSprite = this.add.image(this.w - 230, this.h - 200, "diff_" + diff).setScale(0.8).setDepth(100);
-    if (this.leftArrow) {
-      this.leftArrow.setPosition(this.w - 380, this.h - 200);
-      this.rightArrow.setPosition(this.w - 80, this.h - 200);
-    }
+    this.diffSprite = this.add.image(0, 0, "diff_" + diff)
+      .setScale(0.8)
+      .setDepth(100);
+    if (this.leftArrow) this.positionDifficultyRow();
   }
 
   flashArrow(side) {

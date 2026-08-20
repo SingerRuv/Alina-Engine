@@ -8,7 +8,7 @@ class LoadingScreenScene extends Phaser.Scene {
   preload() {
     this.load.image(
       "FunkayALT",
-      window.Path.menuBG + "funkay_ALT.png",
+      window.Path.menuBG + "funkay.png",
     );
   }
 

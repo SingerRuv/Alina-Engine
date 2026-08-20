@@ -1,137 +1,182 @@
 /**
  * @class Preferences
  * @description Global class to manage and persist user preferences and settings across the game.
+ *
+ * Modelo: cada preference se declara con `define(key, defaultValue)` en `init()`.
+ * - `get(key)` lee el valor actual.
+ * - `set(key, value)` actualiza, persiste en localStorage y notifica a las scenes
+ *   activas via `_apply(key, value)`.
+ * - Las properties estaticas (`Preferences.ghostTapping`, etc.) son getters/setters
+ *   que delegan al registry, manteniendo compatibilidad con el codigo existente.
  */
 class Preferences {
-  static ghostTapping = false;
-  static downscroll = false;
-  static middleScroll = "none"; // none, mini & split
-  static botplay = false;
-  static twoPlayers = false;
-  static noteSplashes = true;
-  static opponentGlow = true;
-  static hideOpStrums = false;
-  static hideOpNotes = false;
-  static popUpAnim = "default"; // default & stackeable
-  static popUpPos = [50, 42];
-  static showOpPopUp = true;
+  static _registry = {};
 
-  // PREFERENCIA NUEVA: Romper combo al presionar sin nota (Ghost Miss)
-  static tapBreakCombo = false;
+  static define(key, defaultValue) {
+    if (this._registry[key]) {
+      this._registry[key].defaultValue = defaultValue;
+      return;
+    }
+    this._registry[key] = {
+      defaultValue,
+      currentValue: defaultValue,
+    };
+  }
 
-  // PREFERENCIA DE OPACIDAD DEL FONDO DE STRUMLINES (0.0 a 1.0)
-  static strumBackgroundOpacity = 0.0;
-  static laneOpacity = 0.7; // FIX: Se agregó para que el Quick Options pueda leerla/guardarla
+  static get(key) {
+    const entry = this._registry[key];
+    return entry ? entry.currentValue : null;
+  }
 
-  // PREFERENCIAS DE AUDIO PARA LOS FALLOS (MISS)
-  static muteMissNote = false;
-  static muteMissNoteEnemy = false;
+  static set(key, value) {
+    if (!this._registry[key]) this.define(key, value);
+    this._registry[key].currentValue = value;
+    localStorage.setItem(key, this._serialize(value));
+    this._apply(key, value);
+  }
 
-  /**
-   * @type {string[]}
-   * @description Define el orden y los elementos que se muestran en el texto del score.
-   */
-  static scoreFormat = [
-    "score",
-    "rating",
-    "accuracy",
-    "misses",
-    "combo",
-    "maxCombo",
-    "cps",
-  ];
+  static _serialize(value) {
+    if (typeof value === "boolean") return String(value);
+    if (typeof value === "number") return String(value);
+    if (typeof value === "string") return value;
+    return JSON.stringify(value);
+  }
+
+  static _deserialize(key, raw) {
+    const def = this._registry[key] ? this._registry[key].defaultValue : null;
+    if (typeof def === "boolean") return raw === "true";
+    if (typeof def === "number") {
+      const n = parseFloat(raw);
+      return Number.isNaN(n) ? def : n;
+    }
+    if (typeof def === "string") return raw;
+    try {
+      return JSON.parse(raw);
+    } catch (e) {
+      return raw;
+    }
+  }
+
+  // Hook runtime: notifica a las scenes que estén escuchando.
+  static _apply(key, value) {
+    if (window.PlayScene && Array.isArray(window.PlayScene.instances)) {
+      window.PlayScene.instances.forEach((scene) => {
+        if (scene && typeof scene.applyPreference === "function") {
+          scene.applyPreference(key, value);
+        }
+      });
+    }
+    // Discord RPC: caso especial fuera del motor (extension externa).
+    if (key === "opt-discord" && window.DiscordRPC) {
+      window.DiscordRPC.setEnabled(value);
+    }
+  }
 
   static init() {
-    const getBool = (key, defaultVal) => {
-      const val = localStorage.getItem(key);
-      return val !== null ? val === "true" : defaultVal;
-    };
+    // Declarar todas las preferences con sus defaults.
+    this.define("genesis_ghost_tapping", false);
+    this.define("genesis_downscroll", false);
+    this.define("genesis_middle_scroll", "none");
+    this.define("genesis_botplay", false);
+    this.define("genesis_2players", false);
+    this.define("genesis_note_splashes", true);
+    this.define("genesis_opponent_glow", true);
+    this.define("genesis_hide_op_strums", false);
+    this.define("genesis_hide_op_notes", false);
+    this.define("genesis_popup_anim", "default");
+    this.define("genesis_popup_pos", [50, 42]);
+    this.define("genesis_show_op_popup", true);
+    this.define("genesis_tap_break_combo", false);
+    this.define("genesis_strum_bg_opacity", 0.0);
+    this.define("genesis_lane_opacity", 0.7);
+    this.define("genesis_mute_miss_note", false);
+    this.define("genesis_mute_miss_note_enemy", false);
+    this.define("genesis_score_format", [
+      "score",
+      "rating",
+      "accuracy",
+      "misses",
+      "combo",
+      "maxCombo",
+      "cps",
+    ]);
+    this.define("opt-discord", true);
+    this.define("opt-autopause", false);
+    this.define("opt-instantrespawn", false);
 
-    const getString = (key, defaultVal) => {
-      const val = localStorage.getItem(key);
-      return val !== null ? val : defaultVal;
-    };
-
-    const getArray = (key, defaultVal) => {
-      const val = localStorage.getItem(key);
-      try {
-        return val !== null ? JSON.parse(val) : defaultVal;
-      } catch (e) {
-        return defaultVal;
+    // Cargar valores persistidos desde localStorage.
+    for (const key of Object.keys(this._registry)) {
+      const raw = localStorage.getItem(key);
+      if (raw !== null) {
+        this._registry[key].currentValue = this._deserialize(key, raw);
       }
-    };
-
-    const getFloat = (key, defaultVal) => {
-      const val = localStorage.getItem(key);
-      return val !== null ? parseFloat(val) : defaultVal;
-    };
-
-    this.ghostTapping = getBool("genesis_ghost_tapping", this.ghostTapping);
-    this.downscroll = getBool("genesis_downscroll", this.downscroll);
-    this.middleScroll = getString("genesis_middle_scroll", this.middleScroll);
-    this.botplay = getBool("genesis_botplay", this.botplay);
-    this.twoPlayers = getBool("genesis_2players", this.twoPlayers);
-
-    this.noteSplashes = getBool("genesis_note_splashes", this.noteSplashes);
-    this.opponentGlow = getBool("genesis_opponent_glow", this.opponentGlow);
-    this.hideOpStrums = getBool("genesis_hide_op_strums", this.hideOpStrums);
-    this.hideOpNotes = getBool("genesis_hide_op_notes", this.hideOpNotes);
-
-    this.popUpAnim = getString("genesis_popup_anim", this.popUpAnim);
-    this.popUpPos = getArray("genesis_popup_pos", this.popUpPos);
-    this.showOpPopUp = getBool("genesis_show_op_popup", this.showOpPopUp);
-
-    this.tapBreakCombo = getBool("genesis_tap_break_combo", this.tapBreakCombo);
-    this.strumBackgroundOpacity = getFloat(
-      "genesis_strum_bg_opacity",
-      this.strumBackgroundOpacity,
-    );
-    this.laneOpacity = getFloat("genesis_lane_opacity", this.laneOpacity); // FIX
-
-    this.muteMissNote = getBool("genesis_mute_miss_note", this.muteMissNote);
-    this.muteMissNoteEnemy = getBool(
-      "genesis_mute_miss_note_enemy",
-      this.muteMissNoteEnemy,
-    );
-
-    this.scoreFormat = getArray("genesis_score_format", this.scoreFormat);
+    }
   }
 
   static save() {
-    localStorage.setItem("genesis_ghost_tapping", this.ghostTapping);
-    localStorage.setItem("genesis_downscroll", this.downscroll);
-    localStorage.setItem("genesis_middle_scroll", this.middleScroll);
-    localStorage.setItem("genesis_botplay", this.botplay);
-    localStorage.setItem("genesis_2players", this.twoPlayers);
-
-    localStorage.setItem("genesis_note_splashes", this.noteSplashes);
-    localStorage.setItem("genesis_opponent_glow", this.opponentGlow);
-    localStorage.setItem("genesis_hide_op_strums", this.hideOpStrums);
-    localStorage.setItem("genesis_hide_op_notes", this.hideOpNotes);
-
-    localStorage.setItem("genesis_popup_anim", this.popUpAnim);
-    localStorage.setItem("genesis_popup_pos", JSON.stringify(this.popUpPos));
-    localStorage.setItem("genesis_show_op_popup", this.showOpPopUp);
-
-    localStorage.setItem("genesis_tap_break_combo", this.tapBreakCombo);
-    localStorage.setItem(
-      "genesis_strum_bg_opacity",
-      this.strumBackgroundOpacity,
-    );
-    localStorage.setItem("genesis_lane_opacity", this.laneOpacity); // FIX
-
-    localStorage.setItem("genesis_mute_miss_note", this.muteMissNote);
-    localStorage.setItem(
-      "genesis_mute_miss_note_enemy",
-      this.muteMissNoteEnemy,
-    );
-
-    localStorage.setItem(
-      "genesis_score_format",
-      JSON.stringify(this.scoreFormat),
-    );
+    for (const [key, entry] of Object.entries(this._registry)) {
+      localStorage.setItem(key, this._serialize(entry.currentValue));
+    }
   }
 }
+
+// Accesos legacy como getters/setters computados.
+const _legacyKeys = [
+  "ghostTapping",
+  "downscroll",
+  "middleScroll",
+  "botplay",
+  "twoPlayers",
+  "noteSplashes",
+  "opponentGlow",
+  "hideOpStrums",
+  "hideOpNotes",
+  "popUpAnim",
+  "popUpPos",
+  "showOpPopUp",
+  "tapBreakCombo",
+  "strumBackgroundOpacity",
+  "laneOpacity",
+  "muteMissNote",
+  "muteMissNoteEnemy",
+  "scoreFormat",
+];
+_legacyKeys.forEach((alias) => {
+  const key = "genesis_" + alias.replace(/[A-Z]/g, (m) => "_" + m.toLowerCase())
+    .replace(/^_/, "");
+  // Mapeo especial para nombres que no siguen el patrón.
+  const map = {
+    ghostTapping: "genesis_ghost_tapping",
+    downscroll: "genesis_downscroll",
+    middleScroll: "genesis_middle_scroll",
+    botplay: "genesis_botplay",
+    twoPlayers: "genesis_2players",
+    noteSplashes: "genesis_note_splashes",
+    opponentGlow: "genesis_opponent_glow",
+    hideOpStrums: "genesis_hide_op_strums",
+    hideOpNotes: "genesis_hide_op_notes",
+    popUpAnim: "genesis_popup_anim",
+    popUpPos: "genesis_popup_pos",
+    showOpPopUp: "genesis_show_op_popup",
+    tapBreakCombo: "genesis_tap_break_combo",
+    strumBackgroundOpacity: "genesis_strum_bg_opacity",
+    laneOpacity: "genesis_lane_opacity",
+    muteMissNote: "genesis_mute_miss_note",
+    muteMissNoteEnemy: "genesis_mute_miss_note_enemy",
+    scoreFormat: "genesis_score_format",
+  };
+  const realKey = map[alias] || key;
+  Object.defineProperty(Preferences, alias, {
+    get() {
+      return Preferences.get(realKey);
+    },
+    set(value) {
+      Preferences.set(realKey, value);
+    },
+    configurable: true,
+    enumerable: true,
+  });
+});
 
 window.Preferences = Preferences;
 window.Preferences.init();

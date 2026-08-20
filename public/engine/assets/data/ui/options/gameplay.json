@@ -103,25 +103,6 @@
   },
   {
     "type": "option",
-    "id": "opt-showcase",
-    "platform": ["all"],
-    "label": {
-      "en": "Showcase Mode",
-      "es": "Modo Demostracion",
-      "pt": "Modo Demonstração"
-    },
-    "options": {
-      "input": "check",
-      "values": [false]
-    },
-    "description": {
-      "en": "Watch the game play itself automatically with the UI hidden, perfect for showcasing your levels",
-      "es": "Observa el juego jugarse automáticamente con la UI oculta, perfecto para demostrar tus niveles",
-      "pt": "Assista o jogo jogar sozinho com a UI oculta, perfeito para demonstrar suas fases"
-    }
-  },
-  {
-    "type": "option",
     "id": "opt-reset",
     "platform": ["all"],
     "label": {
